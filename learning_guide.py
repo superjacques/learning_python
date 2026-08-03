@@ -79,8 +79,53 @@ print(10 ** 3) # power
 print(0o123)
 print(0x123)
 
+#truth tables / comparisons
 a = 5; b = 6
-print((a > 4) and (b >= 6))
+print((a > 4) and (b >= 6))	
+
+print(not (a>4))   #not function
+
+#Namespaces / scopes
+x = 10 #global
+
+def test():
+    y = 20 #local
+    print(x)
+    print(y)
+test()
+
+#outer and inner function - indentation matter
+def first():
+    print("Starting")
+
+    def second():
+        print("Inside")
+
+    second()
+    
+first()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
