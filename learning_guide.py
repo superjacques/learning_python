@@ -71,15 +71,16 @@ print("My", "name", "is", sep="_", end="*")
 print("Monty", "Python.", sep="*", end="*\n")
 
 print(10 / 3)
-print(10 // 3)
-print(7 % 2.5)
-print(10 ** 3)
+print(10 // 3) # whole number without the remainder
+print(7 % 2.5) # only the remainder, e.g. 2
+print(10 ** 3) # power
 
 #octal / hex
 print(0o123)
 print(0x123)
 
-
+a = 5; b = 6
+print((a > 4) and (b >= 6))
 
 
 
