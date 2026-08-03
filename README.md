@@ -1,8 +1,8 @@
 # 🐍 Python Learning Journey (PCEP → PCAP)
 
 ## 📈 Overall Progress
-Progress: 14%
-███░░░░░░░░░░░░░░░░ 14%
+Progress: 22%
+████░░░░░░░░░░░░░░░ 22%
 
 Primary goals:
 ⬜ Pass PCEP
@@ -37,13 +37,13 @@ Primary goals:
 ✅ Dictionaries
 
 ### 🟠 Operators and Conversion
-⬜ Arithmetic operators
-⬜ Assignment operators
-⬜ Comparison operators
-⬜ Logical operators
+✅ Arithmetic operators
+✅ Assignment operators
+✅ Comparison operators
+✅ Logical operators
 ⬜ Bitwise and special operators
-⬜ Implicit type conversion
-⬜ Explicit type casting
+✅ Implicit type conversion
+✅ Explicit type casting
 
 ### 🟣 Flow Control
 ⬜ if
@@ -61,7 +61,7 @@ Primary goals:
 ⬜ Loop else blocks
 
 ### ⚙️ Functions
-⬜ Creating and calling functions
+🟧 Creating and calling functions (touched on)
 ⬜ Parameters and positional arguments
 ⬜ Return values
 ⬜ Default parameters
@@ -71,8 +71,8 @@ Primary goals:
 ⬜ Lambda functions
 
 ### 🌐 Scope and Namespaces
-⬜ Local scope
-⬜ Global scope
+✅ Local scope
+✅ Global scope
 ⬜ Enclosing and nonlocal scope
 ⬜ Built-in scope
 ⬜ global and nonlocal keywords
