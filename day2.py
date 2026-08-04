@@ -104,5 +104,36 @@ while count < 5:
         break
     count += 1
 
+"""
+#continue
+print("continue")
+count = 1
+while count < 5:
+    if count == 3:
+        continue    #demo infinite loop
+    print(count)
+    count += 1
+"""
+
+#classes
+class Example:
+    pass
+def function(args):
+    pass
+
+
+#outer and inner function - indentation matter
+def first():              # outer function
+    print("Starting")
+
+    def second():         # inner function because it is indented
+        print("Inside")
+
+    second()              # calls the inner function
+
+first()                   # calls the outer function
+
+
+
 
 
