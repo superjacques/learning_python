@@ -1,8 +1,8 @@
 # 🐍 Python Learning Journey (PCEP → PCAP)
 
 ## 📈 Overall Progress
-Progress: 22%
-████░░░░░░░░░░░░░░░ 22%
+Progress: 31%
+██████░░░░░░░░░░░░░░ 31%
 
 Primary goals:
 ⬜ Pass PCEP
@@ -46,22 +46,22 @@ Primary goals:
 ✅ Explicit type casting
 
 ### 🟣 Flow Control
-⬜ if
-⬜ if / else
-⬜ if / elif / else
-⬜ Nested conditions
+✅ if
+✅ if / else
+✅ if / elif / else
+✅ Nested conditions
 
 ### 🔁 Loops
-⬜ for
-⬜ range()
-⬜ while
-⬜ break
-⬜ continue
-⬜ pass
-⬜ Loop else blocks
+✅ for
+✅ range()
+✅ while
+✅ break
+✅ continue
+✅ pass
+✅ Loop else blocks
 
 ### ⚙️ Functions
-🟧 Creating and calling functions (touched on)
+✅ Creating and calling functions
 ⬜ Parameters and positional arguments
 ⬜ Return values
 ⬜ Default parameters

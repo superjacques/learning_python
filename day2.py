@@ -115,25 +115,81 @@ while count < 5:
     count += 1
 """
 
+
+#outer and inner function - indentation matter
+def first():              # outer function
+    print("Starting")
+    def second():         # inner function because it is indented
+        print("Inside")
+    second()              # calls the inner function
+first()                   # calls the outer function
+
 #classes
 class Example:
     pass
 def function(args):
     pass
 
+#functions continued
+def greet():
+    print("Hello world")
+greet()
 
-#outer and inner function - indentation matter
-def first():              # outer function
-    print("Starting")
+def add_number(num1,num2):
+    sum = num1 + num2
+    print("Sum is ", sum)
 
-    def second():         # inner function because it is indented
-        print("Inside")
+add_number(1,8)
 
-    second()              # calls the inner function
+def add(a, b):
+    return a+b
+answer = add(5,3)
+print(answer)
 
-first()                   # calls the outer function
+def find_sq(num):
+    result = num * num
+    return result
+sqr = find_sq(5)
+print("SQ is ", sqr)
+print("sqr is", find_sq(6))
 
+print(True > False)
+print(True < False)
 
+# add math module
+import math
+square_root = math.sqrt(4)
+print(square_root)
 
+print(math.sqrt(25))	#5.0
+print(math.pow(2,3))	#8.0
+print(math.floor(3.9))	#3
+print(math.ceil(3.1))	#4
+print(math.pi)			#3.14
 
+print(type(math.sqrt(25)))
+abc = int(math.sqrt(35))
+print(type(abc)) ; print(abc)
+
+#import whole module
+import math
+print(math.sqrt(16))
+#import only one function
+from math import sqrt
+print(sqrt(16))
+#give it a shorter alias
+import math as m
+print(m.sqrt(16))
+
+"""
+Built-in functions
+print()  → display output
+input()  → receive user input
+type()   → show a value’s type
+len()    → count items
+range()  → produce a sequence for loops
+int()    → convert to integer
+float()  → convert to float
+str()    → convert to string
+"""
 
