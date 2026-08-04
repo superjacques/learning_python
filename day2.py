@@ -224,9 +224,30 @@ def factorial(number):
 
 print(factorial(5))
 
+#any number of positional arguments
+def find_sum(*number):
+    result = 0
+
+    for num in number:
+        result = result + num
+
+    print("Answer:", result)
 
 
+find_sum(2, 3, 4)
 
+#Lambda / Anonymous Function
+square = lambda x: x * x
+print(square(5))
 
+numbers = [5, 2, 8, 1]
+numbers.sort(key=lambda x: x)
+print(numbers)
+
+result = 5 * 2				#normal
+print(result)
+double = lambda x: x * 2	#lambda
+result = double(5)
+print(result)
 
 
