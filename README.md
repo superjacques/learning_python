@@ -1,8 +1,8 @@
 # 🐍 Python Learning Journey (PCEP → PCAP)
 
 ## 📈 Overall Progress
-Progress: 31%
-██████░░░░░░░░░░░░░░ 31%
+Progress: 40%
+████████░░░░░░░░░░░░ 40%
 
 Primary goals:
 ⬜ Pass PCEP
@@ -62,13 +62,13 @@ Primary goals:
 
 ### ⚙️ Functions
 ✅ Creating and calling functions
-⬜ Parameters and positional arguments
-⬜ Return values
-⬜ Default parameters
-⬜ Keyword arguments
-⬜ *args
-⬜ Recursion
-⬜ Lambda functions
+✅ Parameters and positional arguments
+✅ Return values
+✅ Default parameters
+✅ Keyword arguments
+✅ *args
+✅ Recursion
+✅ Lambda functions
 
 ### 🌐 Scope and Namespaces
 ✅ Local scope
@@ -78,7 +78,7 @@ Primary goals:
 ⬜ global and nonlocal keywords
 
 ### 📦 Modules and Packages
-⬜ import
+✅ import
 ⬜ from ... import
 ⬜ Module aliases
 ⬜ Creating modules
