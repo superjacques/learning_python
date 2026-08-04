@@ -204,12 +204,27 @@ def add_number(num1 = 3, num2 = 4):
 add_number()
 add_number(num1=100)
 
+#answer in any order
 def names(arg1, arg2, arg3):
-    print(arg1)
-    print(arg2)
-    print(arg3)
+    print(arg1, arg2, arg3, sep=" ")
 
 names(arg2="Doe",arg1="John",arg3="Botha")
+
+#Recursion
+def countdown(number):
+    print(number)
+    if number > 0:
+        countdown(number - 1)
+countdown(3)
+
+#Factorial recursively
+def factorial(number):
+    if number == 0: return 1
+    return number * factorial(number - 1)
+
+print(factorial(5))
+
+
 
 
 
