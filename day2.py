@@ -192,7 +192,6 @@ int()    → convert to integer
 float()  → convert to float
 str()    → convert to string
 """
-
 #default values on functions:
 def greet(name="Jacques"):
     print("Hello", name)
@@ -204,6 +203,14 @@ def add_number(num1 = 3, num2 = 4):
     print("Answer:",result)
 add_number()
 add_number(num1=100)
+
+def names(arg1, arg2, arg3):
+    print(arg1)
+    print(arg2)
+    print(arg3)
+
+names(arg2="Doe",arg1="John",arg3="Botha")
+
 
 
 
