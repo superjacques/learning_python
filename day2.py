@@ -81,9 +81,28 @@ for i in range(len(mylist)): print(mylist[i])
 mylist = ["python","is","great"]
 for i in range(len(mylist)): print("I love python")
 
+#iterate list and then print when it ends
+digits = [0,3,7]
+for i in digits:
+    print(i)
+else:
+    print("No items left")
 
+#same as above, using while loop
+counter = 0
+while counter < 5:
+    print('inside loop')
+    counter = counter + 1
+else:
+    print('inside else')
 
-
+#break in while
+count = 1
+while count < 5:
+    print(count)
+    if count == 3:
+        break
+    count += 1
 
 
 
