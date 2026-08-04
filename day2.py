@@ -193,3 +193,18 @@ float()  → convert to float
 str()    → convert to string
 """
 
+#default values on functions:
+def greet(name="Jacques"):
+    print("Hello", name)
+greet()
+greet("Isaac")
+
+def add_number(num1 = 3, num2 = 4):
+    result = num1 + num2
+    print("Answer:",result)
+add_number()
+add_number(num1=100)
+
+
+
+
