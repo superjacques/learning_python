@@ -2113,3 +2113,1311 @@ else:
 - [ ] D. ****
 
 ---
+
+## Additional Questions
+
+### Question 102
+
+What term describes the meaning of a Python statement?
+
+
+**1 point**
+
+- [ ] A. lexis
+- [ ] B. syntax
+- [ ] C. semantics
+- [ ] D. compilation
+
+---
+### Question 103
+
+Which is a valid Python identifier?
+
+
+**1 point**
+
+- [ ] A. 2nd_value
+- [ ] B. total-value
+- [ ] C. class
+- [ ] D. total_value
+
+---
+### Question 104
+
+Which line is a Python comment?
+
+
+**1 point**
+
+- [ ] A. // comment
+- [ ] B. # comment
+- [ ] C. <!-- comment -->
+- [ ] D. /* comment */
+
+---
+### Question 105
+
+What is the type of True?
+
+
+**1 point**
+
+- [ ] A. int
+- [ ] B. bool
+- [ ] C. str
+- [ ] D. float
+
+---
+### Question 106
+
+What is the decimal value of 0b1011?
+
+
+**1 point**
+
+- [ ] A. 9
+- [ ] B. 10
+- [ ] C. 11
+- [ ] D. 12
+
+---
+### Question 107
+
+What is the decimal value of 0x10?
+
+
+**1 point**
+
+- [ ] A. 10
+- [ ] B. 16
+- [ ] C. 20
+- [ ] D. 32
+
+---
+### Question 108
+
+What is the value of 3e2?
+
+
+**1 point**
+
+- [ ] A. 3.2
+- [ ] B. 30
+- [ ] C. 300
+- [ ] D. 3000
+
+---
+### Question 109
+
+What is the result of 17 // 5?
+
+
+**1 point**
+
+- [ ] A. 2
+- [ ] B. 3
+- [ ] C. 3.4
+- [ ] D. 4
+
+---
+### Question 110
+
+What is the result of 17 % 5?
+
+
+**1 point**
+
+- [ ] A. 0
+- [ ] B. 2
+- [ ] C. 3
+- [ ] D. 5
+
+---
+### Question 111
+
+What is the result of 2 ** 3 ** 2?
+
+
+**1 point**
+
+- [ ] A. 64
+- [ ] B. 128
+- [ ] C. 256
+- [ ] D. 512
+
+---
+### Question 112
+
+What is the result of -2 ** 2?
+
+
+**1 point**
+
+- [ ] A. -4
+- [ ] B. 4
+- [ ] C. -8
+- [ ] D. 8
+
+---
+### Question 113
+
+What is the value of 7 / 2 in Python 3?
+
+
+**1 point**
+
+- [ ] A. 2
+- [ ] B. 2.0
+- [ ] C. 3
+- [ ] D. 3.5
+
+---
+### Question 114
+
+What is the result of "Py" + "thon"?
+
+
+**1 point**
+
+- [ ] A. "Python"
+- [ ] B. "Py thon"
+- [ ] C. "Py+thon"
+- [ ] D. A TypeError
+
+---
+### Question 115
+
+What is the result of "ha" * 3?
+
+
+**1 point**
+
+- [ ] A. "hahaha"
+- [ ] B. "ha3"
+- [ ] C. "ha ha ha"
+- [ ] D. A TypeError
+
+---
+### Question 116
+
+What is the value of not (3 > 1)?
+
+
+**1 point**
+
+- [ ] A. True
+- [ ] B. False
+- [ ] C. 3
+- [ ] D. 1
+
+---
+### Question 117
+
+What is the value of True or False and False?
+
+
+**1 point**
+
+- [ ] A. True
+- [ ] B. False
+- [ ] C. None
+- [ ] D. A SyntaxError
+
+---
+### Question 118
+
+What is the value of (5 == 5) and (2 > 8)?
+
+
+**1 point**
+
+- [ ] A. True
+- [ ] B. False
+- [ ] C. 5
+- [ ] D. 2
+
+---
+### Question 119
+
+Which operator tests whether two values are different?
+
+
+**1 point**
+
+- [ ] A. =<
+- [ ] B. !=
+- [ ] C. <>
+- [ ] D. !==
+
+---
+### Question 120
+
+What is the result of 5 & 3?
+
+
+**1 point**
+
+- [ ] A. 0
+- [ ] B. 1
+- [ ] C. 2
+- [ ] D. 7
+
+---
+### Question 121
+
+What is the result of 4 << 1?
+
+
+**1 point**
+
+- [ ] A. 2
+- [ ] B. 4
+- [ ] C. 8
+- [ ] D. 16
+
+---
+### Question 122
+
+What is the result of ~0?
+
+
+**1 point**
+
+- [ ] A. 0
+- [ ] B. 1
+- [ ] C. -1
+- [ ] D. -2
+
+---
+### Question 123
+
+What does input() return before explicit conversion?
+
+
+**1 point**
+
+- [ ] A. An integer
+- [ ] B. A float
+- [ ] C. A string
+- [ ] D. A Boolean
+
+---
+### Question 124
+
+What is printed by print("A", "B", sep="-", end="!")?
+
+
+**1 point**
+
+- [ ] A. A B!
+- [ ] B. A-B!
+- [ ] C. A-B
+- [ ] D. AB!
+
+---
+### Question 125
+
+Which two expressions convert the string "12" to a numeric value?
+
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] A. int("12")
+- [ ] B. float("12")
+- [ ] C. number("12")
+- [ ] D. str(12)
+
+---
+### Question 126
+
+What is printed by: value = 8; if value > 10: print("high"); else: print("low")?
+
+
+**1 point**
+
+- [ ] A. high
+- [ ] B. low
+- [ ] C. Nothing
+- [ ] D. An infinite loop
+
+---
+### Question 127
+
+What is printed when score = 75 and the branches test >=80, then >=70, then else?
+
+
+**1 point**
+
+- [ ] A. A
+- [ ] B. B
+- [ ] C. C
+- [ ] D. Nothing
+
+---
+### Question 128
+
+If x = 4, which nested test prints the result of x % 2 == 0?
+
+
+**1 point**
+
+- [ ] A. even
+- [ ] B. odd
+- [ ] C. negative
+- [ ] D. Nothing
+
+---
+### Question 129
+
+Which statement does nothing and is syntactically valid?
+
+
+**1 point**
+
+- [ ] A. skip
+- [ ] B. continue
+- [ ] C. pass
+- [ ] D. empty
+
+---
+### Question 130
+
+What values are produced by range(2, 7)?
+
+
+**1 point**
+
+- [ ] A. 2, 3, 4, 5, 6
+- [ ] B. 2, 3, 4, 5, 6, 7
+- [ ] C. 1, 2, 3, 4, 5, 6
+- [ ] D. 7, 6, 5, 4, 3, 2
+
+---
+### Question 131
+
+How many iterations does range(1, 10, 3) produce?
+
+
+**1 point**
+
+- [ ] A. 2
+- [ ] B. 3
+- [ ] C. 4
+- [ ] D. 9
+
+---
+### Question 132
+
+What is the sum produced by: total = 0; for number in range(1, 4): total += number?
+
+
+**1 point**
+
+- [ ] A. 3
+- [ ] B. 5
+- [ ] C. 6
+- [ ] D. 7
+
+---
+### Question 133
+
+What is printed by a while loop starting at count = 3 and decrementing to zero, with end=""?
+
+
+**1 point**
+
+- [ ] A. 012
+- [ ] B. 123
+- [ ] C. 321
+- [ ] D. 333
+
+---
+### Question 134
+
+What is printed when a loop over "abc" continues when the letter is "b"?
+
+
+**1 point**
+
+- [ ] A. abc
+- [ ] B. ac
+- [ ] C. bc
+- [ ] D. ab
+
+---
+### Question 135
+
+What is printed when a loop breaks when number == 3, before printing the number?
+
+
+**1 point**
+
+- [ ] A. 012
+- [ ] B. 0123
+- [ ] C. 1234
+- [ ] D. 01234
+
+---
+### Question 136
+
+What does a completed for loop followed by else execute?
+
+
+**1 point**
+
+- [ ] A. The loop's else block
+- [ ] B. Only the first iteration
+- [ ] C. Nothing
+- [ ] D. An infinite loop
+
+---
+### Question 137
+
+What happens to a loop's else block if the loop exits with break?
+
+
+**1 point**
+
+- [ ] A. It always runs
+- [ ] B. It runs twice
+- [ ] C. It does not run
+- [ ] D. It raises TypeError
+
+---
+### Question 138
+
+What is printed when number starts at 0 and a while loop increments it while number < 3, followed by else printing it?
+
+
+**1 point**
+
+- [ ] A. 0
+- [ ] B. 2
+- [ ] C. 3
+- [ ] D. Nothing
+
+---
+### Question 139
+
+Which two statements correctly describe break?
+
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] A. It terminates the nearest loop.
+- [ ] B. It skips only the current iteration.
+- [ ] C. It prevents that loop's else clause after breaking.
+- [ ] D. It can be used outside a loop without error.
+
+---
+### Question 140
+
+Which two statements correctly describe continue?
+
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] A. It skips the rest of the current iteration.
+- [ ] B. It terminates every enclosing loop.
+- [ ] C. It starts the next iteration of the nearest loop.
+- [ ] D. It can replace break in every situation.
+
+---
+### Question 141
+
+What is the final result when two outer iterations each contain three inner iterations and result starts at zero, increasing once per inner iteration?
+
+
+**1 point**
+
+- [ ] A. 2
+- [ ] B. 3
+- [ ] C. 5
+- [ ] D. 6
+
+---
+### Question 142
+
+How many even numbers are counted in range(4)?
+
+
+**1 point**
+
+- [ ] A. 1
+- [ ] B. 2
+- [ ] C. 3
+- [ ] D. 4
+
+---
+### Question 143
+
+What is printed when value starts at 1 and is doubled while value < 10?
+
+
+**1 point**
+
+- [ ] A. 8
+- [ ] B. 10
+- [ ] C. 16
+- [ ] D. 20
+
+---
+### Question 144
+
+What is printed by range(3, 0, -1) with end=""?
+
+
+**1 point**
+
+- [ ] A. 012
+- [ ] B. 123
+- [ ] C. 321
+- [ ] D. 4321
+
+---
+### Question 145
+
+What is printed by a for loop containing only pass, followed by print("done")?
+
+
+**1 point**
+
+- [ ] A. Nothing
+- [ ] B. done
+- [ ] C. pass
+- [ ] D. An exception
+
+---
+### Question 146
+
+Which condition is true when x is even and greater than 10?
+
+
+**1 point**
+
+- [ ] A. x > 10 or x % 2 == 0
+- [ ] B. x > 10 and x % 2 == 0
+- [ ] C. x < 10 and x % 2 == 1
+- [ ] D. x == 10 and x % 2 == 0
+
+---
+### Question 147
+
+What is printed when value == 10 and the if suite contains pass, followed by print("ready")?
+
+
+**1 point**
+
+- [ ] A. Nothing
+- [ ] B. pass
+- [ ] C. ready
+- [ ] D. A NameError
+
+---
+### Question 148
+
+What is the sum from 1 through 4 when number == 3 is skipped with continue?
+
+
+**1 point**
+
+- [ ] A. 6
+- [ ] B. 7
+- [ ] C. 9
+- [ ] D. 10
+
+---
+### Question 149
+
+What is printed when x increases from 0 to 3 and x == 2 is skipped with continue?
+
+
+**1 point**
+
+- [ ] A. 123
+- [ ] B. 13
+- [ ] C. 12
+- [ ] D. 23
+
+---
+### Question 150
+
+Which two loops can iterate over every character in "cat"?
+
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] A. for character in "cat":
+- [ ] B. for character in range("cat"):
+- [ ] C. for character in ["c", "a", "t"]:
+- [ ] D. while "cat":
+
+---
+### Question 151
+
+What is the first value produced by range(5, 0, -2)?
+
+
+**1 point**
+
+- [ ] A. 0
+- [ ] B. 1
+- [ ] C. 3
+- [ ] D. 5
+
+---
+### Question 152
+
+What is the value of [10, 20, 30][1]?
+
+
+**1 point**
+
+- [ ] A. 10
+- [ ] B. 20
+- [ ] C. 30
+- [ ] D. An IndexError
+
+---
+### Question 153
+
+What is the value of [10, 20, 30][-1]?
+
+
+**1 point**
+
+- [ ] A. 10
+- [ ] B. 20
+- [ ] C. 30
+- [ ] D. An IndexError
+
+---
+### Question 154
+
+What is the result of [1, 2, 3][1:]?
+
+
+**1 point**
+
+- [ ] A. [1]
+- [ ] B. [2, 3]
+- [ ] C. [1, 2]
+- [ ] D. [3]
+
+---
+### Question 155
+
+What is the result of [1, 2, 3][:2]?
+
+
+**1 point**
+
+- [ ] A. [1]
+- [ ] B. [2, 3]
+- [ ] C. [1, 2]
+- [ ] D. [1, 2, 3]
+
+---
+### Question 156
+
+What is printed after items = [1, 2]; items.append(3)?
+
+
+**1 point**
+
+- [ ] A. [1, 2]
+- [ ] B. [3, 1, 2]
+- [ ] C. [1, 2, 3]
+- [ ] D. [1, 3, 2]
+
+---
+### Question 157
+
+What is printed after items = [1, 2]; items.insert(1, 9)?
+
+
+**1 point**
+
+- [ ] A. [9, 1, 2]
+- [ ] B. [1, 9, 2]
+- [ ] C. [1, 2, 9]
+- [ ] D. [1, 2]
+
+---
+### Question 158
+
+What does len([4, 5, 6, 7]) return?
+
+
+**1 point**
+
+- [ ] A. 3
+- [ ] B. 4
+- [ ] C. 5
+- [ ] D. 7
+
+---
+### Question 159
+
+What does sorted([3, 1, 2]) return?
+
+
+**1 point**
+
+- [ ] A. [3, 2, 1]
+- [ ] B. [1, 2, 3]
+- [ ] C. None
+- [ ] D. A TypeError
+
+---
+### Question 160
+
+What is [1, 2, 3] after del items[1]?
+
+
+**1 point**
+
+- [ ] A. [1, 2]
+- [ ] B. [2, 3]
+- [ ] C. [1, 3]
+- [ ] D. [1, 2, 3]
+
+---
+### Question 161
+
+Which two expressions are true for [1, 2, 3]?
+
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] A. 2 in [1, 2, 3]
+- [ ] B. 4 in [1, 2, 3]
+- [ ] C. 4 not in [1, 2, 3]
+- [ ] D. 1 not in [1, 2, 3]
+
+---
+### Question 162
+
+What is [x * 2 for x in range(3)]?
+
+
+**1 point**
+
+- [ ] A. [0, 1, 2]
+- [ ] B. [0, 2, 4]
+- [ ] C. [2, 4, 6]
+- [ ] D. [1, 2, 3]
+
+---
+### Question 163
+
+What is matrix[1][0] for matrix = [[1, 2], [3, 4]]?
+
+
+**1 point**
+
+- [ ] A. 1
+- [ ] B. 2
+- [ ] C. 3
+- [ ] D. 4
+
+---
+### Question 164
+
+A slice copy is made with original[:] . If copy.append(3), what is len(original) for original = [1, 2]?
+
+
+**1 point**
+
+- [ ] A. 1
+- [ ] B. 2
+- [ ] C. 3
+- [ ] D. An exception
+
+---
+### Question 165
+
+If alias = original and alias.append(3), what is len(original) for original = [1, 2]?
+
+
+**1 point**
+
+- [ ] A. 1
+- [ ] B. 2
+- [ ] C. 3
+- [ ] D. An exception
+
+---
+### Question 166
+
+What is the result of (1, 2, 3)[-2]?
+
+
+**1 point**
+
+- [ ] A. 1
+- [ ] B. 2
+- [ ] C. 3
+- [ ] D. An IndexError
+
+---
+### Question 167
+
+Which two statements about tuples are true?
+
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] A. Tuples are immutable.
+- [ ] B. Tuples cannot be indexed.
+- [ ] C. Tuples can be sliced.
+- [ ] D. Tuples must contain unique values.
+
+---
+### Question 168
+
+What creates a one-element tuple?
+
+
+**1 point**
+
+- [ ] A. (5)
+- [ ] B. [5]
+- [ ] C. (5,)
+- [ ] D. {5}
+
+---
+### Question 169
+
+What is the result of (1, 2) + (3,)?
+
+
+**1 point**
+
+- [ ] A. (1, 2, 3)
+- [ ] B. [1, 2, 3]
+- [ ] C. (1, 2)(3,)
+- [ ] D. A TypeError
+
+---
+### Question 170
+
+What is printed by person = {"name": "Ada", "age": 30}; print(person["name"])?
+
+
+**1 point**
+
+- [ ] A. Ada
+- [ ] B. name
+- [ ] C. 30
+- [ ] D. A KeyError
+
+---
+### Question 171
+
+Which statement adds or replaces the key "city"?
+
+
+**1 point**
+
+- [ ] A. data.add("city", "Paris")
+- [ ] B. data["city"] = "Paris"
+- [ ] C. data.insert("city", "Paris")
+- [ ] D. data.append("city", "Paris")
+
+---
+### Question 172
+
+What is len({"a": 1, "b": 2})?
+
+
+**1 point**
+
+- [ ] A. 1
+- [ ] B. 2
+- [ ] C. 3
+- [ ] D. 4
+
+---
+### Question 173
+
+Which two expressions test for the presence of a dictionary key?
+
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] A. "a" in data
+- [ ] B. "a" in data.keys()
+- [ ] C. data.contains("a")
+- [ ] D. data.has_key("a")
+
+---
+### Question 174
+
+What does data.values() provide?
+
+
+**1 point**
+
+- [ ] A. The dictionary's keys
+- [ ] B. The key-value pairs
+- [ ] C. The dictionary's values
+- [ ] D. A sorted list of keys
+
+---
+### Question 175
+
+What does a for key in data loop over for data = {"a": 1, "b": 2}?
+
+
+**1 point**
+
+- [ ] A. The values 1 and 2
+- [ ] B. The keys a and b
+- [ ] C. The key-value pairs
+- [ ] D. Nothing
+
+---
+### Question 176
+
+What is the result of "Python"[1:4]?
+
+
+**1 point**
+
+- [ ] A. Pyt
+- [ ] B. yth
+- [ ] C. ytho
+- [ ] D. tho
+
+---
+### Question 177
+
+What is the value of "hello"[-1]?
+
+
+**1 point**
+
+- [ ] A. h
+- [ ] B. e
+- [ ] C. o
+- [ ] D. An IndexError
+
+---
+### Question 178
+
+What is printed by add(a, b) returning a + b when called as add(2, 3)?
+
+
+**1 point**
+
+- [ ] A. 2
+- [ ] B. 3
+- [ ] C. 5
+- [ ] D. None
+
+---
+### Question 179
+
+What does a function return when it reaches the end without return?
+
+
+**1 point**
+
+- [ ] A. 0
+- [ ] B. False
+- [ ] C. None
+- [ ] D. An exception
+
+---
+### Question 180
+
+What is printed when show(value) prints value but has no return, then result = show(4); print(result)?
+
+
+**1 point**
+
+- [ ] A. 4 only
+- [ ] B. None only
+- [ ] C. 4 followed by None
+- [ ] D. An exception
+
+---
+### Question 181
+
+Which two are valid function definitions?
+
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] A. def calculate(x): return x
+- [ ] B. function calculate(x): return x
+- [ ] C. def calculate(x=0): pass
+- [ ] D. define calculate(x): pass
+
+---
+### Question 182
+
+What is returned by greet(name="friend") when greet() is called?
+
+
+**1 point**
+
+- [ ] A. Hello
+- [ ] B. Hello friend
+- [ ] C. friend
+- [ ] D. A TypeError
+
+---
+### Question 183
+
+What is returned by combine(first, second="!") when combine("Hi") is called?
+
+
+**1 point**
+
+- [ ] A. Hi
+- [ ] B. Hi!
+- [ ] C. !
+- [ ] D. A TypeError
+
+---
+### Question 184
+
+What is returned by describe(name, age) when called as describe(age=20, name="Sam")?
+
+
+**1 point**
+
+- [ ] A. Sam:20
+- [ ] B. 20:Sam
+- [ ] C. Sam20
+- [ ] D. A TypeError
+
+---
+### Question 185
+
+Which two calls correctly invoke power(base, exponent)?
+
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] A. power(2, 3)
+- [ ] B. power(base=2, exponent=3)
+- [ ] C. power(2, exponent, 3)
+- [ ] D. power(base: 2, exponent: 3)
+
+---
+### Question 186
+
+If change(value) assigns value = 99, what is printed after number = 5; change(number); print(number)?
+
+
+**1 point**
+
+- [ ] A. 5
+- [ ] B. 99
+- [ ] C. None
+- [ ] D. A NameError
+
+---
+### Question 187
+
+If add_item(items) calls items.append("new"), what is len(values) after values = [] and add_item(values)?
+
+
+**1 point**
+
+- [ ] A. 0
+- [ ] B. 1
+- [ ] C. 2
+- [ ] D. A TypeError
+
+---
+### Question 188
+
+What is printed when global value = 10, show() has local value = 20 and returns it, and print(show(), value) runs?
+
+
+**1 point**
+
+- [ ] A. 10 10
+- [ ] B. 20 20
+- [ ] C. 20 10
+- [ ] D. 10 20
+
+---
+### Question 189
+
+Which keyword allows a function to assign to a module-level variable?
+
+
+**1 point**
+
+- [ ] A. outer
+- [ ] B. global
+- [ ] C. public
+- [ ] D. nonlocal
+
+---
+### Question 190
+
+What is printed when counter = 1, increase() declares global counter and increments it, then counter is printed?
+
+
+**1 point**
+
+- [ ] A. 1
+- [ ] B. 2
+- [ ] C. None
+- [ ] D. A SyntaxError
+
+---
+### Question 191
+
+What is factorial(3) for a recursive factorial with base case n == 0 returning 1?
+
+
+**1 point**
+
+- [ ] A. 3
+- [ ] B. 6
+- [ ] C. 9
+- [ ] D. indefinite
+
+---
+### Question 192
+
+What is the purpose of a recursion base case?
+
+
+**1 point**
+
+- [ ] A. To call the function again
+- [ ] B. To stop recursive calls
+- [ ] C. To create a global variable
+- [ ] D. To handle input
+
+---
+### Question 193
+
+Which two are built-in exception classes?
+
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] A. ValueError
+- [ ] B. IndexError
+- [ ] C. ProblemError
+- [ ] D. LoopError
+
+---
+### Question 194
+
+Which exception is raised by int("abc")?
+
+
+**1 point**
+
+- [ ] A. IndexError
+- [ ] B. KeyError
+- [ ] C. TypeError
+- [ ] D. ValueError
+
+---
+### Question 195
+
+Which exception is raised by [1, 2][5]?
+
+
+**1 point**
+
+- [ ] A. IndexError
+- [ ] B. KeyError
+- [ ] C. ValueError
+- [ ] D. NameError
+
+---
+### Question 196
+
+Which exception is raised by {"a": 1}["b"]?
+
+
+**1 point**
+
+- [ ] A. IndexError
+- [ ] B. KeyError
+- [ ] C. ValueError
+- [ ] D. NameError
+
+---
+### Question 197
+
+Which exception is raised by 1 + "1"?
+
+
+**1 point**
+
+- [ ] A. IndexError
+- [ ] B. KeyError
+- [ ] C. TypeError
+- [ ] D. ValueError
+
+---
+### Question 198
+
+Which exception is raised by float("abc")?
+
+
+**1 point**
+
+- [ ] A. IndexError
+- [ ] B. KeyError
+- [ ] C. TypeError
+- [ ] D. ValueError
+
+---
+### Question 199
+
+What is printed when 10 / 0 is inside try and except ZeroDivisionError prints "zero"?
+
+
+**1 point**
+
+- [ ] A. 10
+- [ ] B. 0
+- [ ] C. zero
+- [ ] D. Nothing
+
+---
+### Question 200
+
+What is printed when a missing dictionary key is caught by except KeyError?
+
+
+**1 point**
+
+- [ ] A. missing
+- [ ] B. other
+- [ ] C. Nothing
+- [ ] D. A SyntaxError
