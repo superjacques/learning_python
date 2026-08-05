@@ -288,6 +288,61 @@ print(mixed)
 values = {1, 1, 2, 2, "Python", "Python"}
 print(values)
 
+#sets are mutable
+
+#.discard to remove items from sets
+# all any enumeratelen max min sorted sum    #commonly used with sets
+
+#.union .intersection or ampersand
+
+#File operations
+#/home/jacques/github/learning_python/
+print("Run1")
+file = open("test.txt", "r")		#read
+print(file.read())
+#file.close()
+
+print("Run2")
+
+file = open("test.txt", "w")		#write - overwrite everything
+file.write("Hello Python")
+#file.close()
+
+file = open('test.txt', 'a')		#append
+file.write("\nAnother line")
+
+file = open('test.txt', 'a')
+file.write("\nWe love python")
+file.write("\nAnother test line")
+
+file = open("test.txt", "r")		#read
+print(file.read())
+file.close()						#only need to close at the end of everything
+#python closes file automatically, so not needed
+
+"""
+| Mode  | Meaning                              |
+| ----- | ------------------------------------ |
+| `"r"` | Read                                 |
+| `"w"` | Write (overwrite)                    |
+| `"a"` | Append                               |
+| `"x"` | Create new file (error if it exists) |
+
+open()      Open a file
+read()      Read contents
+write()     Write contents
+close()     Close file
+with        Auto-closes the file
+
+r = Read
+w = Write
+a = Append
+x = Create
+"""
+
+
+
+
 
 
 
