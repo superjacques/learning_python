@@ -1,379 +1,492 @@
 """
-Day 3: Quick Start
+Day 3: Scope, Collections, Strings, Sets, Files, and Exceptions
 
-Important reminders from Day 2:
-- Indentation defines code blocks.
-- if / elif / else choose between paths.
-- for repeats through a sequence.
-- while repeats while a condition is true.
-- break stops a loop.
-- continue skips one loop cycle.
-- pass does nothing; it is a placeholder.
-- A function is created with def.
-- return sends a value back.
-- *args collects extra positional arguments into a tuple.
-- Recursion needs a base case.
-- lambda creates a small one-expression function.
-- import loads code from a module.
+Topics covered:
+- LEGB scope
+- global and nonlocal
+- Negative indexing and slicing
+- List methods
+- Tuples
+- Strings and f-strings
+- Sets
+- File operations
+- with open()
+- File modes
+- Basic exception handling
 """
 
 
 # ==========================
-# QUICK REMINDERS
+# LEGB SCOPE
+# Local → Enclosing → Global → Built-in
 # ==========================
 
-# Condition:
-age = 18
+"""
+Python searches for names in this order:
 
-if age >= 18:
-    print("Adult")
-else:
-    print("Child")
-
-
-# Loop:
-for number in range(3):
-    print(number)
+L = Local
+E = Enclosing
+G = Global
+B = Built-in
+"""
 
 
-# Function:
-def add(number1, number2):
-    return number1 + number2
+# ==========================
+# NONLOCAL
+# Changes a variable in an enclosing function
+# ==========================
 
-
-print(add(2, 3))
-
-
-# Default value:
-def greet(name="Jacques"):
-    print("Hello", name)
-
-
-greet()
-greet("Isaac")
-
-
-# *args:
-def find_sum(*numbers):
-    return sum(numbers)
-
-
-print(find_sum(2, 3, 4))
-
-
-# Module:
-import math
-
-print(math.sqrt(25))
-
-############################
 def outer():
-    message = 'local'
-    #nested function
+    message = "local"
+
     def inner():
-        #declare nonlocal variable
         nonlocal message
-        
-        message = 'nonlocal'
-        print("inner:",message)
+        message = "nonlocal"
+        print("Inner:", message)
+
     inner()
-    print("outer:", message)
-    
+    print("Outer:", message)
+
+
 outer()
 
-#global variable
-c = 1
-def add():
-    #use global keyword
-    global c
-    #increment c by 2
-    c = c + 2
-    print(c)
-add()
 
-print(c)
+# ==========================
+# GLOBAL
+# Changes a variable outside all functions
+# ==========================
 
-#global
+count = 1
+
+
+def increase_count():
+    global count
+    count += 2
+    print("Inside function:", count)
+
+
+increase_count()
+print("Outside function:", count)
+
+
+# ==========================
+# GLOBAL VS LOCAL
+# The same name can refer to different variables
+# ==========================
+
+number = 10
+
+
 def outer_function():
-    num = 20
-    
+    number = 20
+
     def inner_function():
-        global num
-        num = 25
-        
-    print("Before inner:", num)
+        global number
+        number = 25
+
+    print("Before inner:", number)
     inner_function()
-    print("After inner:", num)
+    print("After inner:", number)
+
 
 outer_function()
-print("Outside both:", num)
-
-"""
-Python searches names using LEGB:
-Local → Enclosing → Global → Built-in
-"""
-
-#from math import pi
-#import math as m
-#from math import *
+print("Outside both:", number)
 
 
-#negative indexing
-#print(languages[-1]) 	#last item
-#print(languages[-3]) 	#3rd last item
+# ==========================
+# IMPORT STYLES
+# ==========================
 
-#slicing
-my_list = ["p", "r", "o", "g", "r", "a", "m"]
-print(my_list[3:4]) 	#item 3-4 (4 wont be included)
-print(my_list[3:])		#index 5 onwards
-print(my_list[:])		#beginning to end
-#start included, end NOT included
+from math import pi
+import math as m
 
-#add items to list
+print("Pi:", pi)
+print("Square root:", m.sqrt(25))
+
+
+# ==========================
+# NEGATIVE INDEXING
+# ==========================
+
+languages = ["Python", "Java", "C++"]
+
+print(languages[-1])   # Last item
+print(languages[-3])   # Third-last item
+
+
+# ==========================
+# LIST SLICING
+# Start is included, stop is excluded
+# ==========================
+
+letters = ["p", "r", "o", "g", "r", "a", "m"]
+
+print(letters[3:4])    # Index 3 only
+print(letters[3:])     # Index 3 to the end
+print(letters[:])      # Entire list
+print(letters[-3:])    # Last three items
+
+
+# ==========================
+# ADDING ITEMS TO LISTS
+# append(), extend(), and insert()
+# ==========================
+
 numbers = [1, 3, 5]
-print("before append: ", numbers)
-numbers.append(30)				#add one item
-print("after append: ", numbers)
+
+print("Before append:", numbers)
+
+numbers.append(30)
+print("After append:", numbers)
 
 even_numbers = [4, 6, 8]
-numbers.extend(even_numbers)	#add a list to another list
-print("list after append:", numbers)
 
-#insert()
-numbers.insert(1, 20)		#insert at index 1, number 20
-print("Insert at index 1:", numbers)
+numbers.extend(even_numbers)
+print("After extend:", numbers)
 
-#del() remove()
+numbers.insert(1, 20)
+print("After insert:", numbers)
+
+
+# ==========================
+# REMOVING ITEMS FROM LISTS
+# del, remove(), and pop()
+# ==========================
+
 del numbers[7]
-print("deleted index 7", numbers)
+print("After deleting index 7:", numbers)
+
 del numbers[-1]
-print("deleted last item", numbers)
+print("After deleting last item:", numbers)
 
 numbers.remove(3)
-print("delete item named 3", numbers)
+print("After removing value 3:", numbers)
 
-#list methods
-#append extend insert remove pop clear index count sort reverse copy
+removed_item = numbers.pop()
+print("Popped item:", removed_item)
+print("After pop:", numbers)
 
-languages = ["python", "swift", "C++"]
+
+# ==========================
+# COMMON LIST METHODS
+# ==========================
+
+"""
+append()   Add one item
+extend()   Add several items
+insert()   Add at a position
+remove()   Remove by value
+pop()      Remove and return an item
+clear()    Remove all items
+index()    Find an item's position
+count()    Count occurrences
+sort()     Sort the list
+reverse()  Reverse the list
+copy()     Make a shallow copy
+"""
+
+
+# ==========================
+# ITERATING THROUGH A LIST
+# ==========================
+
+languages = ["Python", "Swift", "C++"]
+
 for language in languages:
-	print(language)
-print('C' in languages)
-print('python' in languages)
+    print(language)
 
-numbers = []
-for n in range(1, 6):
-    numbers.append(n**2)
-print(numbers)
+print("C" in languages)
+print("Python" in languages)
 
-#creating tuple
-#empty, with integers, mixed datatypes, nested tuple
-#empty
+
+# ==========================
+# BUILDING A LIST WITH A LOOP
+# ==========================
+
+squares = []
+
+for number in range(1, 6):
+    squares.append(number ** 2)
+
+print(squares)
+
 
 # ==========================
 # CREATING TUPLES
+# Ordered, immutable, duplicates allowed
 # ==========================
 
-# Empty tuple
-empty = ()
-print(empty)
+empty_tuple = ()
+print(empty_tuple)
 
-# Tuple with integers
-numbers = (1, 2, 3, 4)
-print(numbers)
+integer_tuple = (1, 2, 3, 4)
+print(integer_tuple)
 
-# Tuple with mixed data types
-mixed = ("Python", 3.12, True, 100)
-print(mixed)
+mixed_tuple = ("Python", 3.12, True, 100)
+print(mixed_tuple)
 
-# Nested tuple (tuple inside a tuple)
-nested = (1, 2, ("Apple", "Banana"), 4)
-print(nested)
+nested_tuple = (1, 2, ("Apple", "Banana"), 4)
+print(nested_tuple)
 
-# Accessing nested tuple
-print(nested[2])
-print(nested[2][1])    # Banana
 
-#nested2
-my_tuple = ("mouse", [8, 4, 6], (1, 2, 3))
-print(my_tuple[1])
-print(my_tuple[1][2])
-print(my_tuple[2][2])
+# ==========================
+# ACCESSING NESTED TUPLES
+# ==========================
 
-#tuple with one element
-var1 = ("hello")
-print (type(var1))	#str
-var2 = ("hello",)	#trailiing ,
-print(type(var2))	#tuple
+print(nested_tuple[2])
+print(nested_tuple[2][1])   # Banana
 
-var3 = "hello",		# parentheses is optional
-print(type(var3))
+device_data = ("mouse", [8, 4, 6], (1, 2, 3))
 
-#remember negative indexing [-1][-3]
+print(device_data[1])
+print(device_data[1][2])
+print(device_data[2][2])
 
-print(nested.count(2))
 
-#adv of tuple over list
+# ==========================
+# ONE-ELEMENT TUPLES
+# The comma creates the tuple
+# ==========================
+
+value1 = ("hello")
+print(type(value1))         # str
+
+value2 = ("hello",)
+print(type(value2))         # tuple
+
+value3 = "hello",
+print(type(value3))         # tuple
+
+
+# ==========================
+# TUPLE METHODS
+# ==========================
+
+numbers_tuple = (1, 2, 2, 3)
+
+print(numbers_tuple.count(2))
+print(numbers_tuple.index(3))
+
+
+# ==========================
+# WHY USE TUPLES?
+# ==========================
+
 """
-tuple heterogeneous data
-list for homogeneous data
-tuple faster - because immutable
-tuple can be used for dictionaries, because immutable
-data that doesn't change => tuple makes it write protected
+- Tuples are immutable.
+- They are useful for fixed data.
+- They can protect values from accidental changes.
+- They are often slightly faster than lists.
+- Immutable tuple values can be used as dictionary keys.
 """
 
-#str
-greet = 'hello'
-print(greet[1:4])	#ell
-print(greet[1])		#e
-print(greet[-4])	#negative indexing
+
+# ==========================
+# STRINGS AND INDEXING
+# Strings are immutable
+# ==========================
+
+greeting = "hello"
+
+print(greeting[1:4])   # ell
+print(greeting[1])     # e
+print(greeting[-4])    # e
+
+# This would raise TypeError:
+# greeting[0] = "H"
+
+greeting = "H" + greeting[1:]
+print(greeting)
 
 
-#str = immutable
-greet = "hello"
-greet = "H" + greet[1:]
-#greet[0] = 'H'	#TypeError - does not support assignment
+# ==========================
+# MULTILINE STRINGS
+# ==========================
 
-print(greet)
-
-#multiline string
 message = """
-Never gonna give you up
-Never gonna let you down
+Python is easy to read.
+Python is powerful.
 """
+
 print(message)
-#can also use -> '''   '''
 
-greet = "Hello, "
-name = 'Jack'
-result = greet + name
+
+# ==========================
+# STRING OPERATIONS
+# ==========================
+
+greeting = "Hello, "
+name = "Jack"
+
+result = greeting + name
+
 print(result)
+print(len(greeting))
+print("a" in "program")
+print("at" not in "battle")
 
-print(len(greet))
 
-#string test
-print('a' in 'program')
-print('at' not in 'battle')
+# ==========================
+# FORMATTED STRINGS
+# f-strings place expressions inside {}
+# ==========================
 
-#formatted string
-name = 'Cathy'
-country = 'UK'
-print(f'{name} is from {country}')
+name = "Cathy"
+country = "UK"
 
-#sets
-#empty set:
+print(f"{name} is from {country}")
+
+
+# ==========================
+# SETS
+# Unordered, unique values only
+# ==========================
+
 empty_set = set()
-#empty dictionary
-empty_dictionary={}
+empty_dictionary = {}
 
-print('empty set', type(empty_set))
-print('empty dict', type(empty_dictionary))
-
-#no duplicates in sets
-
-# Set with integers
-numbers = {1, 2, 3, 4}
-print(numbers)
-
-# Set with strings
-languages = {"Python", "Java", "C++"}
-print(languages)
-
-# Set with mixed data types
-mixed = {1, "Python", 3.14, True}
-print(mixed)
+print("Empty set type:", type(empty_set))
+print("Empty dictionary type:", type(empty_dictionary))
 
 
-#duplicates removed:
+integer_set = {1, 2, 3, 4}
+print(integer_set)
+
+language_set = {"Python", "Java", "C++"}
+print(language_set)
+
+mixed_set = {1, "Python", 3.14, True}
+print(mixed_set)
+
+
+# Duplicate values are removed automatically.
+
 values = {1, 1, 2, 2, "Python", "Python"}
 print(values)
 
-#sets are mutable
 
-#.discard to remove items from sets
-# all any enumeratelen max min sorted sum    #commonly used with sets
+# ==========================
+# CHANGING SETS
+# ==========================
 
-#.union .intersection or ampersand
+permissions = {"read", "write"}
 
-#File operations
-#/home/jacques/github/learning_python/
-print("Run1")
-file = open("test.txt", "r")		#read
-print(file.read())
-#file.close()
+permissions.add("execute")
+print(permissions)
 
-print("Run2")
+permissions.discard("write")
+print(permissions)
 
-file = open("test.txt", "w")		#write - overwrite everything
-file.write("Hello Python")
-#file.close()
 
-file = open('test.txt', 'a')		#append
-file.write("\nAnother line")
+# ==========================
+# SET OPERATIONS
+# ==========================
 
-file = open('test.txt', 'a')
-file.write("\nWe love python")
-file.write("\nAnother test line")
+set_a = {1, 2, 3}
+set_b = {3, 4, 5}
 
-file = open("test.txt", "r")		#read
-print(file.read())
-file.close()						#only need to close at the end of everything
-#python closes file automatically, so not needed
+print("Union:", set_a.union(set_b))
+print("Intersection:", set_a.intersection(set_b))
+print("Difference:", set_a.difference(set_b))
+
+
+# ==========================
+# COMMON FUNCTIONS FOR COLLECTIONS
+# ==========================
 
 """
-| Mode  | Meaning                              |
-| ----- | ------------------------------------ |
-| `"r"` | Read                                 |
-| `"w"` | Write (overwrite)                    |
-| `"a"` | Append                               |
-| `"x"` | Create new file (error if it exists) |
-
-open()      Open a file
-read()      Read contents
-write()     Write contents
-close()     Close file
-with        Auto-closes the file
-
-r = Read
-w = Write
-a = Append
-x = Create
+all()
+any()
+enumerate()
+len()
+max()
+min()
+sorted()
+sum()
 """
 
-with open("test.txt", "r+") as file:		#read and write
+
+# ==========================
+# FILE MODES
+# ==========================
+
+"""
+r   Read. The file must already exist.
+w   Write. Creates or overwrites the file.
+a   Append. Creates the file if needed.
+x   Create. Raises an error if the file exists.
+
+r+  Read and write. The file must already exist.
+w+  Write and read. Overwrites the file first.
+a+  Append and read. Writes are added at the end.
+"""
+
+
+# ==========================
+# WRITING TO A FILE
+# with closes the file automatically
+# ==========================
+
+with open("test.txt", "w") as file:
+    file.write("Hello Python\n")
+
+
+# ==========================
+# APPENDING TO A FILE
+# ==========================
+
+with open("test.txt", "a") as file:
+    file.write("Another line\n")
+    file.write("We love Python\n")
+
+
+# ==========================
+# READING A FILE
+# ==========================
+
+with open("test.txt", "r") as file:
     content = file.read()
-    file.write("\nNew text")
 
-file = open("test.txt", "r")
-print(file.read())
-
-with open("test.txt", "r+") as file:		#read and write
-    file.write("\nAnd another new line")
-file = open("test.txt", "r+")
-print(file.read())
+print(content)
 
 
-#exceptions
-import os
-os.system('cls')
+# ==========================
+# READ AND WRITE WITH r+
+# Writing starts at the current cursor position
+# ==========================
+
+with open("test.txt", "r+") as file:
+    existing_content = file.read()
+    file.write("New text\n")
+
+print("Previous content:")
+print(existing_content)
+
+
+# ==========================
+# FILE CURSOR WITH seek()
+# Move back to the beginning before reading
+# ==========================
+
+with open("test.txt", "a+") as file:
+    file.write("Appended with a+\n")
+    file.seek(0)
+    print(file.read())
+
+
+# ==========================
+# BASIC EXCEPTION HANDLING
+# ==========================
+
 try:
-    file1 = open("test.txt", "r")
-    read_content = file1.read()
-    print(read_content)
+    with open("test.txt", "r") as file:
+        print(file.read())
+
+except FileNotFoundError:
+    print("The file does not exist.")
+
+else:
+    print("The file was read successfully.")
+
 finally:
-    file1.close()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    print("File operation finished.")
