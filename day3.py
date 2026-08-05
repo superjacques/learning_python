@@ -340,12 +340,28 @@ a = Append
 x = Create
 """
 
+with open("test.txt", "r+") as file:		#read and write
+    content = file.read()
+    file.write("\nNew text")
+
+file = open("test.txt", "r")
+print(file.read())
+
+with open("test.txt", "r+") as file:		#read and write
+    file.write("\nAnd another new line")
+file = open("test.txt", "r+")
+print(file.read())
 
 
-
-
-
-
+#exceptions
+import os
+os.system('cls')
+try:
+    file1 = open("test.txt", "r")
+    read_content = file1.read()
+    print(read_content)
+finally:
+    file1.close()
 
 
 
