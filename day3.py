@@ -161,7 +161,10 @@ for language in languages:
 print('C' in languages)
 print('python' in languages)
 
-
+numbers = []
+for n in range(1, 6):
+    numbers.append(n**2)
+print(numbers)
 
 
 
