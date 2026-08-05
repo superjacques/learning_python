@@ -166,16 +166,75 @@ for n in range(1, 6):
     numbers.append(n**2)
 print(numbers)
 
+#creating tuple
+#empty, with integers, mixed datatypes, nested tuple
+#empty
+
+# ==========================
+# CREATING TUPLES
+# ==========================
+
+# Empty tuple
+empty = ()
+print(empty)
+
+# Tuple with integers
+numbers = (1, 2, 3, 4)
+print(numbers)
+
+# Tuple with mixed data types
+mixed = ("Python", 3.12, True, 100)
+print(mixed)
+
+# Nested tuple (tuple inside a tuple)
+nested = (1, 2, ("Apple", "Banana"), 4)
+print(nested)
+
+# Accessing nested tuple
+print(nested[2])
+print(nested[2][1])    # Banana
+
+#nested2
+my_tuple = ("mouse", [8, 4, 6], (1, 2, 3))
+print(my_tuple[1])
+print(my_tuple[1][2])
+print(my_tuple[2][2])
+
+#tuple with one element
+var1 = ("hello")
+print (type(var1))	#str
+var2 = ("hello",)	#trailiing ,
+print(type(var2))	#tuple
+
+var3 = "hello",		# parentheses is optional
+print(type(var3))
+
+#remember negative indexing [-1][-3]
+
+print(nested.count(2))
+
+#adv of tuple over list
+"""
+tuple heterogeneous data
+list for homogeneous data
+tuple faster - because immutable
+tuple can be used for dictionaries, because immutable
+data that doesn't change => tuple makes it write protected
+"""
+
+#str
+greet = 'hello'
+print(greet[1:4])	#ell
+print(greet[1])		#e
+print(greet[-4])	#negative indexing
 
 
+#str = immutable
+greet = "hello"
+greet = "H" + greet[1:]
+greet[0] = 'H'
 
-
-
-
-
-
-
-
+print(greet)
 
 
 
