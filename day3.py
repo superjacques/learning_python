@@ -232,10 +232,61 @@ print(greet[-4])	#negative indexing
 #str = immutable
 greet = "hello"
 greet = "H" + greet[1:]
-greet[0] = 'H'
+#greet[0] = 'H'	#TypeError - does not support assignment
 
 print(greet)
 
+#multiline string
+message = """
+Never gonna give you up
+Never gonna let you down
+"""
+print(message)
+#can also use -> '''   '''
+
+greet = "Hello, "
+name = 'Jack'
+result = greet + name
+print(result)
+
+print(len(greet))
+
+#string test
+print('a' in 'program')
+print('at' not in 'battle')
+
+#formatted string
+name = 'Cathy'
+country = 'UK'
+print(f'{name} is from {country}')
+
+#sets
+#empty set:
+empty_set = set()
+#empty dictionary
+empty_dictionary={}
+
+print('empty set', type(empty_set))
+print('empty dict', type(empty_dictionary))
+
+#no duplicates in sets
+
+# Set with integers
+numbers = {1, 2, 3, 4}
+print(numbers)
+
+# Set with strings
+languages = {"Python", "Java", "C++"}
+print(languages)
+
+# Set with mixed data types
+mixed = {1, "Python", 3.14, True}
+print(mixed)
+
+
+#duplicates removed:
+values = {1, 1, 2, 2, "Python", "Python"}
+print(values)
 
 
 
