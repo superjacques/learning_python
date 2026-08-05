@@ -851,14 +851,14 @@ print(traverse(2))
 
 ### Question 41
 
-Which of the following functions can be invoked with two arguments ?
+Which of the following functions can be invoked with two arguments? *(Adapted replacement: the original form renders its options as images, which are not present in this text copy.)*
 
 **1 point**
 
-- [ ] Option 3
-- [ ] Option 1
-- [ ] Option 4
-- [ ] Option 2
+- [ ] A. `def alpha(x, y): pass`
+- [ ] B. `def beta(x, y=0): pass`
+- [ ] C. `def gamma(x): pass`
+- [ ] D. `def delta(): pass`
 
 ---
 
@@ -875,17 +875,24 @@ A program written in a high-level programming language is called:
 
 ### Question 43
 
-a binary code
+Which condition should replace `???` so that this code outputs `***`?
 
-the ASCII
+```python
+depth = 0
 
-Given the below lines of code which one of the following two conditional statements  depth = 0 and depth == 0 being true so that it outputs ***
+if ???:
+    print("***")
+else:
+    print("---")
+```
+
+*(Adapted replacement: the original form renders the answer choices as images, which are not present in this text copy.)*
 
 **1 point**
 
-- [ ] B.
-- [ ] C.
-- [ ] A.
+- [ ] A. `depth = 0`
+- [ ] B. `depth == 0`
+- [ ] C. `depth != 0`
 
 ---
 
@@ -1175,7 +1182,6 @@ print(y ** (1 / x ))
 - [ ] A. 4.0
 - [ ] B. 1.0
 - [ ] D. 0.0
-- [ ] Option 2
 
 ---
 
