@@ -36,113 +36,98 @@ After PCEP, use this index for the more advanced PCAP course. The mock exam has 
 
 ## ✅ Learning Plan
 
-### 🟩 Setup and Fundamentals
-✅ Python available on Linux
-✅ Thonny installed and opened
-✅ PyCharm installed and opened
-✅ VS Code installed and opened
-✅ Run and save Python programs
-✅ Comments
-✅ Keywords and identifiers
-✅ Variables
-✅ Basic data types
+### 🐣 PCEP — Entry-Level Python
 
-### 🔵 Strings
-✅ Creating strings
-✅ Indexing and negative indexing
-✅ Slicing
-✅ String methods
-✅ Formatting with f-strings
+#### 🟩 Programming and Python Fundamentals
+✅ Running and saving Python programs
+✅ Comments, keywords, identifiers, and basic syntax
+✅ Variables, literals, and basic data types
+✅ Input and output with `input()` and `print()`
+✅ Type inspection and conversion
+✅ Arithmetic, comparison, logical, and bitwise operators
+✅ Recognizing syntax, runtime, and logical errors
 
-### 🟡 Containers
-✅ Lists
-✅ Tuples
-✅ Sets
-✅ Dictionaries
-
-### 🟠 Operators and Conversion
-✅ Arithmetic operators
-✅ Assignment operators
-✅ Comparison operators
-✅ Logical operators
-✅ Bitwise and special operators
-✅ Implicit type conversion
-✅ Explicit type casting
-
-### 🟣 Flow Control
-✅ if
-✅ if / else
-✅ if / elif / else
+#### 🔵 Control Flow
+✅ `if`, `elif`, and `else`
 ✅ Nested conditions
+✅ `while` and `for` loops
+✅ `range()`
+✅ `break`, `continue`, and `pass`
+✅ Loop `else` blocks
 
-### 🔁 Loops
-✅ for
-✅ range()
-✅ while
-✅ break
-✅ continue
-✅ pass
-✅ Loop else blocks
+#### 🟡 Data Collections
+✅ Strings: indexing, slicing, operations, and methods
+✅ Lists: access, update, and common operations
+✅ Tuples and unpacking
+✅ Dictionaries and key/value operations
+✅ Sets and basic collection use
 
-### ⚙️ Functions
-✅ Creating and calling functions
-✅ Parameters and positional arguments
-✅ Return values
-✅ Default parameters
-✅ Keyword arguments
-✅ *args
-✅ Recursion
-✅ Lambda functions
+#### 🟠 Functions and Exceptions
+✅ Defining and calling functions
+✅ Parameters, positional and keyword arguments
+✅ Default values and return values
+✅ Local and global scope
+✅ Basic exception handling with `try`, `except`, `else`, and `finally`
+⬜ Review common built-in exceptions
 
-### 🌐 Scope and Namespaces
-✅ Local scope
-✅ Global scope
-✅ Enclosing and nonlocal scope
-✅ Built-in scope
-✅ global and nonlocal keywords
+#### 🟣 Modules and Packages
+✅ Importing modules and names
+✅ Import aliases
+✅ Creating and using modules
+✅ Package basics
 
-### 📦 Modules and Packages
-✅ import
-✅ from ... import
-✅ Module aliases
-✅ Creating modules
-✅ Packages
+#### 📄 Files and Directories
+✅ Reading and writing files
+✅ `with open()` and file modes
+✅ Basic directory operations
 
-### 📄 Files and Directories
-✅ Reading files
-✅ Writing files
-✅ with open()
-✅ File modes
-✅ Working with directories
+#### 🏆 PCEP Milestone
+⬜ Complete PCEP mock exam review
+⬜ Pass PCEP exam
 
-### 🚨 Exceptions
-✅ try
-✅ except
-✅ else
-✅ finally
-⬜ Common built-in exceptions
-⬜ Custom exceptions
+### 🐍 PCAP — Associate in Python Programming
 
-### 🏗️ Object-Oriented Programming
-⬜ Classes
-⬜ Objects
-⬜ Attributes
-⬜ Methods
-⬜ Constructors and __init__
-⬜ self
-⬜ Inheritance
-⬜ Method overriding
-⬜ super()
-⬜ Encapsulation
-⬜ Polymorphism
+#### 📦 Modules and Packages · 12%
+⬜ Import forms, aliases, and namespaces
+⬜ `dir()` and `sys.path`
+⬜ Standard library modules: `math`, `random`, and `platform`
+⬜ User modules, `__name__`, packages, and nested imports
 
-### 🚀 Advanced Course Topics
-⬜ Multiple inheritance
-⬜ Multilevel inheritance
-⬜ Method Resolution Order
+#### 🚨 Exceptions · 14%
+⬜ Exception hierarchy and matching handlers
+⬜ `try`, `except`, `else`, and `finally`
+⬜ Raising exceptions, `assert`, and exception `args`
+⬜ Creating custom exceptions
+
+#### 🔤 Strings · 18%
+⬜ Code points and encodings
+⬜ Indexing, slicing, and immutability
+⬜ String operations
+⬜ String methods and searching
+
+#### 🏗️ Object-Oriented Programming · 34%
+⬜ Classes, objects, and construction
+⬜ Attributes, `__dict__`, and introspection
+⬜ Methods and `self`
+⬜ Inheritance and overriding
+⬜ Polymorphism and Method Resolution Order
+
+#### 🧰 Miscellaneous · 22%
+⬜ List comprehensions
+⬜ Lambda functions, `map()`, and `filter()`
+⬜ Closures
+⬜ I/O terms, streams, and file operations
+⬜ `bytearray`
+
+#### 🌱 PCAP Extensions from the Training Material
+⬜ Multiple and multilevel inheritance
 ⬜ Operator overloading
-⬜ Iterators
-⬜ Custom iterators
+⬜ Iterators and generators
+⬜ `pip`, `os`, `time`, `datetime`, and `calendar`
+
+#### 🏆 PCAP Milestone
+⬜ Complete PCAP mock exam review
+⬜ Pass PCAP exam
 
 ### 💻 Practical Projects
 ⬜ Calculator
@@ -154,23 +139,16 @@ After PCEP, use this index for the more advanced PCAP course. The mock exam has 
 ⬜ Linux automation script
 ⬜ GitHub portfolio
 
-### 🏆 Certifications
-⬜ PCEP exam
-⬜ PCAP course
-⬜ PCAP exam
-
-## 🌟 Career Additions — Not Part of This Course
-These are deliberate additions for practical development ability and employability. They are not listed as part of the supplied training presentation.
-
+### 🌟 Career Additions — Beyond the Certification Courses
 ⬜ Git basics
-⬜ Virtual environments (venv)
-⬜ pip and dependency installation
-⬜ requests for APIs
-⬜ pathlib for files and paths
-⬜ JSON handling
-⬜ argparse for command-line tools
-⬜ pytest for testing
+⬜ Virtual environments (`venv`)
+⬜ Dependency installation
+⬜ `requests` for APIs
+⬜ `pathlib` and JSON handling
+⬜ `argparse` for command-line tools
+⬜ `pytest` for testing
 ⬜ Build five polished portfolio projects
+
 
 
 ---
