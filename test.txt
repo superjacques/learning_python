@@ -1,5 +1,0 @@
-
-And another new lineline
-We love python
-Another test line
-New text

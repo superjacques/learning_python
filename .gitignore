@@ -1,1 +1,11 @@
 codex_resume.sh
+codex.md
+day1.py
+day2.py
+day3.py
+pyproject.toml
+test.*
+test.txt
+uv.lock
+.idea/
+practice/
