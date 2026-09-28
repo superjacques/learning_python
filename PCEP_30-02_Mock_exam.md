@@ -82,7 +82,7 @@ Python is an example of which programming language category?
 
 ---
 
-**42.**
+**6.**
 
 A program written in a high-level programming language is called:
 
@@ -93,7 +93,7 @@ A program written in a high-level programming language is called:
 
 ---
 
-**56.**
+**7.**
 
 Operations that can be performed by CPU is called:
 
@@ -106,7 +106,7 @@ Operations that can be performed by CPU is called:
 
 ---
 
-**57.**
+**8.**
 
 A set of elementary operations that can be performed by a CPU is called:
 
@@ -119,7 +119,7 @@ A set of elementary operations that can be performed by a CPU is called:
 
 ---
 
-**58.**
+**9.**
 
 What is the output of the following piece of code if the user enters two lines containing 2 and 4 respectively?
 
@@ -138,7 +138,7 @@ print(y ** (1 / x ))
 
 ---
 
-**63.**
+**10.**
 
 To run the code given as a source file whose name has the .py extension, you need to have:
 
@@ -151,7 +151,7 @@ To run the code given as a source file whose name has the .py extension, you nee
 
 ---
 
-**64.**
+**11.**
 
 A binary code consists of:
 
@@ -164,7 +164,7 @@ A binary code consists of:
 
 ---
 
-**82.**
+**12.**
 
 Which of the following expressions evaluate to a zero result?
 
@@ -179,7 +179,7 @@ Which of the following expressions evaluate to a zero result?
 
 ---
 
-**83.**
+**13.**
 
 Which of the following expressions evaluate to a zero result?
 
@@ -194,7 +194,7 @@ Which of the following expressions evaluate to a zero result?
 
 ---
 
-**84.**
+**14.**
 
 Which of the following expressions evaluate to a zero result?
 
@@ -209,7 +209,7 @@ Which of the following expressions evaluate to a zero result?
 
 ---
 
-**85.**
+**15.**
 
 Which of the following expressions evaluate to a zero result?
 
@@ -224,7 +224,7 @@ Which of the following expressions evaluate to a zero result?
 
 ---
 
-**102.**
+**16.**
 
 What term describes the meaning of a Python statement?
 
@@ -238,7 +238,7 @@ What term describes the meaning of a Python statement?
 
 ---
 
-**103.**
+**17.**
 
 Which is a valid Python identifier?
 
@@ -252,7 +252,7 @@ Which is a valid Python identifier?
 
 ---
 
-**104.**
+**18.**
 
 Which line is a Python comment?
 
@@ -266,7 +266,7 @@ Which line is a Python comment?
 
 ---
 
-**105.**
+**19.**
 
 What is the type of True?
 
@@ -280,7 +280,7 @@ What is the type of True?
 
 ---
 
-**106.**
+**20.**
 
 What is the decimal value of 0b1011?
 
@@ -294,7 +294,7 @@ What is the decimal value of 0b1011?
 
 ---
 
-**107.**
+**21.**
 
 What is the decimal value of 0x10?
 
@@ -308,7 +308,7 @@ What is the decimal value of 0x10?
 
 ---
 
-**108.**
+**22.**
 
 What is the value of 3e2?
 
@@ -322,7 +322,7 @@ What is the value of 3e2?
 
 ---
 
-**109.**
+**23.**
 
 What is the result of 17 // 5?
 
@@ -336,7 +336,7 @@ What is the result of 17 // 5?
 
 ---
 
-**110.**
+**24.**
 
 What is the result of 17 % 5?
 
@@ -350,7 +350,7 @@ What is the result of 17 % 5?
 
 ---
 
-**111.**
+**25.**
 
 What is the result of 2 ** 3 ** 2?
 
@@ -364,7 +364,7 @@ What is the result of 2 ** 3 ** 2?
 
 ---
 
-**112.**
+**26.**
 
 What is the result of -2 ** 2?
 
@@ -378,7 +378,7 @@ What is the result of -2 ** 2?
 
 ---
 
-**113.**
+**27.**
 
 What is the value of 7 / 2 in Python 3?
 
@@ -392,7 +392,7 @@ What is the value of 7 / 2 in Python 3?
 
 ---
 
-**114.**
+**28.**
 
 What is the result of "Py" + "thon"?
 
@@ -406,7 +406,7 @@ What is the result of "Py" + "thon"?
 
 ---
 
-**115.**
+**29.**
 
 What is the result of "ha" * 3?
 
@@ -420,7 +420,7 @@ What is the result of "ha" * 3?
 
 ---
 
-**116.**
+**30.**
 
 What is the value of not (3 > 1)?
 
@@ -434,7 +434,7 @@ What is the value of not (3 > 1)?
 
 ---
 
-**117.**
+**31.**
 
 What is the value of True or False and False?
 
@@ -448,7 +448,7 @@ What is the value of True or False and False?
 
 ---
 
-**118.**
+**32.**
 
 What is the value of (5 == 5) and (2 > 8)?
 
@@ -462,7 +462,7 @@ What is the value of (5 == 5) and (2 > 8)?
 
 ---
 
-**119.**
+**33.**
 
 Which operator tests whether two values are different?
 
@@ -476,7 +476,7 @@ Which operator tests whether two values are different?
 
 ---
 
-**120.**
+**34.**
 
 What is the result of 5 & 3?
 
@@ -490,7 +490,7 @@ What is the result of 5 & 3?
 
 ---
 
-**121.**
+**35.**
 
 What is the result of 4 << 1?
 
@@ -504,7 +504,7 @@ What is the result of 4 << 1?
 
 ---
 
-**122.**
+**36.**
 
 What is the result of ~0?
 
@@ -518,7 +518,7 @@ What is the result of ~0?
 
 ---
 
-**123.**
+**37.**
 
 What does input() return before explicit conversion?
 
@@ -532,7 +532,7 @@ What does input() return before explicit conversion?
 
 ---
 
-**124.**
+**38.**
 
 What is printed by print("A", "B", sep="-", end="!")?
 
@@ -546,7 +546,7 @@ What is printed by print("A", "B", sep="-", end="!")?
 
 ---
 
-**125.**
+**39.**
 
 Which two expressions convert the string "12" to a numeric value?
 
@@ -564,7 +564,7 @@ Which two expressions convert the string "12" to a numeric value?
 
 ### Block 2 — Control Flow: Conditional Blocks and Loops (50 questions)
 
-**6.**
+**40.**
 
 How many hashes (#) does the code output to the screen?
 
@@ -588,7 +588,7 @@ else:
 
 ---
 
-**7.**
+**41.**
 
 How many hashes (#) does the code output to the screen?
 
@@ -612,7 +612,7 @@ else:
 
 ---
 
-**8.**
+**42.**
 
 What happens when the user runs the following code?
 
@@ -637,7 +637,7 @@ print(total)
 
 ---
 
-**9.**
+**43.**
 
 What happens when the user runs the following code?
 
@@ -663,7 +663,7 @@ print(total)
 
 ---
 
-**10.**
+**44.**
 
 What is expected output of the following code?
 
@@ -689,7 +689,7 @@ else:
 
 ---
 
-**11.**
+**45.**
 
 What is expected output of the following code?
 
@@ -715,7 +715,7 @@ else:
 
 ---
 
-**12.**
+**46.**
 
 What is expected output of the following code?
 
@@ -741,7 +741,7 @@ print(equals)
 
 ---
 
-**43.**
+**47.**
 
 Which condition should replace `???` so that this code outputs `***`?
 
@@ -764,7 +764,7 @@ else:
 
 ---
 
-**44.**
+**48.**
 
 What happens when the users runs the following code?
 
@@ -790,7 +790,7 @@ else:
 
 ---
 
-**61.**
+**49.**
 
 What happens when the users  runs the following code?
 
@@ -821,7 +821,7 @@ else:
 
 ---
 
-**62.**
+**50.**
 
 How many hashes(#) does the code output to the screen?
 
@@ -848,7 +848,7 @@ else:
 
 ---
 
-**65.**
+**51.**
 
 What is the expected output of the following code ?
 
@@ -880,7 +880,7 @@ else :
 
 ---
 
-**66.**
+**52.**
 
 What happens when the user runs the following code ?
 
@@ -904,7 +904,7 @@ print (angle)
 
 ---
 
-**67.**
+**53.**
 
 What happens when the user runs the following code ?
 
@@ -933,7 +933,7 @@ print ("0")
 
 ---
 
-**68.**
+**54.**
 
 What is the expected output of the following code?
 
@@ -959,7 +959,7 @@ print (others)
 
 ---
 
-**80.**
+**55.**
 
 What is the expected output of the following code?
 
@@ -991,7 +991,7 @@ print ("***")
 
 ---
 
-**86.**
+**56.**
 
 How many asterisks (*) does the code output to the screen?
 
@@ -1017,7 +1017,7 @@ else:
 
 ---
 
-**92.**
+**57.**
 
 What would the following evaluate to ?
 
@@ -1043,7 +1043,7 @@ elif shift < 0:
 
 ---
 
-**95.**
+**58.**
 
 What happens when the user runs the following code ?
 
@@ -1068,7 +1068,7 @@ print(total)
 
 ---
 
-**96.**
+**59.**
 
 What is the expected output of the following code?
 
@@ -1092,7 +1092,7 @@ else:
 
 ---
 
-**98.**
+**60.**
 
 What is expected output of the following code?
 
@@ -1118,7 +1118,7 @@ print(equals)
 
 ---
 
-**99.**
+**61.**
 
 What is expected output of the following code?
 
@@ -1144,7 +1144,7 @@ print(equals)
 
 ---
 
-**100.**
+**62.**
 
 What is expected output of the following code?
 
@@ -1170,7 +1170,7 @@ print(total)
 
 ---
 
-**101.**
+**63.**
 
 What is expected output of the following code?
 
@@ -1199,7 +1199,7 @@ else:
 
 ---
 
-**126.**
+**64.**
 
 What is printed by: value = 8; if value > 10: print("high"); else: print("low")?
 
@@ -1213,7 +1213,7 @@ What is printed by: value = 8; if value > 10: print("high"); else: print("low")?
 
 ---
 
-**127.**
+**65.**
 
 What is printed when score = 75 and the branches test >=80, then >=70, then else?
 
@@ -1227,7 +1227,7 @@ What is printed when score = 75 and the branches test >=80, then >=70, then else
 
 ---
 
-**128.**
+**66.**
 
 If x = 4, which nested test prints the result of x % 2 == 0?
 
@@ -1241,7 +1241,7 @@ If x = 4, which nested test prints the result of x % 2 == 0?
 
 ---
 
-**129.**
+**67.**
 
 Which statement does nothing and is syntactically valid?
 
@@ -1255,7 +1255,7 @@ Which statement does nothing and is syntactically valid?
 
 ---
 
-**130.**
+**68.**
 
 What values are produced by range(2, 7)?
 
@@ -1269,7 +1269,7 @@ What values are produced by range(2, 7)?
 
 ---
 
-**131.**
+**69.**
 
 How many iterations does range(1, 10, 3) produce?
 
@@ -1283,7 +1283,7 @@ How many iterations does range(1, 10, 3) produce?
 
 ---
 
-**132.**
+**70.**
 
 What is the sum produced by: total = 0; for number in range(1, 4): total += number?
 
@@ -1297,7 +1297,7 @@ What is the sum produced by: total = 0; for number in range(1, 4): total += numb
 
 ---
 
-**133.**
+**71.**
 
 What is printed by a while loop starting at count = 3 and decrementing to zero, with end=""?
 
@@ -1311,7 +1311,7 @@ What is printed by a while loop starting at count = 3 and decrementing to zero, 
 
 ---
 
-**134.**
+**72.**
 
 What is printed when a loop over "abc" continues when the letter is "b"?
 
@@ -1325,7 +1325,7 @@ What is printed when a loop over "abc" continues when the letter is "b"?
 
 ---
 
-**135.**
+**73.**
 
 What is printed when a loop breaks when number == 3, before printing the number?
 
@@ -1339,7 +1339,7 @@ What is printed when a loop breaks when number == 3, before printing the number?
 
 ---
 
-**136.**
+**74.**
 
 What does a completed for loop followed by else execute?
 
@@ -1353,7 +1353,7 @@ What does a completed for loop followed by else execute?
 
 ---
 
-**137.**
+**75.**
 
 What happens to a loop's else block if the loop exits with break?
 
@@ -1367,7 +1367,7 @@ What happens to a loop's else block if the loop exits with break?
 
 ---
 
-**138.**
+**76.**
 
 What is printed when number starts at 0 and a while loop increments it while number < 3, followed by else printing it?
 
@@ -1381,7 +1381,7 @@ What is printed when number starts at 0 and a while loop increments it while num
 
 ---
 
-**139.**
+**77.**
 
 Which two statements correctly describe break?
 
@@ -1397,7 +1397,7 @@ Which two statements correctly describe break?
 
 ---
 
-**140.**
+**78.**
 
 Which two statements correctly describe continue?
 
@@ -1413,7 +1413,7 @@ Which two statements correctly describe continue?
 
 ---
 
-**141.**
+**79.**
 
 What is the final result when two outer iterations each contain three inner iterations and result starts at zero, increasing once per inner iteration?
 
@@ -1427,7 +1427,7 @@ What is the final result when two outer iterations each contain three inner iter
 
 ---
 
-**142.**
+**80.**
 
 How many even numbers are counted in range(4)?
 
@@ -1441,7 +1441,7 @@ How many even numbers are counted in range(4)?
 
 ---
 
-**143.**
+**81.**
 
 What is printed when value starts at 1 and is doubled while value < 10?
 
@@ -1455,7 +1455,7 @@ What is printed when value starts at 1 and is doubled while value < 10?
 
 ---
 
-**144.**
+**82.**
 
 What is printed by range(3, 0, -1) with end=""?
 
@@ -1469,7 +1469,7 @@ What is printed by range(3, 0, -1) with end=""?
 
 ---
 
-**145.**
+**83.**
 
 What is printed by a for loop containing only pass, followed by print("done")?
 
@@ -1483,7 +1483,7 @@ What is printed by a for loop containing only pass, followed by print("done")?
 
 ---
 
-**146.**
+**84.**
 
 Which condition is true when x is even and greater than 10?
 
@@ -1497,7 +1497,7 @@ Which condition is true when x is even and greater than 10?
 
 ---
 
-**147.**
+**85.**
 
 What is printed when value == 10 and the if suite contains pass, followed by print("ready")?
 
@@ -1511,7 +1511,7 @@ What is printed when value == 10 and the if suite contains pass, followed by pri
 
 ---
 
-**148.**
+**86.**
 
 What is the sum from 1 through 4 when number == 3 is skipped with continue?
 
@@ -1525,7 +1525,7 @@ What is the sum from 1 through 4 when number == 3 is skipped with continue?
 
 ---
 
-**149.**
+**87.**
 
 What is printed when x increases from 0 to 3 and x == 2 is skipped with continue?
 
@@ -1539,7 +1539,7 @@ What is printed when x increases from 0 to 3 and x == 2 is skipped with continue
 
 ---
 
-**150.**
+**88.**
 
 Which two loops can iterate over every character in "cat"?
 
@@ -1555,7 +1555,7 @@ Which two loops can iterate over every character in "cat"?
 
 ---
 
-**151.**
+**89.**
 
 What is the first value produced by range(5, 0, -2)?
 
@@ -1571,7 +1571,7 @@ What is the first value produced by range(5, 0, -2)?
 
 ### Block 3 — Data Collections: Tuples, Dictionaries, Lists, and Strings (53 questions)
 
-**13.**
+**90.**
 
 What is expected output of the following code?
 
@@ -1595,7 +1595,7 @@ print(len(collection) + len(duplicate))
 
 ---
 
-**14.**
+**91.**
 
 What is expected output of the following code?
 
@@ -1620,7 +1620,7 @@ print(collection[-1] + duplicate[-1])
 
 ---
 
-**15.**
+**92.**
 
 What is expected output of the following code?
 
@@ -1646,7 +1646,7 @@ print(collection[-1] + duplicate[-1])
 
 ---
 
-**16.**
+**93.**
 
 What is expected output of the following code?
 
@@ -1672,7 +1672,7 @@ print(collection[-1] + duplicate[-1])
 
 ---
 
-**17.**
+**94.**
 
 Assuming that the following assignment has been successfully executed:
 
@@ -1693,7 +1693,7 @@ Select the expressions which will not raise any exception.
 
 ---
 
-**18.**
+**95.**
 
 Assuming that the following assignment has been successfully executed:
 
@@ -1714,7 +1714,7 @@ Select the expressions which will not raise any exception.
 
 ---
 
-**19.**
+**96.**
 
 What is true about tuples ? ( Select two answers.)
 
@@ -1727,7 +1727,7 @@ What is true about tuples ? ( Select two answers.)
 
 ---
 
-**20.**
+**97.**
 
 What is true about tuples ? ( Select two answers.)
 
@@ -1740,7 +1740,7 @@ What is true about tuples ? ( Select two answers.)
 
 ---
 
-**21.**
+**98.**
 
 What is true about tuples ? ( Select two answers.)
 
@@ -1753,7 +1753,7 @@ What is true about tuples ? ( Select two answers.)
 
 ---
 
-**22.**
+**99.**
 
 What is the expected output of the following code?
 
@@ -1773,7 +1773,7 @@ for value in menu.items():
 
 ---
 
-**23.**
+**100.**
 
 What is the expected output of the following code?
 
@@ -1793,7 +1793,7 @@ for value in menu.values():
 
 ---
 
-**24.**
+**101.**
 
 Assuming that the following assignment has been successfully executed :
 
@@ -1812,7 +1812,7 @@ Which of the following expressions evaluate to True ? (Select two expressions.)
 
 ---
 
-**25.**
+**102.**
 
 What is the expected output of the following code?
 
@@ -1832,7 +1832,7 @@ for value in menu:
 
 ---
 
-**26.**
+**103.**
 
 What is the expected output of the following code?
 
@@ -1852,7 +1852,7 @@ for value in menu.keys():
 
 ---
 
-**27.**
+**104.**
 
 What is the expected result of the following code?
 
@@ -1875,7 +1875,7 @@ print(len(new))
 
 ---
 
-**28.**
+**105.**
 
 What is the expected result of the following code?
 
@@ -1898,7 +1898,7 @@ print(len(new))
 
 ---
 
-**45.**
+**106.**
 
 Assuming that the following assignment has been successfully executed:
 
@@ -1917,7 +1917,7 @@ Which one of the following prints True
 
 ---
 
-**50.**
+**107.**
 
 Assume the following assignment has been successfully executed:
 
@@ -1938,7 +1938,7 @@ Which of the following expression evaluate to True
 
 ---
 
-**51.**
+**108.**
 
 Assume the following assignment has been successfully executed:
 
@@ -1959,7 +1959,7 @@ Select the expressions which will not raise any exception
 
 ---
 
-**60.**
+**109.**
 
 What is the expected output of the following code?
 
@@ -1980,7 +1980,7 @@ for value in menu.items():
 
 ---
 
-**69.**
+**110.**
 
 What is the expected output of the following code?
 
@@ -2000,7 +2000,7 @@ print(list_one[-1] + list_two[-1])
 
 ---
 
-**70.**
+**111.**
 
 What is the expected output of the following code?
 
@@ -2024,7 +2024,7 @@ print(points)
 
 ---
 
-**71.**
+**112.**
 
 Assuming that the following assignment has been successfully executed:
 
@@ -2045,7 +2045,7 @@ Which of the following expressions to evaluate False?
 
 ---
 
-**72.**
+**113.**
 
 Assuming that the following assignment has been successfully executed:
 
@@ -2066,7 +2066,7 @@ Select the expressions which will not raise any exception.
 
 ---
 
-**79.**
+**114.**
 
 Assuming the following runs successfully, which TWO options would run without raising an exception?
 
@@ -2083,7 +2083,7 @@ my_list = [5,4,3,2]
 
 ---
 
-**87.**
+**115.**
 
 What is the expected output of the following code?
 
@@ -2103,7 +2103,7 @@ for train in train_speed.items():
 
 ---
 
-**88.**
+**116.**
 
 What is the expected output of the following code?
 
@@ -2128,7 +2128,7 @@ print(points)
 
 ---
 
-**152.**
+**117.**
 
 What is the value of [10, 20, 30][1]?
 
@@ -2142,7 +2142,7 @@ What is the value of [10, 20, 30][1]?
 
 ---
 
-**153.**
+**118.**
 
 What is the value of [10, 20, 30][-1]?
 
@@ -2156,7 +2156,7 @@ What is the value of [10, 20, 30][-1]?
 
 ---
 
-**154.**
+**119.**
 
 What is the result of [1, 2, 3][1:]?
 
@@ -2170,7 +2170,7 @@ What is the result of [1, 2, 3][1:]?
 
 ---
 
-**155.**
+**120.**
 
 What is the result of [1, 2, 3][:2]?
 
@@ -2184,7 +2184,7 @@ What is the result of [1, 2, 3][:2]?
 
 ---
 
-**156.**
+**121.**
 
 What is printed after items = [1, 2]; items.append(3)?
 
@@ -2198,7 +2198,7 @@ What is printed after items = [1, 2]; items.append(3)?
 
 ---
 
-**157.**
+**122.**
 
 What is printed after items = [1, 2]; items.insert(1, 9)?
 
@@ -2212,7 +2212,7 @@ What is printed after items = [1, 2]; items.insert(1, 9)?
 
 ---
 
-**158.**
+**123.**
 
 What does len([4, 5, 6, 7]) return?
 
@@ -2226,7 +2226,7 @@ What does len([4, 5, 6, 7]) return?
 
 ---
 
-**159.**
+**124.**
 
 What does sorted([3, 1, 2]) return?
 
@@ -2240,7 +2240,7 @@ What does sorted([3, 1, 2]) return?
 
 ---
 
-**160.**
+**125.**
 
 What is [1, 2, 3] after del items[1]?
 
@@ -2254,7 +2254,7 @@ What is [1, 2, 3] after del items[1]?
 
 ---
 
-**161.**
+**126.**
 
 Which two expressions are true for [1, 2, 3]?
 
@@ -2270,7 +2270,7 @@ Which two expressions are true for [1, 2, 3]?
 
 ---
 
-**162.**
+**127.**
 
 What is [x * 2 for x in range(3)]?
 
@@ -2284,7 +2284,7 @@ What is [x * 2 for x in range(3)]?
 
 ---
 
-**163.**
+**128.**
 
 What is matrix[1][0] for matrix = [[1, 2], [3, 4]]?
 
@@ -2298,7 +2298,7 @@ What is matrix[1][0] for matrix = [[1, 2], [3, 4]]?
 
 ---
 
-**164.**
+**129.**
 
 A slice copy is made with original[:] . If copy.append(3), what is len(original) for original = [1, 2]?
 
@@ -2312,7 +2312,7 @@ A slice copy is made with original[:] . If copy.append(3), what is len(original)
 
 ---
 
-**165.**
+**130.**
 
 If alias = original and alias.append(3), what is len(original) for original = [1, 2]?
 
@@ -2326,7 +2326,7 @@ If alias = original and alias.append(3), what is len(original) for original = [1
 
 ---
 
-**166.**
+**131.**
 
 What is the result of (1, 2, 3)[-2]?
 
@@ -2340,7 +2340,7 @@ What is the result of (1, 2, 3)[-2]?
 
 ---
 
-**167.**
+**132.**
 
 Which two statements about tuples are true?
 
@@ -2356,7 +2356,7 @@ Which two statements about tuples are true?
 
 ---
 
-**168.**
+**133.**
 
 What creates a one-element tuple?
 
@@ -2370,7 +2370,7 @@ What creates a one-element tuple?
 
 ---
 
-**169.**
+**134.**
 
 What is the result of (1, 2) + (3,)?
 
@@ -2384,7 +2384,7 @@ What is the result of (1, 2) + (3,)?
 
 ---
 
-**170.**
+**135.**
 
 What is printed by person = {"name": "Ada", "age": 30}; print(person["name"])?
 
@@ -2398,7 +2398,7 @@ What is printed by person = {"name": "Ada", "age": 30}; print(person["name"])?
 
 ---
 
-**171.**
+**136.**
 
 Which statement adds or replaces the key "city"?
 
@@ -2412,7 +2412,7 @@ Which statement adds or replaces the key "city"?
 
 ---
 
-**172.**
+**137.**
 
 What is len({"a": 1, "b": 2})?
 
@@ -2426,7 +2426,7 @@ What is len({"a": 1, "b": 2})?
 
 ---
 
-**173.**
+**138.**
 
 Which two expressions test for the presence of a dictionary key?
 
@@ -2442,7 +2442,7 @@ Which two expressions test for the presence of a dictionary key?
 
 ---
 
-**174.**
+**139.**
 
 What does data.values() provide?
 
@@ -2456,7 +2456,7 @@ What does data.values() provide?
 
 ---
 
-**175.**
+**140.**
 
 What does a for key in data loop over for data = {"a": 1, "b": 2}?
 
@@ -2470,7 +2470,7 @@ What does a for key in data loop over for data = {"a": 1, "b": 2}?
 
 ---
 
-**176.**
+**141.**
 
 What is the result of "Python"[1:4]?
 
@@ -2484,7 +2484,7 @@ What is the result of "Python"[1:4]?
 
 ---
 
-**177.**
+**142.**
 
 What is the value of "hello"[-1]?
 
@@ -2500,7 +2500,7 @@ What is the value of "hello"[-1]?
 
 ### Block 4 — Functions and Exceptions (58 questions)
 
-**29.**
+**143.**
 
 What is the expected result of running the following code?
 
@@ -2532,7 +2532,7 @@ print(the_list[0])
 
 ---
 
-**30.**
+**144.**
 
 What is the expected result of running the following code?
 
@@ -2560,7 +2560,7 @@ print(variable)
 
 ---
 
-**31.**
+**145.**
 
 What is the expected output of the following code?
 
@@ -2580,7 +2580,7 @@ print(runner("Fermi")[2][2])
 
 ---
 
-**32.**
+**146.**
 
 What is the expected output of the following code?
 
@@ -2600,7 +2600,7 @@ print(runner(model ="Reluctance", 2019 [1]))
 
 ---
 
-**33.**
+**147.**
 
 What is the expected output of the following code?
 
@@ -2620,7 +2620,7 @@ print(runner("Volta", "Tension", 2019)[-1])
 
 ---
 
-**34.**
+**148.**
 
 What is the expected output of the following code?
 
@@ -2640,7 +2640,7 @@ print(runner(model="Furious", brand="Ampere") [1][1])
 
 ---
 
-**35.**
+**149.**
 
 What is true about exceptions and debugging? (Select two answers.)
 
@@ -2653,7 +2653,7 @@ What is true about exceptions and debugging? (Select two answers.)
 
 ---
 
-**36.**
+**150.**
 
 Which of the following are the names of Python passing argument styles?
 
@@ -2668,7 +2668,7 @@ Which of the following are the names of Python passing argument styles?
 
 ---
 
-**37.**
+**151.**
 
 What is the expected result of the following code?
 
@@ -2693,7 +2693,7 @@ print(new_speed)
 
 ---
 
-**38.**
+**152.**
 
 What is the expected result of the following code?
 
@@ -2718,7 +2718,7 @@ print(new_speed)
 
 ---
 
-**39.**
+**153.**
 
 What is the expected result of the following code?
 
@@ -2743,7 +2743,7 @@ print(new_speed)
 
 ---
 
-**40.**
+**154.**
 
 What is the expected output of the following code?
 
@@ -2766,7 +2766,7 @@ print(traverse(2))
 
 ---
 
-**41.**
+**155.**
 
 Which TWO of the following functions can be invoked with two arguments? *(Adapted replacement: the original form renders its options as images, which are not present in this text copy.)*
 
@@ -2779,7 +2779,7 @@ Which TWO of the following functions can be invoked with two arguments? *(Adapte
 
 ---
 
-**46.**
+**156.**
 
 Which of the following sentences are true?
 
@@ -2794,7 +2794,7 @@ Which of the following sentences are true?
 
 ---
 
-**47.**
+**157.**
 
 try:
 
@@ -2820,7 +2820,7 @@ Given the above lines of code, which word should be used to replace  Python in o
 
 ---
 
-**48.**
+**158.**
 
 What is true about exceptions in Python?
 
@@ -2835,7 +2835,7 @@ What is true about exceptions in Python?
 
 ---
 
-**49.**
+**159.**
 
 What is the expected output of the following code?
 
@@ -2860,7 +2860,7 @@ count(3)
 
 ---
 
-**52.**
+**160.**
 
 Which of the following functions can be invoked with one argument ?
 
@@ -2873,7 +2873,7 @@ Which of the following functions can be invoked with one argument ?
 
 ---
 
-**53.**
+**161.**
 
 Which of the following are the names of Python passing argument styles? (Select two)
 
@@ -2886,7 +2886,7 @@ Which of the following are the names of Python passing argument styles? (Select 
 
 ---
 
-**54.**
+**162.**
 
 What is the expected result of the following code?
 
@@ -2923,7 +2923,7 @@ print(variable)
 
 ---
 
-**55.**
+**163.**
 
 What is true about exceptions and debugging? (Select two answers)
 
@@ -2936,7 +2936,7 @@ What is true about exceptions and debugging? (Select two answers)
 
 ---
 
-**59.**
+**164.**
 
 What is the expected results of running the following code?
 
@@ -2971,7 +2971,7 @@ print(variable)
 
 ---
 
-**73.**
+**165.**
 
 What is the expected result of the following code?
 
@@ -2996,7 +2996,7 @@ print (total)
 
 ---
 
-**74.**
+**166.**
 
 What is the expected result of the following code?
 
@@ -3020,7 +3020,7 @@ print (result[-2])
 
 ---
 
-**75.**
+**167.**
 
 What is the expected output of the following code?
 
@@ -3043,7 +3043,7 @@ print(walk(2))
 
 ---
 
-**76.**
+**168.**
 
 Which TWO of the following functions can be invoked with three arguments?
 
@@ -3056,7 +3056,7 @@ Which TWO of the following functions can be invoked with three arguments?
 
 ---
 
-**77.**
+**169.**
 
 Which of the following functions can be invoked with two arguments?
 
@@ -3069,7 +3069,7 @@ Which of the following functions can be invoked with two arguments?
 
 ---
 
-**78.**
+**170.**
 
 What is the expected output of the following code?
 
@@ -3090,7 +3090,7 @@ print(combine (2) [0] )
 
 ---
 
-**81.**
+**171.**
 
 What is the expected result of running the following code?
 
@@ -3119,7 +3119,7 @@ print(the_list[0])
 
 ---
 
-**89.**
+**172.**
 
 What is true about exceptions in Python? Select 2
 
@@ -3132,7 +3132,7 @@ What is true about exceptions in Python? Select 2
 
 ---
 
-**90.**
+**173.**
 
 What of the following sentences are true? Select two answers
 
@@ -3145,7 +3145,7 @@ What of the following sentences are true? Select two answers
 
 ---
 
-**91.**
+**174.**
 
 What of the following functions can be invoked with three arguments?
 
@@ -3158,7 +3158,7 @@ What of the following functions can be invoked with three arguments?
 
 ---
 
-**93.**
+**175.**
 
 Which of the following code snippets correctly define a function which returns its only argument doubled ?
 
@@ -3171,7 +3171,7 @@ Which of the following code snippets correctly define a function which returns i
 
 ---
 
-**94.**
+**176.**
 
 What is the output of this code?
 
@@ -3193,7 +3193,7 @@ print(iterate(2))
 
 ---
 
-**97.**
+**177.**
 
 Which of the following functions can be invoked without arguments?
 
@@ -3534,6 +3534,7 @@ What is printed when a missing dictionary key is caught by except KeyError?
 
 ---
 
+
 ## Answer Key
 
 1. **B**
@@ -3541,178 +3542,178 @@ What is printed when a missing dictionary key is caught by except KeyError?
 3. **B**
 4. **B,C**
 5. **A**
-6. **D**
-7. **C**
-8. **B**
-9. **D**
+6. **B**
+7. **D**
+8. **D**
+9. **C**
 10. **C**
 11. **D**
-12. **B**
-13. **A**
-14. **B**
-15. **D**
+12. **A,B**
+13. **A,B**
+14. **B,C**
+15. **A,B**
 16. **C**
-17. **B,D**
-18. **B,D**
-19. **A,D**
-20. **A,B**
-21. **A,B**
+17. **D**
+18. **B**
+19. **B**
+20. **C**
+21. **B**
 22. **C**
-23. **A**
-24. **C,D**
-25. **B**
-26. **B**
-27. **C**
-28. **B**
-29. **B**
+23. **B**
+24. **C**
+25. **D**
+26. **A**
+27. **D**
+28. **A**
+29. **A**
 30. **B**
 31. **A**
 32. **B**
 33. **B**
-34. **D**
-35. **A,C**
-36. **A,D**
-37. **D**
-38. **A**
-39. **D**
-40. **B**
-41. **A,B**
+34. **B**
+35. **C**
+36. **C**
+37. **C**
+38. **B**
+39. **A,B**
+40. **D**
+41. **C**
 42. **B**
-43. **B**
-44. **B**
-45. **B,D**
-46. **A,C,D**
-47. **A**
-48. **B,C**
+43. **D**
+44. **C**
+45. **D**
+46. **B**
+47. **B**
+48. **B**
 49. **B**
-50. **A,D**
-51. **A,C**
-52. **D**
-53. **B,C**
-54. **A**
-55. **B,D**
-56. **D**
+50. **A**
+51. **B**
+52. **B**
+53. **B**
+54. **C**
+55. **D**
+56. **A**
 57. **D**
-58. **C**
-59. **C**
+58. **D**
+59. **B**
 60. **A**
-61. **B**
-62. **A**
-63. **C**
-64. **D**
+61. **D**
+62. **C**
+63. **A**
+64. **B**
 65. **B**
-66. **B**
-67. **B**
-68. **C**
-69. **C**
-70. **B**
-71. **A,B**
-72. **A,C**
-73. **D**
-74. **D**
-75. **B**
-76. **A,C**
-77. **D**
-78. **B**
-79. **A,C**
-80. **D**
-81. **B**
-82. **A,B**
-83. **A,B**
-84. **B,C**
-85. **A,B**
-86. **A**
-87. **A**
-88. **D**
-89. **A,C**
-90. **C,D**
+66. **A**
+67. **C**
+68. **A**
+69. **B**
+70. **C**
+71. **C**
+72. **B**
+73. **A**
+74. **A**
+75. **C**
+76. **C**
+77. **A,C**
+78. **A,C**
+79. **D**
+80. **B**
+81. **C**
+82. **C**
+83. **B**
+84. **B**
+85. **C**
+86. **B**
+87. **B**
+88. **A,C**
+89. **D**
+90. **A**
 91. **B**
 92. **D**
-93. **D**
-94. **C**
-95. **D**
-96. **B**
-97. **B**
-98. **A**
-99. **D**
-100. **C**
-101. **A**
-102. **C**
-103. **D**
-104. **B**
+93. **C**
+94. **B,D**
+95. **B,D**
+96. **A,D**
+97. **A,B**
+98. **A,B**
+99. **C**
+100. **A**
+101. **C,D**
+102. **B**
+103. **B**
+104. **C**
 105. **B**
-106. **C**
-107. **B**
-108. **C**
-109. **B**
+106. **B,D**
+107. **A,D**
+108. **A,C**
+109. **A**
 110. **C**
-111. **D**
-112. **A**
-113. **D**
-114. **A**
+111. **B**
+112. **A,B**
+113. **A,C**
+114. **A,C**
 115. **A**
-116. **B**
-117. **A**
-118. **B**
+116. **D**
+117. **B**
+118. **C**
 119. **B**
-120. **B**
+120. **C**
 121. **C**
-122. **C**
-123. **C**
+122. **B**
+123. **B**
 124. **B**
-125. **A,B**
-126. **B**
+125. **C**
+126. **A,C**
 127. **B**
-128. **A**
-129. **C**
-130. **A**
-131. **B**
+128. **C**
+129. **B**
+130. **C**
+131. **A,C**
 132. **C**
-133. **C**
-134. **B**
+133. **A**
+134. **A**
 135. **A**
-136. **A**
-137. **C**
-138. **C**
-139. **A,C**
-140. **A,C**
-141. **D**
-142. **B**
-143. **C**
-144. **C**
-145. **B**
+136. **B**
+137. **B**
+138. **A,B**
+139. **C**
+140. **B**
+141. **B**
+142. **C**
+143. **B**
+144. **B**
+145. **A**
 146. **B**
-147. **C**
-148. **B**
-149. **B**
-150. **A,C**
+147. **B**
+148. **D**
+149. **A,C**
+150. **A,D**
 151. **D**
-152. **B**
-153. **C**
+152. **A**
+153. **D**
 154. **B**
-155. **C**
-156. **C**
-157. **B**
-158. **B**
+155. **A,B**
+156. **A,C,D**
+157. **A**
+158. **B,C**
 159. **B**
-160. **C**
-161. **A,C**
-162. **B**
-163. **C**
-164. **B**
-165. **C**
-166. **A,C**
-167. **C**
-168. **A**
-169. **A**
-170. **A**
+160. **D**
+161. **B,C**
+162. **A**
+163. **B,D**
+164. **C**
+165. **D**
+166. **D**
+167. **B**
+168. **A,C**
+169. **D**
+170. **B**
 171. **B**
-172. **B**
-173. **A,B**
-174. **C**
-175. **B**
-176. **B**
-177. **C**
+172. **A,C**
+173. **C,D**
+174. **B**
+175. **D**
+176. **C**
+177. **B**
 178. **C**
 179. **C**
 180. **C**

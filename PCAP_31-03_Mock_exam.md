@@ -15,7 +15,7 @@
 
 ## Questions
 
-### Section Modules and Packages (24)
+### Section 1 — Modules and Packages (24)
 
 **1.** Given `import math as m`, which expression calculates the square root of 49?
 
@@ -59,7 +59,6 @@ B. `random()` may return exactly `1.0`.
 C. Resetting the same seed before the same random call reproduces its result.  
 D. `choice([1, 2, 3])` returns a two-element list.
 
-### Section 2 — Exceptions (5)
 
 **7.** With `import math as m`, which expression returns the square root of 36?
 
@@ -68,21 +67,21 @@ B. math.sqrt(36)
 C. sqrt(m, 36)
 D. from m import sqrt(36)
 
-**8.** Given `from math import floor as down`, which call is valid?
+**8.** After `from math import floor as down`, which option calls the alias directly?
 
 A. math.floor(4.8)
 B. floor(4.8)
 C. math.down(4.8)
 D. down(4.8)
 
-**9.** What information is stored in `sys.path`?
+**9.** While investigating imports, what does Python use `sys.path` for?
 
 A. The current process ID
 B. The version history of the interpreter
 C. Locations Python searches when importing modules
 D. Names of all imported modules
 
-**10.** What does `dir(some_module)` normally provide?
+**10.** Which built-in helps inspect the available names on a module?
 
 A. A list of every installed package version
 B. Names defined or available on the module
@@ -96,14 +95,14 @@ B. `__main__`
 C. `main`
 D. An empty string
 
-**12.** Which statement about `random.sample(population, k)` is correct?
+**12.** Which property distinguishes `random.sample` from `random.choice`?
 
 A. It always returns the same values without seeding
 B. It can return more items than the population contains
 C. It changes the population list in place
 D. It returns `k` selections without replacement
 
-**13.** Which statement about `math.ceil(3.2)` is correct?
+**13.** What is the rounding behavior of `math.ceil` for 3.2?
 
 A. It returns the integer 3
 B. It raises `ValueError`
@@ -117,21 +116,21 @@ B. calc.sqrt(36)
 C. math.sqrt(36)
 D. sqrt(calc, 36)
 
-**15.** Given `from math import floor as down`, which call is valid?
+**15.** You imported `floor` under the name `down`; which call should the caller use?
 
 A. down(4.8)
 B. math.floor(4.8)
 C. floor(4.8)
 D. math.down(4.8)
 
-**16.** What information is stored in `sys.path`?
+**16.** Which runtime setting lists directories searched for imports?
 
 A. Names of all imported modules
 B. The current process ID
 C. The version history of the interpreter
 D. Locations Python searches when importing modules
 
-**17.** What does `dir(some_module)` normally provide?
+**17.** When exploring a module interactively, what does `dir(module)` list?
 
 A. Only names imported from the operating system
 B. A list of every installed package version
@@ -145,14 +144,14 @@ B. `helper1`
 C. `__main__`
 D. `main`
 
-**19.** Which statement about `random.sample(population, k)` is correct?
+**19.** How does `random.sample(population, k)` select its results?
 
 A. It returns `k` selections without replacement
 B. It always returns the same values without seeding
 C. It can return more items than the population contains
 D. It changes the population list in place
 
-**20.** Which statement about `math.ceil(3.2)` is correct?
+**20.** For a positive non-integer input such as 3.2, what does `math.ceil` do?
 
 A. It returns the float 3.2
 B. It returns the integer 3
@@ -166,28 +165,28 @@ B. from lib import sqrt(36)
 C. lib.sqrt(36)
 D. math.sqrt(36)
 
-**22.** Given `from math import floor as down`, which call is valid?
+**22.** For the alias `down` created by the import, which expression is a valid call?
 
 A. math.down(4.8)
 B. down(4.8)
 C. math.floor(4.8)
 D. floor(4.8)
 
-**23.** What information is stored in `sys.path`?
+**23.** Where can you inspect the locations Python searches for modules?
 
 A. Locations Python searches when importing modules
 B. Names of all imported modules
 C. The current process ID
 D. The version history of the interpreter
 
-**24.** What does `dir(some_module)` normally provide?
+**24.** Which call lists names available on a module object?
 
 A. The module source as executable bytecode
 B. Only names imported from the operating system
 C. A list of every installed package version
 D. Names defined or available on the module
 
-### Section Exceptions (28)
+### Section 2 — Exceptions (28)
 
 **25.** What is printed?
 
@@ -280,172 +279,171 @@ class DataError:
     raise Exception
 ```
 
-### Section 3 — Strings (8)
 
-**30.** To ensure `ValueError` is caught before `Exception`, how should the handlers be ordered?
+**30.** A handler set includes both `ValueError` and its parent `Exception`. Which should appear first?
 
 A. Put `except ValueError` before `except Exception`
 B. Put `except Exception` first
 C. Put the handlers in separate `try` blocks only
 D. Handler order never matters
 
-**31.** When does a `finally` block run in ordinary `try`/`except` flow?
+**31.** Which guarantee does a `finally` suite provide during cleanup?
 
 A. Only when an exception is unhandled
 B. Only when the try block succeeds
 C. Only when `else` is present
 D. After the try/except handling, whether or not an exception occurred
 
-**32.** What does a bare `raise` inside an active `except` block do?
+**32.** Inside an exception handler, how can code propagate the same exception again?
 
 A. Suppresses the exception
 B. Returns from the function
 C. Re-raises the currently handled exception
 D. Raises a new `ValueError`
 
-**33.** Which is a valid custom exception definition?
+**33.** Which class declaration creates a user-defined exception type?
 
 A. `class RecordError: Exception`
 B. `class RecordError(Exception): pass`
 C. `exception RecordError: pass`
 D. `def RecordError(Exception): pass`
 
-**34.** What exception does `int("12x")` raise?
+**34.** What exception results when integer conversion receives non-numeric text?
 
 A. `ValueError`
 B. `TypeError`
 C. `IndexError`
 D. `KeyError`
 
-**35.** What is the effect of `assert total >= 0, "negative"` when the condition is false?
+**35.** A failed `assert` statement raises what exception?
 
 A. It prints the message and continues
 B. It raises `ValueError`
 C. It silently sets `total` to zero
 D. It raises `AssertionError` with the supplied message
 
-**36.** Which header catches either `OSError` or `ValueError` in one handler?
+**36.** How can one `except` clause match either of two exception classes?
 
 A. `except OSError, ValueError:`
 B. `except [OSError, ValueError]:`
 C. `except (OSError, ValueError):`
 D. `except OSError or ValueError:`
 
-**37.** If an exception is not caught in the current function, what normally happens?
+**37.** What normally happens when a function does not handle an exception it encounters?
 
 A. It restarts the function
 B. It propagates to the caller
 C. It is converted to `None`
 D. It is caught automatically by `finally`
 
-**38.** To ensure `ValueError` is caught before `Exception`, how should the handlers be ordered?
+**38.** How do you prevent a broad `Exception` handler from swallowing a `ValueError` handler?
 
 A. Put `except ValueError` before `except Exception`
 B. Put `except Exception` first
 C. Put the handlers in separate `try` blocks only
 D. Handler order never matters
 
-**39.** When does a `finally` block run in ordinary `try`/`except` flow?
+**39.** After a `try` statement completes, when is its `finally` suite executed?
 
 A. Only when an exception is unhandled
 B. Only when the try block succeeds
 C. Only when `else` is present
 D. After the try/except handling, whether or not an exception occurred
 
-**40.** What does a bare `raise` inside an active `except` block do?
+**40.** What does a no-argument `raise` do while handling an exception?
 
 A. Suppresses the exception
 B. Returns from the function
 C. Re-raises the currently handled exception
 D. Raises a new `ValueError`
 
-**41.** Which is a valid custom exception definition?
+**41.** How should a domain-specific exception class be declared?
 
 A. `class RecordError: Exception`
 B. `class RecordError(Exception): pass`
 C. `exception RecordError: pass`
 D. `def RecordError(Exception): pass`
 
-**42.** What exception does `int("12x")` raise?
+**42.** Which built-in exception reports a string that cannot be parsed by `int`?
 
 A. `ValueError`
 B. `TypeError`
 C. `IndexError`
 D. `KeyError`
 
-**43.** What is the effect of `assert total >= 0, "negative"` when the condition is false?
+**43.** What exception signals that an assertion condition evaluated false?
 
 A. It prints the message and continues
 B. It raises `ValueError`
 C. It silently sets `total` to zero
 D. It raises `AssertionError` with the supplied message
 
-**44.** Which header catches either `OSError` or `ValueError` in one handler?
+**44.** Which syntax groups exception types for a single handler?
 
 A. `except OSError, ValueError:`
 B. `except [OSError, ValueError]:`
 C. `except (OSError, ValueError):`
 D. `except OSError or ValueError:`
 
-**45.** If an exception is not caught in the current function, what normally happens?
+**45.** If no handler matches an exception locally, where does Python look next?
 
 A. It restarts the function
 B. It propagates to the caller
 C. It is converted to `None`
 D. It is caught automatically by `finally`
 
-**46.** To ensure `ValueError` is caught before `Exception`, how should the handlers be ordered?
+**46.** When arranging handlers for a possible `ValueError`, what is the correct order relative to `Exception`?
 
 A. Put `except ValueError` before `except Exception`
 B. Put `except Exception` first
 C. Put the handlers in separate `try` blocks only
 D. Handler order never matters
 
-**47.** When does a `finally` block run in ordinary `try`/`except` flow?
+**47.** A function opens a file inside `try`. Which clause is appropriate for cleanup on success or failure?
 
 A. Only when an exception is unhandled
 B. Only when the try block succeeds
 C. Only when `else` is present
 D. After the try/except handling, whether or not an exception occurred
 
-**48.** What does a bare `raise` inside an active `except` block do?
+**48.** Which statement rethrows the active exception without changing its type?
 
 A. Suppresses the exception
 B. Returns from the function
 C. Re-raises the currently handled exception
 D. Raises a new `ValueError`
 
-**49.** Which is a valid custom exception definition?
+**49.** Which example correctly extends Python’s exception hierarchy?
 
 A. `class RecordError: Exception`
 B. `class RecordError(Exception): pass`
 C. `exception RecordError: pass`
 D. `def RecordError(Exception): pass`
 
-**50.** What exception does `int("12x")` raise?
+**50.** Calling `int` on malformed numeric text raises which exception?
 
 A. `ValueError`
 B. `TypeError`
 C. `IndexError`
 D. `KeyError`
 
-**51.** What is the effect of `assert total >= 0, "negative"` when the condition is false?
+**51.** If `total` is below zero, what does the shown assertion raise?
 
 A. It prints the message and continues
 B. It raises `ValueError`
 C. It silently sets `total` to zero
 D. It raises `AssertionError` with the supplied message
 
-**52.** Which header catches either `OSError` or `ValueError` in one handler?
+**52.** To share a handler for `OSError` and `ValueError`, what form is valid?
 
 A. `except OSError, ValueError:`
 B. `except [OSError, ValueError]:`
 C. `except (OSError, ValueError):`
 D. `except OSError or ValueError:`
 
-### Section Strings (36)
+### Section 3 — Strings (36)
 
-**53.** What does `ord("A")` return?
+**53.** Which type of result does `ord` produce for the character A?
 
 A. The string `"65"`  
 B. The integer code point for `A`  
@@ -515,7 +513,6 @@ B. `"python".index("z")` returns `-1`.
 C. `"python".index("z")` raises `ValueError`.  
 D. `sorted("cab")` returns the string `"abc"`.
 
-### Section 4 — Object-Oriented Programming (12)
 
 **61.** What does `"Python"[-1]` return?
 
@@ -531,7 +528,7 @@ B. `ytho`
 C. The original string
 D. `yth`
 
-**63.** What happens when code assigns to `text[0]` for a string `text`?
+**63.** Why does `text[0] = "X"` fail when `text` is a string?
 
 A. A new list is created
 B. The assignment is ignored
@@ -545,28 +542,28 @@ B. -1
 C. 0
 D. `None`
 
-**65.** What does `"a,b,c".split(",")` return?
+**65.** Which object is returned by splitting the comma-delimited text shown?
 
 A. `["a", "b", "c"]`
 B. `"abc"`
 C. `("a", "b", "c")`
 D. `["a,b,c"]`
 
-**66.** What does `"-".join(["red", "blue"])` return?
+**66.** What value is assembled when `join` uses a hyphen separator?
 
 A. `"-red-blue-"`
 B. `["red", "blue"]`
 C. `"redblue"`
 D. `"red-blue"`
 
-**67.** What does `ord("A")` return?
+**67.** What does `ord` compute from a one-character string?
 
 A. The character after `A`
 B. A UTF-8 byte sequence
 C. The integer Unicode code point for `A`
 D. The string `"65"`
 
-**68.** What does `chr(65)` return?
+**68.** What is the output type of `chr(9731)`?
 
 A. `None`
 B. The one-character string `"A"`
@@ -594,7 +591,7 @@ B. The original string
 C. `odi`
 D. `codi`
 
-**72.** What happens when code assigns to `text[0]` for a string `text`?
+**72.** A program tries to replace one character in a string by index. What occurs?
 
 A. The assignment is ignored
 B. A `TypeError` is raised because strings are immutable
@@ -608,28 +605,28 @@ B. 0
 C. `None`
 D. It raises `ValueError`
 
-**74.** What does `"a,b,c".split(",")` return?
+**74.** After separating a string at each comma, what kind of result does `split` produce?
 
 A. `"abc"`
 B. `("a", "b", "c")`
 C. `["a,b,c"]`
 D. `["a", "b", "c"]`
 
-**75.** What does `"-".join(["red", "blue"])` return?
+**75.** How does the string separator combine the two words in this expression?
 
 A. `["red", "blue"]`
 B. `"redblue"`
 C. `"red-blue"`
 D. `"-red-blue-"`
 
-**76.** What does `ord("A")` return?
+**76.** The `ord` built-in maps a character to which kind of value?
 
 A. A UTF-8 byte sequence
 B. The integer Unicode code point for `A`
 C. The string `"65"`
 D. The character after `A`
 
-**77.** What does `chr(65)` return?
+**77.** Which kind of object does `chr` return for a valid code point?
 
 A. The one-character string `"A"`
 B. The integer 65
@@ -657,7 +654,7 @@ B. `odu`
 C. `modu`
 D. `odul`
 
-**81.** What happens when code assigns to `text[0]` for a string `text`?
+**81.** What does Python do when an assignment targets an existing string character?
 
 A. A `TypeError` is raised because strings are immutable
 B. The first character changes
@@ -671,28 +668,28 @@ B. `None`
 C. It raises `ValueError`
 D. -1
 
-**83.** What does `"a,b,c".split(",")` return?
+**83.** What is the result type and content of the shown `split` call?
 
 A. `("a", "b", "c")`
 B. `["a,b,c"]`
 C. `["a", "b", "c"]`
 D. `"abc"`
 
-**84.** What does `"-".join(["red", "blue"])` return?
+**84.** What string is produced by joining the listed words with `-`?
 
 A. `"redblue"`
 B. `"red-blue"`
 C. `"-red-blue-"`
 D. `["red", "blue"]`
 
-**85.** What does `ord("A")` return?
+**85.** What kind of value is returned by `ord("A")`?
 
 A. The integer Unicode code point for `A`
 B. The string `"65"`
 C. The character after `A`
 D. A UTF-8 byte sequence
 
-**86.** What does `chr(65)` return?
+**86.** What value does `chr(65)` produce?
 
 A. The integer 65
 B. The bytes object `b"A"`
@@ -713,7 +710,7 @@ B. `g`
 C. `s`
 D. An empty string
 
-### Section Object-Oriented Programming (68)
+### Section 4 — Object-Oriented Programming (68)
 
 **89.** In OOP, what is an object created from a class?
 
@@ -861,7 +858,6 @@ B. `Ada`
 C. `__str__`  
 D. `None`
 
-### Section 5 — Miscellaneous (9)
 
 **101.** An object created from class `Device` is best described as what?
 
@@ -870,7 +866,7 @@ B. A package
 C. A module-level variable
 D. A superclass
 
-**102.** When `obj.show()` calls an ordinary instance method, what is passed as its first argument?
+**102.** When `account.deposit()` is called, what does the first parameter of the instance method receive?
 
 A. The class name as a string
 B. The method return value
@@ -884,35 +880,35 @@ B. `__bases__`
 C. `__init__`
 D. `__str__`
 
-**104.** Where is a normal instance attribute such as `self.value` stored?
+**104.** For a regular `Account` object, where is `self.balance` stored?
 
 A. In the function’s local variables forever
 B. In that instance’s attribute namespace
 C. Only in the base class
 D. In `sys.path`
 
-**105.** What is the usual effect of defining an attribute as `self.__value` inside class `Box`?
+**105.** Inside class `Vault`, what does the `self.__pin` spelling trigger?
 
 A. Its name is mangled to include the class name
 B. It becomes a true inaccessible private field
 C. It is converted into a class variable
 D. It is deleted after `__init__`
 
-**106.** A subclass defines a method with the same name as a superclass method. Which implementation is normally selected on a subclass instance?
+**106.** When `Child.render` overrides `Parent.render`, which method is used for a `Child` object?
 
 A. The superclass implementation always
 B. Both implementations are skipped
 C. Python reports an error at class definition
 D. The subclass implementation
 
-**107.** What does `isinstance(child, Parent)` return when `Child` inherits from `Parent`?
+**107.** If `Car` derives from `Vehicle`, what does `isinstance(car, Vehicle)` return?
 
 A. The class name `"Parent"`
 B. A `TypeError`
 C. `True`
 D. `False`
 
-**108.** What does `hasattr(obj, "name")` check?
+**108.** How can code test whether `user` exposes an attribute named `email`?
 
 A. Whether `name` appears in `sys.path`
 B. Whether `obj` provides an attribute named `name`
@@ -926,35 +922,35 @@ B. The class’s base classes
 C. The module search path
 D. The instance dictionary
 
-**110.** What does an object’s `__dict__` normally expose for a regular user-defined class?
+**110.** What mapping is available through `vars(obj)` for an ordinary instance?
 
 A. All methods of every superclass
 B. The source file as bytes
 C. The object’s method call history
 D. A mapping of the object’s stored attributes
 
-**111.** If `self.count` is assigned on one instance, what happens to another instance’s `count`?
+**111.** Assigning `first.count = 3` on one instance affects what about `second.count`?
 
 A. The class is automatically renamed
 B. The assignment raises `AttributeError`
 C. It is unaffected unless it has its own update
 D. It is always changed too
 
-**112.** What does `super()` commonly help a subclass method do?
+**112.** What is the usual purpose of `super()` in an overridden method?
 
 A. Skip the parent class permanently
 B. Call the next implementation in the method resolution order
 C. Create a new superclass
 D. Make all attributes private
 
-**113.** What does a class’s `__bases__` attribute contain?
+**113.** For class `Child(Parent)`, what does `Child.__bases__` report?
 
 A. A tuple of its direct base classes
 B. Its instances
 C. Its source-code lines
 D. Its class variables only
 
-**114.** If a class does not define `__str__`, what does `str(instance)` use?
+**114.** If a custom class has no `__str__`, what supplies `str(obj)`?
 
 A. The class’s `__init__` return value
 B. The value of `self.__dict__` as a list
@@ -968,7 +964,7 @@ B. A superclass
 C. An instance of the class
 D. A package
 
-**116.** When `obj.show()` calls an ordinary instance method, what is passed as its first argument?
+**116.** A bound call `vehicle.start()` supplies what as the method’s first argument?
 
 A. No argument
 B. The instance `obj`
@@ -982,35 +978,35 @@ B. `__str__`
 C. `__name__`
 D. `__bases__`
 
-**118.** Where is a normal instance attribute such as `self.value` stored?
+**118.** Where does an instance keep an attribute assigned through `self.name`?
 
 A. Only in the base class
 B. In `sys.path`
 C. In the function’s local variables forever
 D. In that instance’s attribute namespace
 
-**119.** What is the usual effect of defining an attribute as `self.__value` inside class `Box`?
+**119.** How is an attribute named `self.__token` treated inside class `Session`?
 
 A. It is converted into a class variable
 B. It is deleted after `__init__`
 C. Its name is mangled to include the class name
 D. It becomes a true inaccessible private field
 
-**120.** A subclass defines a method with the same name as a superclass method. Which implementation is normally selected on a subclass instance?
+**120.** A subclass supplies its own `run` method. Which implementation does normal lookup find first?
 
 A. Python reports an error at class definition
 B. The subclass implementation
 C. The superclass implementation always
 D. Both implementations are skipped
 
-**121.** What does `isinstance(child, Parent)` return when `Child` inherits from `Parent`?
+**121.** For a `SavingsAccount` subclass instance, what does `isinstance(obj, Account)` report?
 
 A. `True`
 B. `False`
 C. The class name `"Parent"`
 D. A `TypeError`
 
-**122.** What does `hasattr(obj, "name")` check?
+**122.** Which built-in checks whether an object supplies a requested attribute?
 
 A. Whether `name` is a local variable
 B. Whether `obj` is callable
@@ -1024,35 +1020,35 @@ B. The instance dictionary
 C. `"Account"`
 D. The class’s base classes
 
-**124.** What does an object’s `__dict__` normally expose for a regular user-defined class?
+**124.** For a typical user-defined instance, what does its `__dict__` contain?
 
 A. The object’s method call history
 B. A mapping of the object’s stored attributes
 C. All methods of every superclass
 D. The source file as bytes
 
-**125.** If `self.count` is assigned on one instance, what happens to another instance’s `count`?
+**125.** If `self.label` changes on one object, what happens to another object’s label?
 
 A. It is unaffected unless it has its own update
 B. It is always changed too
 C. The class is automatically renamed
 D. The assignment raises `AttributeError`
 
-**126.** What does `super()` commonly help a subclass method do?
+**126.** How can a subclass delegate behavior to the next class in the MRO?
 
 A. Create a new superclass
 B. Make all attributes private
 C. Skip the parent class permanently
 D. Call the next implementation in the method resolution order
 
-**127.** What does a class’s `__bases__` attribute contain?
+**127.** Which property lists the direct parent classes of a class?
 
 A. Its source-code lines
 B. Its class variables only
 C. A tuple of its direct base classes
 D. Its instances
 
-**128.** If a class does not define `__str__`, what does `str(instance)` use?
+**128.** What is used for `str(instance)` when the class does not override `__str__`?
 
 A. An empty string
 B. The inherited default object representation
@@ -1066,7 +1062,7 @@ B. A package
 C. A module-level variable
 D. A superclass
 
-**130.** When `obj.show()` calls an ordinary instance method, what is passed as its first argument?
+**130.** In the call `item.describe()`, what is bound to the first parameter?
 
 A. The class name as a string
 B. The method return value
@@ -1080,35 +1076,35 @@ B. `__bases__`
 C. `__init__`
 D. `__str__`
 
-**132.** Where is a normal instance attribute such as `self.value` stored?
+**132.** If each `Widget` stores its own `size`, where is that value kept?
 
 A. In the function’s local variables forever
 B. In that instance’s attribute namespace
 C. Only in the base class
 D. In `sys.path`
 
-**133.** What is the usual effect of defining an attribute as `self.__value` inside class `Box`?
+**133.** What does a double-leading-underscore attribute such as `self.__key` undergo?
 
 A. Its name is mangled to include the class name
 B. It becomes a true inaccessible private field
 C. It is converted into a class variable
 D. It is deleted after `__init__`
 
-**134.** A subclass defines a method with the same name as a superclass method. Which implementation is normally selected on a subclass instance?
+**134.** How does method lookup behave when a subclass overrides a base-class method?
 
 A. The superclass implementation always
 B. Both implementations are skipped
 C. Python reports an error at class definition
 D. The subclass implementation
 
-**135.** What does `isinstance(child, Parent)` return when `Child` inherits from `Parent`?
+**135.** A `Square` is a subclass of `Shape`. What is `isinstance(square, Shape)`?
 
 A. The class name `"Parent"`
 B. A `TypeError`
 C. `True`
 D. `False`
 
-**136.** What does `hasattr(obj, "name")` check?
+**136.** What does `hasattr(config, "path")` determine?
 
 A. Whether `name` appears in `sys.path`
 B. Whether `obj` provides an attribute named `name`
@@ -1122,35 +1118,35 @@ B. The class’s base classes
 C. The module search path
 D. The instance dictionary
 
-**138.** What does an object’s `__dict__` normally expose for a regular user-defined class?
+**138.** What does an instance attribute dictionary map?
 
 A. All methods of every superclass
 B. The source file as bytes
 C. The object’s method call history
 D. A mapping of the object’s stored attributes
 
-**139.** If `self.count` is assigned on one instance, what happens to another instance’s `count`?
+**139.** Does an instance assignment to `self.count` automatically update every instance?
 
 A. The class is automatically renamed
 B. The assignment raises `AttributeError`
 C. It is unaffected unless it has its own update
 D. It is always changed too
 
-**140.** What does `super()` commonly help a subclass method do?
+**140.** What does a call to `super().method()` normally locate?
 
 A. Skip the parent class permanently
 B. Call the next implementation in the method resolution order
 C. Create a new superclass
 D. Make all attributes private
 
-**141.** What does a class’s `__bases__` attribute contain?
+**141.** What kind of value appears in `Widget.__bases__`?
 
 A. A tuple of its direct base classes
 B. Its instances
 C. Its source-code lines
 D. Its class variables only
 
-**142.** If a class does not define `__str__`, what does `str(instance)` use?
+**142.** Which implementation provides the usual string conversion for a plain object?
 
 A. The class’s `__init__` return value
 B. The value of `self.__dict__` as a list
@@ -1164,7 +1160,7 @@ B. A superclass
 C. An instance of the class
 D. A package
 
-**144.** When `obj.show()` calls an ordinary instance method, what is passed as its first argument?
+**144.** What does Python pass as the first parameter during `obj.show()`?
 
 A. No argument
 B. The instance `obj`
@@ -1178,35 +1174,35 @@ B. `__str__`
 C. `__name__`
 D. `__bases__`
 
-**146.** Where is a normal instance attribute such as `self.value` stored?
+**146.** Which namespace normally contains an object’s instance attributes?
 
 A. Only in the base class
 B. In `sys.path`
 C. In the function’s local variables forever
 D. In that instance’s attribute namespace
 
-**147.** What is the usual effect of defining an attribute as `self.__value` inside class `Box`?
+**147.** What happens to `self.__secret` when declared in class `Locker`?
 
 A. It is converted into a class variable
 B. It is deleted after `__init__`
 C. Its name is mangled to include the class name
 D. It becomes a true inaccessible private field
 
-**148.** A subclass defines a method with the same name as a superclass method. Which implementation is normally selected on a subclass instance?
+**148.** If a derived class replaces a method, which version is called on its instance?
 
 A. Python reports an error at class definition
 B. The subclass implementation
 C. The superclass implementation always
 D. Both implementations are skipped
 
-**149.** What does `isinstance(child, Parent)` return when `Child` inherits from `Parent`?
+**149.** When an object belongs to a subclass, how does `isinstance` treat its base class?
 
 A. `True`
 B. `False`
 C. The class name `"Parent"`
 D. A `TypeError`
 
-**150.** What does `hasattr(obj, "name")` check?
+**150.** To check an object for a `status` attribute, which function is intended?
 
 A. Whether `name` is a local variable
 B. Whether `obj` is callable
@@ -1220,42 +1216,42 @@ B. The instance dictionary
 C. `"Widget"`
 D. The class’s base classes
 
-**152.** What does an object’s `__dict__` normally expose for a regular user-defined class?
+**152.** Which values are normally stored in a regular object’s `__dict__`?
 
 A. The object’s method call history
 B. A mapping of the object’s stored attributes
 C. All methods of every superclass
 D. The source file as bytes
 
-**153.** If `self.count` is assigned on one instance, what happens to another instance’s `count`?
+**153.** When an object receives its own `count` attribute, what happens to the class attribute?
 
 A. It is unaffected unless it has its own update
 B. It is always changed too
 C. The class is automatically renamed
 D. The assignment raises `AttributeError`
 
-**154.** What does `super()` commonly help a subclass method do?
+**154.** In inheritance, what role does `super()` play?
 
 A. Create a new superclass
 B. Make all attributes private
 C. Skip the parent class permanently
 D. Call the next implementation in the method resolution order
 
-**155.** What does a class’s `__bases__` attribute contain?
+**155.** How can a class expose its immediate base classes for introspection?
 
 A. Its source-code lines
 B. Its class variables only
 C. A tuple of its direct base classes
 D. Its instances
 
-**156.** If a class does not define `__str__`, what does `str(instance)` use?
+**156.** What behavior does an instance inherit when it defines no `__str__` method?
 
 A. An empty string
 B. The inherited default object representation
 C. The class’s `__init__` return value
 D. The value of `self.__dict__` as a list
 
-### Section Miscellaneous (List Comprehensions, Lambdas, Closures, I/O) (44)
+### Section 5 — Miscellaneous (List Comprehensions, Lambdas, Closures, I/O) (44)
 
 **157.** What is printed?
 
@@ -1353,7 +1349,7 @@ B. [2, 4, 6]
 C. `range(3)`
 D. An empty list
 
-**167.** In `[x for x in range(6) if x % 2 == 0]`, which values are kept?
+**167.** What is the result of `[x for x in range(6) if x % 2 == 0]`?
 
 A. The odd values from 1 through 5
 B. All values including 6
@@ -1367,42 +1363,42 @@ B. A function object
 C. 5
 D. 6
 
-**169.** What does `list(map(lambda x: x + 1, [1, 2]))` return?
+**169.** What is `list(map(lambda x: x + 1, [1, 2]))`?
 
 A. A map object even after `list()`
 B. `[2, 3]`
 C. `[1, 2]`
 D. `[1, 1]`
 
-**170.** What does `list(filter(lambda x: x > 1, [0, 1, 2, 3]))` return?
+**170.** Which input values pass the predicate `x > 1` in the filter expression?
 
 A. `[2, 3]`
 B. `[0, 1]`
 C. `[True, True]`
 D. `[0, 1, 2, 3]`
 
-**171.** What type does `f.read()` normally return when `f` is opened in text mode?
+**171.** In normal text mode, which type does a file’s `read()` method return?
 
 A. `bytes`
 B. `bytearray`
 C. A list of characters
 D. `str`
 
-**172.** What type does `f.read()` normally return when `f` is opened in binary mode?
+**172.** For a file opened with mode `"rb"`, what type does `read()` return?
 
 A. `list`
 B. `None`
 C. `bytes`
 D. `str`
 
-**173.** What does a `with open(path) as f:` block arrange to do when the block exits?
+**173.** Which resource-management effect does `with open(...)` provide?
 
 A. Convert its content to bytes
 B. Close the file object
 C. Delete the file
 D. Rewind the file to the beginning
 
-**174.** Which statement about `bytearray` is correct?
+**174.** Which property of `bytearray` differs from immutable `bytes`?
 
 A. It is mutable
 B. It is immutable like `bytes`
@@ -1416,7 +1412,7 @@ B. `range(3)`
 C. An empty list
 D. [0, 3, 6]
 
-**176.** In `[x for x in range(6) if x % 2 == 0]`, which values are kept?
+**176.** What does `[x for x in range(0, 6, 2)]` produce?
 
 A. All values including 6
 B. Only 6
@@ -1430,47 +1426,57 @@ B. 6
 C. 9
 D. 3
 
-**178.** What does `list(map(lambda x: x + 1, [1, 2]))` return?
+**178.** What is `list(map(lambda x: x + 1, [2, 4]))`?
 
-A. `[2, 3]`
+A. `[3, 5]`
 B. `[1, 2]`
 C. `[1, 1]`
 D. A map object even after `list()`
 
-**179.** What does `list(filter(lambda x: x > 1, [0, 1, 2, 3]))` return?
+**179.** What is `list(filter(lambda x: x >= 2, [1, 2, 3, 4]))?
 
 A. `[0, 1]`
 B. `[True, True]`
 C. `[0, 1, 2, 3]`
-D. `[2, 3]`
+D. `[2, 3, 4]`
 
-**180.** What type does `f.read()` normally return when `f` is opened in text mode?
+**180.** What Python type represents content read from a text-mode file?
 
 A. `bytearray`
 B. A list of characters
 C. `str`
 D. `bytes`
 
-**181.** What type does `f.read()` normally return when `f` is opened in binary mode?
+**181.** What is returned by `read()` when a file is opened in binary mode?
 
 A. `None`
 B. `bytes`
 C. `str`
 D. `list`
 
-**182.** What does a `with open(path) as f:` block arrange to do when the block exits?
+**182.** When the file context ends, what cleanup does the context manager perform?
 
 A. Close the file object
 B. Delete the file
 C. Rewind the file to the beginning
 D. Convert its content to bytes
 
-**183.** Which statement about `bytearray` is correct?
+**183.** A closure remembers the enclosing `factor`. What does this call return?
 
-A. It is immutable like `bytes`
-B. It stores only Unicode text
-C. It cannot be indexed
-D. It is mutable
+```python
+def make_multiplier(factor):
+    def multiply(value):
+        return value * factor
+    return multiply
+
+triple = make_multiplier(3)
+print(triple(4))
+```
+
+A. 7
+B. 12
+C. 64
+D. An error
 
 **184.** What is `[x * 4 for x in range(3)]`?
 
@@ -1479,7 +1485,7 @@ B. An empty list
 C. [0, 4, 8]
 D. [4, 8, 12]
 
-**185.** In `[x for x in range(6) if x % 2 == 0]`, which values are kept?
+**185.** Which values are produced by `[x for x in range(5) if x % 2 != 1]`?
 
 A. Only 6
 B. The even values from 0 through 4
@@ -1493,47 +1499,60 @@ B. 12
 C. 4
 D. A function object
 
-**187.** What does `list(map(lambda x: x + 1, [1, 2]))` return?
+**187.** What is `list(map(lambda x: x + 1, [3, 5]))`?
 
 A. `[1, 2]`
 B. `[1, 1]`
 C. A map object even after `list()`
-D. `[2, 3]`
+D. `[4, 6]`
 
-**188.** What does `list(filter(lambda x: x > 1, [0, 1, 2, 3]))` return?
+**188.** What is `list(filter(lambda x: x % 2 == 0, [1, 2, 3, 4]))`?
 
 A. `[True, True]`
 B. `[0, 1, 2, 3]`
-C. `[2, 3]`
+C. `[2, 4]`
 D. `[0, 1]`
 
-**189.** What type does `f.read()` normally return when `f` is opened in text mode?
+**189.** When reading a text stream, what type is returned by `read()`?
 
 A. A list of characters
 B. `str`
 C. `bytes`
 D. `bytearray`
 
-**190.** What type does `f.read()` normally return when `f` is opened in binary mode?
+**190.** A byte-oriented file is read; what type is its result?
 
 A. `bytes`
 B. `str`
 C. `list`
 D. `None`
 
-**191.** What does a `with open(path) as f:` block arrange to do when the block exits?
+**191.** What happens automatically to the opened file after its `with` suite?
 
 A. Delete the file
 B. Rewind the file to the beginning
 C. Convert its content to bytes
 D. Close the file object
 
-**192.** Which statement about `bytearray` is correct?
+**192.** What does the closure return on its first call?
 
-A. It stores only Unicode text
-B. It cannot be indexed
-C. It is mutable
-D. It is immutable like `bytes`
+```python
+def make_counter(start):
+    count = start
+    def increment():
+        nonlocal count
+        count += 1
+        return count
+    return increment
+
+counter = make_counter(4)
+print(counter())
+```
+
+A. 4
+B. 6
+C. 5
+D. None
 
 **193.** What is `[x * 5 for x in range(3)]`?
 
@@ -1542,7 +1561,7 @@ B. [0, 5, 10]
 C. [5, 10, 15]
 D. `range(3)`
 
-**194.** In `[x for x in range(6) if x % 2 == 0]`, which values are kept?
+**194.** What does `[x * 2 for x in range(3)]` produce?
 
 A. The even values from 0 through 4
 B. The odd values from 1 through 5
@@ -1556,35 +1575,35 @@ B. 5
 C. A function object
 D. 8
 
-**196.** What does `list(map(lambda x: x + 1, [1, 2]))` return?
+**196.** What does `list(map(lambda x: x + 1, [0, 2]))` return?
 
 A. `[1, 1]`
 B. A map object even after `list()`
-C. `[2, 3]`
+C. `[1, 3]`
 D. `[1, 2]`
 
-**197.** What does `list(filter(lambda x: x > 1, [0, 1, 2, 3]))` return?
+**197.** What does `list(filter(lambda x: x < 3, [1, 2, 3, 4]))` return?
 
 A. `[0, 1, 2, 3]`
-B. `[2, 3]`
+B. `[1, 2]`
 C. `[0, 1]`
 D. `[True, True]`
 
-**198.** What type does `f.read()` normally return when `f` is opened in text mode?
+**198.** Which type does a decoded text file return from `f.read()`?
 
 A. `str`
 B. `bytes`
 C. `bytearray`
 D. A list of characters
 
-**199.** What type does `f.read()` normally return when `f` is opened in binary mode?
+**199.** Which type carries data returned from a binary stream?
 
 A. `str`
 B. `list`
 C. `None`
 D. `bytes`
 
-**200.** What does a `with open(path) as f:` block arrange to do when the block exits?
+**200.** Why is `with open(path) as f` useful for managing a file?
 
 A. Rewind the file to the beginning
 B. Convert its content to bytes
@@ -1770,26 +1789,26 @@ D. Delete the file
 175. **D** — The comprehension multiplies 0, 1 and 2 by the factor.
 176. **C** — The filter condition retains even values; `range(6)` stops before 6.
 177. **B** — The lambda is called with 3 and returns 3 plus the captured constant.
-178. **A** — `map` applies the lambda to each element.
-179. **D** — `filter` retains elements for which the predicate is true.
+178. **A** — Adding one to each element of [2, 4] gives [3, 5].
+179. **D** — The predicate keeps 2, 3, and 4.
 180. **C** — Text mode decodes file content to strings.
 181. **B** — Binary mode returns bytes.
 182. **A** — The context manager closes the file when the block exits.
-183. **D** — `bytearray` is a mutable sequence of byte values.
+183. **B** — The returned function closes over `factor`, so it calculates 3 × 4.
 184. **C** — The comprehension multiplies 0, 1 and 2 by the factor.
 185. **B** — The filter condition retains even values; `range(6)` stops before 6.
 186. **A** — The lambda is called with 3 and returns 3 plus the captured constant.
-187. **D** — `map` applies the lambda to each element.
-188. **C** — `filter` retains elements for which the predicate is true.
+187. **D** — Adding one to each element of [3, 5] gives [4, 6].
+188. **C** — The predicate keeps the even values 2 and 4.
 189. **B** — Text mode decodes file content to strings.
 190. **A** — Binary mode returns bytes.
 191. **D** — The context manager closes the file when the block exits.
-192. **C** — `bytearray` is a mutable sequence of byte values.
+192. **C** — The closure retains `count`; the first call increments 4 to 5.
 193. **B** — The comprehension multiplies 0, 1 and 2 by the factor.
 194. **A** — The filter condition retains even values; `range(6)` stops before 6.
 195. **D** — The lambda is called with 3 and returns 3 plus the captured constant.
-196. **C** — `map` applies the lambda to each element.
-197. **B** — `filter` retains elements for which the predicate is true.
+196. **C** — Adding one to each element of [0, 2] gives [1, 3].
+197. **B** — The predicate keeps 1 and 2.
 198. **A** — Text mode decodes file content to strings.
 199. **D** — Binary mode returns bytes.
 200. **C** — The context manager closes the file when the block exits.

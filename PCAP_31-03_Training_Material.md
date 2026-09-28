@@ -4,7 +4,7 @@ A short, mastery-gated course for the Python Institute PCAP-31-03 exam. It follo
 
 ## How to use this file
 
-Work with `ChatGPT_instructions_PCAP.md` and `PCAP_31-03_Mock_exam.md`. ChatGPT should teach only one small block, ask the learner to predict or answer, then wait. It should repair gaps with fresh, focused questions before advancing. A calendar schedule never advances the learner.
+Work with `PCAP_ChatGPT_instructions.md` and `PCAP_31-03_Mock_exam.md`. ChatGPT should teach only one small block, ask the learner to predict or answer, then wait. It should repair gaps with fresh, focused questions before advancing. A calendar schedule never advances the learner.
 
 Prefer the learner's existing files, especially `main.py`, `helper.py`, and `mymodule.py`. Keep exercises short. Predict before running where practical. Never treat a lucky guess as proof of understanding.
 
