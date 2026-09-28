@@ -88,8 +88,8 @@ A program written in a high-level programming language is called:
 
 **1 point**
 
-- [ ] machine code
-- [ ] a source code
+- [ ] A. machine code
+- [ ] B. source code
 
 ---
 
@@ -854,23 +854,13 @@ What is the expected output of the following code ?
 
 ```python
 planets = 1 + 2 * 3 // 4
-
-if planets < 0 :
-```
-
-print ( " # " )
-
-```python
+if planets < 0:
+    print(" # ")
 elif planets > 2:
-       print( " # # ")
+    print(" # # ")
+else:
+    print(" # # #")
 ```
-
-else :
-
-```python
-      print( " # # #")
-```
-
 **1 point**
 
 - [ ] D. The code prodcues no output
@@ -885,16 +875,14 @@ else :
 What happens when the user runs the following code ?
 
 ```python
-angle =  -1
-for i in range ( -1 , 1) :
-       if 2 * i < 4 :
-             angle += 1
+angle = -1
+for i in range(-1, 1):
+    if 2 * i < 4:
+        angle += 1
 else:
     angle += 2
+print(angle)
 ```
-
-print (angle)
-
 **1 point**
 
 - [ ] B. The code outputs 3.
@@ -910,20 +898,14 @@ What happens when the user runs the following code ?
 
 ```python
 power = 2
-while power < 5 :
-         power += 1
-         if power == 3 :
-              continue
-```
-
-print ( "0" , end=" ")
-
-```python
+while power < 5:
+    power += 1
+    if power == 3:
+        continue
+    print("0", end=" ")
 else:
+    print("0")
 ```
-
-print ("0")
-
 **1 point**
 
 - [ ] D. The program outputs one at sign ( 0 ) to the screen.
@@ -939,17 +921,14 @@ What is the expected output of the following code?
 
 ```python
 others = 1
-for i in range (2, 4) :
-      for j in range (-1, 2) :
-            if  i == j:
-                  others += 1
-            else:
+for i in range(2, 4):
+    for j in range(-1, 2):
+        if i == j:
+            others += 1
+        else:
+            break
+print(others)
 ```
-
-break
-
-print (others)
-
 **1 point**
 
 - [ ] B. 4
@@ -965,23 +944,13 @@ What is the expected output of the following code?
 
 ```python
 counter = 11 * 4 - 2
-if counter > 0 :
-```
-
-print ("*")
-
-```python
-elif counter >  42 :
-```
-
-print ("**")
-
-```python
+if counter > 0:
+    print("*")
+elif counter > 42:
+    print("**")
 else:
+    print("***")
 ```
-
-print ("***")
-
 **1 point**
 
 - [ ] C. ***
@@ -998,16 +967,11 @@ How many asterisks (*) does the code output to the screen?
 ```python
 torque = 0
 while torque != 0:
-         torque //= 2
-```
-
-print ("*", end=" ")
-
-```python
+    torque //= 2
+    print("*", end=" ")
 else:
-     print("*")
+    print("*")
 ```
-
 **1 point**
 
 - [ ] C. zero(the code outputs nothing)
@@ -2506,23 +2470,14 @@ What is the expected result of running the following code?
 
 ```python
 def do_the_mess(parameter):
-```
-
-parameter[0] != variable
-
-```python
+    parameter[0] != variable
     return parameter[0]
 
 the_list = [x for x in range(2, 3)]
 variable = -1
-```
-
 do_the_mess(the_list)
-
-```python
 print(the_list[0])
 ```
-
 **1 point**
 
 - [ ] A. The code prints 1.
@@ -2543,14 +2498,9 @@ def do_the_mass(parameter):
 
 the_list = [x for x in range(2, 3)]
 variable = -1
-```
-
 do_the_mass(the_list)
-
-```python
 print(variable)
 ```
-
 **1 point**
 
 - [ ] C. The code prints 1
@@ -2841,16 +2791,12 @@ What is the expected output of the following code?
 
 ```python
 def count(start):
-
     print(start, end=" ")
-
     if start > 0:
-```
-
-count(start -1)
+        count(start - 1)
 
 count(3)
-
+```
 **1 point**
 
 - [ ] D. 3 2 1
@@ -2892,28 +2838,15 @@ What is the expected result of the following code?
 
 ```python
 def do_the_mess(parameter):
-```
-
-global variable
-
-variable += parameter[0]
-
-```python
-  return variable
-
-
+    global variable
+    variable += parameter[0]
+    return variable
 
 the_list = [x for x in range(2, 3)]
-
 variable = 0
-```
-
 do_the_mess(the_list)
-
-```python
 print(variable)
 ```
-
 **1 point**
 
 - [ ] D. The code prints 0
@@ -2942,26 +2875,15 @@ What is the expected results of running the following code?
 
 ```python
 def do_the_mass(parameter):
-```
-
-global variable
-
-variable += parameter[0]
-
-```python
+    global variable
+    variable += parameter[0]
     return variable
 
-the_list = [x for x in range(2,3)]
-
+the_list = [x for x in range(2, 3)]
 variable = 0
-```
-
 do_the_mass(the_list)
-
-```python
 print(variable)
 ```
-
 **1 point**
 
 - [ ] A. The code prints 0
@@ -2976,17 +2898,14 @@ print(variable)
 What is the expected result of the following code?
 
 ```python
-def sample (value) :
-       return total - value
+def sample(value):
+    return total - value
 
 total = 4
-
 total = sample(2)
 total = sample(1)
+print(total)
 ```
-
-print (total)
-
 **1 point**
 
 - [ ] C. The code is erroneous and cannot be run.
@@ -3001,16 +2920,14 @@ print (total)
 What is the expected result of the following code?
 
 ```python
-def process (data) :
-      data = 2
-      return data
+def process(data):
+    data = 2
+    return data
 
-measurements = [0 for i in range(3) ]
+measurements = [0 for _ in range(3)]
 result = process(measurements)
+print(result[-2])
 ```
-
-print (result[-2])
-
 **1 point**
 
 - [ ] B. The code prints 2.
@@ -3075,7 +2992,7 @@ What is the expected output of the following code?
 
 ```python
 def combine (width, height=10, depth=0, is_3D=False) :
-   if is _3D:
+   if is_3D:
         return [ is_3D, width, height, depth]
 
 print(combine (2) [0] )
@@ -3668,7 +3585,7 @@ What is printed when a missing dictionary key is caught by except KeyError?
 129. **B**
 130. **C**
 131. **A,C**
-132. **C**
+132. **A, C**
 133. **A**
 134. **A**
 135. **A**
@@ -3698,7 +3615,7 @@ What is printed when a missing dictionary key is caught by except KeyError?
 159. **B**
 160. **D**
 161. **B,C**
-162. **A**
+162. **C**
 163. **B,D**
 164. **C**
 165. **D**
