@@ -1,21 +1,24 @@
-# PCEP 30-02 Mock Exam
+# PCEP-30-02 Mock Exam
 
-> **Original form:** https://docs.google.com/forms/d/e/1FAIpQLSdhv6phnlHopuLGqpoJdkFoLR_lrgOsINWyIjz2UD4b7LsLFQ/viewform
->
-> Personal details, account information, required-field markers, Google Forms footer text, and credentials have been removed.
+**Practice mock based on the 200-question source form; these are not official Python Institute exam questions.** PCEP has its own Questions 1–200, separate from PCAP. Official objectives, weights, and exam information: [Python Institute PCEP-30-02 Exam Syllabus](https://pythoninstitute.org/pcep-exam-syllabus). The original question form is [Google Forms](https://docs.google.com/forms/d/e/1FAIpQLSdhv6phnlHopuLGqpoJdkFoLR_lrgOsINWyIjz2UD4b7LsLFQ/viewform); personal fields and form boilerplate are omitted.
 
-## About the exam
+Suggested practice time: 200 minutes. One point per question; select all answers where stated.
 
-PCEP 30-02
-PCEP™ – Certified Entry-Level Python Programmer certification (Exam PCEP-30-0x) is a professional credential that measures the candidate's ability to accomplish coding tasks related to the essentials of programming in the Python language. A test candidate should demonstrate sufficient knowledge of the universal concepts of computer programming, the syntax and semantics of the Python language, as well as the skills in resolving typical implementation challenges with the help of the Python Standard Library.
+## Domain Weighting
 
-The PCEP™ certification shows that the individual is familiar with the following concepts: fundamental terms and definitions (e.g. compilation vs. interpretation), Python's logic and structure (e.g. keywords, instructions, indentation), literals, variables, and numeral systems, operators and data types, I/O operations, control flow mechanisms (conditional blocks and loops), data collections (lists, tuples, dictionaries, strings), functions (decomposition, built-in and user-defined functions, organizing interaction between functions and their environment, generators, recursion), exceptions (exception handling, hierarchies), as well as the essentials of Python programming language syntax, semantics, and the runtime environment.
+| Block | Official weight | Questions |
+|---|---:|---:|
+| Block 1 — Computer Programming and Python Fundamentals | 18% | 39 |
+| Block 2 — Control Flow: Conditional Blocks and Loops | 29% | 50 |
+| Block 3 — Data Collections: Tuples, Dictionaries, Lists, and Strings | 25% | 53 |
+| Block 4 — Functions and Exceptions | 28% | 58 |
+| **Total** | **100%** | **200** |
 
----
+## Questions
 
-## Quiz Questions
+### Block 1 — Computer Programming and Python Fundamentals (39 questions)
 
-### Question 1
+**1.**
 
 A set of rules which defines the ways in which words can be coupled in sentences is called:
 
@@ -27,7 +30,7 @@ A set of rules which defines the ways in which words can be coupled in sentences
 
 ---
 
-### Question 2
+**2.**
 
 A process in which the source code is translated into machine code in order to be executed later is called:
 
@@ -40,7 +43,7 @@ A process in which the source code is translated into machine code in order to b
 
 ---
 
-### Question 3
+**3.**
 
 A process in which the source code is immediately executed without the need to translate it into machine code is called:
 
@@ -53,7 +56,7 @@ A process in which the source code is immediately executed without the need to t
 
 ---
 
-### Question 4
+**4.**
 
 Which of the following expressions evaluate to a non-zero result? (Select two answers.)
 
@@ -66,7 +69,7 @@ Which of the following expressions evaluate to a non-zero result? (Select two an
 
 ---
 
-### Question 5
+**5.**
 
 Python is an example of which programming language category?
 
@@ -79,7 +82,489 @@ Python is an example of which programming language category?
 
 ---
 
-### Question 6
+**42.**
+
+A program written in a high-level programming language is called:
+
+**1 point**
+
+- [ ] machine code
+- [ ] a source code
+
+---
+
+**56.**
+
+Operations that can be performed by CPU is called:
+
+**1 point**
+
+- [ ] B. an assembly order
+- [ ] D. an instruction set
+- [ ] C. the ASCII code
+- [ ] A. a binary code
+
+---
+
+**57.**
+
+A set of elementary operations that can be performed by a CPU is called:
+
+**1 point**
+
+- [ ] A. an assembly order
+- [ ] C. the ASCII code
+- [ ] B. a binary code
+- [ ] D. an instruction set
+
+---
+
+**58.**
+
+What is the output of the following piece of code if the user enters two lines containing 2 and 4 respectively?
+
+```python
+x = float(input())
+y = float(input())
+print(y ** (1 / x ))
+```
+
+**1 point**
+
+- [ ] C. 2.0
+- [ ] A. 4.0
+- [ ] B. 1.0
+- [ ] D. 0.0
+
+---
+
+**63.**
+
+To run the code given as a source file whose name has the .py extension, you need to have:
+
+**1 point**
+
+- [ ] C. a Python interpreter.
+- [ ] D. a Python editor.
+- [ ] B. a Python compiler .
+- [ ] A. an MS windows computer.
+
+---
+
+**64.**
+
+A binary code consists of:
+
+**1 point**
+
+- [ ] B. a set of a certain alphabet symbols.
+- [ ] A. a sequence of ASCII characters.
+- [ ] D. a sequence of bits which encodes machine instructions.
+- [ ] C. a list of keywords.
+
+---
+
+**82.**
+
+Which of the following expressions evaluate to a zero result?
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] C. 4 -3 // 2 + 1
+- [ ] B. 1 ** 2 -4 // 3
+- [ ] A. 1 // 3 * 3  **  0
+- [ ] D. 4  / 2 + 2 ** 1
+
+---
+
+**83.**
+
+Which of the following expressions evaluate to a zero result?
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] C. 4 / 1 * 2 - 1
+- [ ] D. 1 + 2 / 4 * 3
+- [ ] B. -1 / 3 * 3 + 1
+- [ ] A. 2 // 4
+
+---
+
+**84.**
+
+Which of the following expressions evaluate to a zero result?
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] B. 2 / -3 * 6 + 4
+- [ ] A. -3 / 2 * 4 + 1
+- [ ] C. 3 ** 2 // 3 / 3 -1
+- [ ] D. 2 // 2 * 2 + 3
+
+---
+
+**85.**
+
+Which of the following expressions evaluate to a zero result?
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] A. -1 / 3 * 3 + 1
+- [ ] D. 1 + 2 / 4 * 3
+- [ ] C. 4 / 1 * 2  - 1
+- [ ] B. 2 // 4 * 1 / 3
+
+---
+
+**102.**
+
+What term describes the meaning of a Python statement?
+
+
+**1 point**
+
+- [ ] A. lexis
+- [ ] B. syntax
+- [ ] C. semantics
+- [ ] D. compilation
+
+---
+
+**103.**
+
+Which is a valid Python identifier?
+
+
+**1 point**
+
+- [ ] A. 2nd_value
+- [ ] B. total-value
+- [ ] C. class
+- [ ] D. total_value
+
+---
+
+**104.**
+
+Which line is a Python comment?
+
+
+**1 point**
+
+- [ ] A. // comment
+- [ ] B. # comment
+- [ ] C. <!-- comment -->
+- [ ] D. /* comment */
+
+---
+
+**105.**
+
+What is the type of True?
+
+
+**1 point**
+
+- [ ] A. int
+- [ ] B. bool
+- [ ] C. str
+- [ ] D. float
+
+---
+
+**106.**
+
+What is the decimal value of 0b1011?
+
+
+**1 point**
+
+- [ ] A. 9
+- [ ] B. 10
+- [ ] C. 11
+- [ ] D. 12
+
+---
+
+**107.**
+
+What is the decimal value of 0x10?
+
+
+**1 point**
+
+- [ ] A. 10
+- [ ] B. 16
+- [ ] C. 20
+- [ ] D. 32
+
+---
+
+**108.**
+
+What is the value of 3e2?
+
+
+**1 point**
+
+- [ ] A. 3.2
+- [ ] B. 30
+- [ ] C. 300
+- [ ] D. 3000
+
+---
+
+**109.**
+
+What is the result of 17 // 5?
+
+
+**1 point**
+
+- [ ] A. 2
+- [ ] B. 3
+- [ ] C. 3.4
+- [ ] D. 4
+
+---
+
+**110.**
+
+What is the result of 17 % 5?
+
+
+**1 point**
+
+- [ ] A. 0
+- [ ] B. 2
+- [ ] C. 3
+- [ ] D. 5
+
+---
+
+**111.**
+
+What is the result of 2 ** 3 ** 2?
+
+
+**1 point**
+
+- [ ] A. 64
+- [ ] B. 128
+- [ ] C. 256
+- [ ] D. 512
+
+---
+
+**112.**
+
+What is the result of -2 ** 2?
+
+
+**1 point**
+
+- [ ] A. -4
+- [ ] B. 4
+- [ ] C. -8
+- [ ] D. 8
+
+---
+
+**113.**
+
+What is the value of 7 / 2 in Python 3?
+
+
+**1 point**
+
+- [ ] A. 2
+- [ ] B. 2.0
+- [ ] C. 3
+- [ ] D. 3.5
+
+---
+
+**114.**
+
+What is the result of "Py" + "thon"?
+
+
+**1 point**
+
+- [ ] A. "Python"
+- [ ] B. "Py thon"
+- [ ] C. "Py+thon"
+- [ ] D. A TypeError
+
+---
+
+**115.**
+
+What is the result of "ha" * 3?
+
+
+**1 point**
+
+- [ ] A. "hahaha"
+- [ ] B. "ha3"
+- [ ] C. "ha ha ha"
+- [ ] D. A TypeError
+
+---
+
+**116.**
+
+What is the value of not (3 > 1)?
+
+
+**1 point**
+
+- [ ] A. True
+- [ ] B. False
+- [ ] C. 3
+- [ ] D. 1
+
+---
+
+**117.**
+
+What is the value of True or False and False?
+
+
+**1 point**
+
+- [ ] A. True
+- [ ] B. False
+- [ ] C. None
+- [ ] D. A SyntaxError
+
+---
+
+**118.**
+
+What is the value of (5 == 5) and (2 > 8)?
+
+
+**1 point**
+
+- [ ] A. True
+- [ ] B. False
+- [ ] C. 5
+- [ ] D. 2
+
+---
+
+**119.**
+
+Which operator tests whether two values are different?
+
+
+**1 point**
+
+- [ ] A. =<
+- [ ] B. !=
+- [ ] C. <>
+- [ ] D. !==
+
+---
+
+**120.**
+
+What is the result of 5 & 3?
+
+
+**1 point**
+
+- [ ] A. 0
+- [ ] B. 1
+- [ ] C. 2
+- [ ] D. 7
+
+---
+
+**121.**
+
+What is the result of 4 << 1?
+
+
+**1 point**
+
+- [ ] A. 2
+- [ ] B. 4
+- [ ] C. 8
+- [ ] D. 16
+
+---
+
+**122.**
+
+What is the result of ~0?
+
+
+**1 point**
+
+- [ ] A. 0
+- [ ] B. 1
+- [ ] C. -1
+- [ ] D. -2
+
+---
+
+**123.**
+
+What does input() return before explicit conversion?
+
+
+**1 point**
+
+- [ ] A. An integer
+- [ ] B. A float
+- [ ] C. A string
+- [ ] D. A Boolean
+
+---
+
+**124.**
+
+What is printed by print("A", "B", sep="-", end="!")?
+
+
+**1 point**
+
+- [ ] A. A B!
+- [ ] B. A-B!
+- [ ] C. A-B
+- [ ] D. AB!
+
+---
+
+**125.**
+
+Which two expressions convert the string "12" to a numeric value?
+
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] A. int("12")
+- [ ] B. float("12")
+- [ ] C. number("12")
+- [ ] D. str(12)
+
+---
+
+### Block 2 — Control Flow: Conditional Blocks and Loops (50 questions)
+
+**6.**
 
 How many hashes (#) does the code output to the screen?
 
@@ -103,7 +588,7 @@ else:
 
 ---
 
-### Question 7
+**7.**
 
 How many hashes (#) does the code output to the screen?
 
@@ -127,7 +612,7 @@ else:
 
 ---
 
-### Question 8
+**8.**
 
 What happens when the user runs the following code?
 
@@ -152,7 +637,7 @@ print(total)
 
 ---
 
-### Question 9
+**9.**
 
 What happens when the user runs the following code?
 
@@ -178,7 +663,7 @@ print(total)
 
 ---
 
-### Question 10
+**10.**
 
 What is expected output of the following code?
 
@@ -204,7 +689,7 @@ else:
 
 ---
 
-### Question 11
+**11.**
 
 What is expected output of the following code?
 
@@ -230,7 +715,7 @@ else:
 
 ---
 
-### Question 12
+**12.**
 
 What is expected output of the following code?
 
@@ -256,7 +741,837 @@ print(equals)
 
 ---
 
-### Question 13
+**43.**
+
+Which condition should replace `???` so that this code outputs `***`?
+
+```python
+depth = 0
+
+if ???:
+    print("***")
+else:
+    print("---")
+```
+
+*(Adapted replacement: the original form renders the answer choices as images, which are not present in this text copy.)*
+
+**1 point**
+
+- [ ] A. `depth = 0`
+- [ ] B. `depth == 0`
+- [ ] C. `depth != 0`
+
+---
+
+**44.**
+
+What happens when the users runs the following code?
+
+```python
+speed = 3
+
+while speed < 8:
+    speed += 2
+    if speed == 7:
+        continue
+    print("*", end="")
+
+else:
+    print("*")
+```
+
+**1 point**
+
+- [ ] C. The program outputs five asterisks (*****) to the screen
+- [ ] A. The program outputs one asterisk (*) to the screen
+- [ ] B. The program outputs three asterisks(***) to the screen
+- [ ] D. The program enters an infinite loop
+
+---
+
+**61.**
+
+What happens when the users  runs the following code?
+
+```python
+speed = 3
+
+while speed < 8:
+
+    speed += 2
+
+    if speed == 7:
+
+        continue
+
+    print("*", end = "")
+
+else:
+
+    print("*")
+```
+
+**1 point**
+
+- [ ] D. The program outputs one asterisks ( * ) to the screen
+- [ ] A. The program enters an infinite loop
+- [ ] C. The program outputs five asterisks ( ***** ) to the screen
+- [ ] B. The program outputs three asterisks ( *** ) to the screen
+
+---
+
+**62.**
+
+How many hashes(#) does the code output to the screen?
+
+```python
+floor = 0
+
+while floor != 0:
+
+    floor -= 1
+
+    print("#", end = "")
+
+else:
+
+    print("#")
+```
+
+**1 point**
+
+- [ ] B. five
+- [ ] C. zero(the code outputs nothing)
+- [ ] D. Three
+- [ ] A. One
+
+---
+
+**65.**
+
+What is the expected output of the following code ?
+
+```python
+planets = 1 + 2 * 3 // 4
+
+if planets < 0 :
+```
+
+print ( " # " )
+
+```python
+elif planets > 2:
+       print( " # # ")
+```
+
+else :
+
+```python
+      print( " # # #")
+```
+
+**1 point**
+
+- [ ] D. The code prodcues no output
+- [ ] B. # # #
+- [ ] C. # #
+- [ ] A. #
+
+---
+
+**66.**
+
+What happens when the user runs the following code ?
+
+```python
+angle =  -1
+for i in range ( -1 , 1) :
+       if 2 * i < 4 :
+             angle += 1
+else:
+    angle += 2
+```
+
+print (angle)
+
+**1 point**
+
+- [ ] B. The code outputs 3.
+- [ ] A. The code enters an infinte loop.
+- [ ] D. The code outputs 1.
+- [ ] C. The code outputs 2.
+
+---
+
+**67.**
+
+What happens when the user runs the following code ?
+
+```python
+power = 2
+while power < 5 :
+         power += 1
+         if power == 3 :
+              continue
+```
+
+print ( "0" , end=" ")
+
+```python
+else:
+```
+
+print ("0")
+
+**1 point**
+
+- [ ] D. The program outputs one at sign ( 0 ) to the screen.
+- [ ] B. The program outputs three at signs ( 0 0 0) to the screen.
+- [ ] A. The program outputs two at signs ( 0 0 ) to the screen.
+- [ ] C. The program enters an infinite loop.
+
+---
+
+**68.**
+
+What is the expected output of the following code?
+
+```python
+others = 1
+for i in range (2, 4) :
+      for j in range (-1, 2) :
+            if  i == j:
+                  others += 1
+            else:
+```
+
+break
+
+print (others)
+
+**1 point**
+
+- [ ] B. 4
+- [ ] A. 3
+- [ ] C. 1
+- [ ] D. The code outputs nothing.
+
+---
+
+**80.**
+
+What is the expected output of the following code?
+
+```python
+counter = 11 * 4 - 2
+if counter > 0 :
+```
+
+print ("*")
+
+```python
+elif counter >  42 :
+```
+
+print ("**")
+
+```python
+else:
+```
+
+print ("***")
+
+**1 point**
+
+- [ ] C. ***
+- [ ] D. *
+- [ ] B. The code produces no output
+- [ ] A. **
+
+---
+
+**86.**
+
+How many asterisks (*) does the code output to the screen?
+
+```python
+torque = 0
+while torque != 0:
+         torque //= 2
+```
+
+print ("*", end=" ")
+
+```python
+else:
+     print("*")
+```
+
+**1 point**
+
+- [ ] C. zero(the code outputs nothing)
+- [ ] B. two
+- [ ] D. three
+- [ ] A. one
+
+---
+
+**92.**
+
+What would the following evaluate to ?
+
+```python
+shift = 5 - 4 * 2
+
+if shift > 0:
+   print("#")
+
+elif shift == 0:
+   print("##")
+
+elif shift < 0:
+   print("###")
+```
+
+**1 point**
+
+- [ ] A. #
+- [ ] D. ###
+- [ ] B. The code is errenous and will not run
+- [ ] C. ##
+
+---
+
+**95.**
+
+What happens when the user runs the following code ?
+
+```python
+total = 0
+
+for i in range(4):
+    if 2 * i < 4:
+        total += 1
+else:
+      total += 1
+
+print(total)
+```
+
+**1 point**
+
+- [ ] D. The code outputs 3
+- [ ] C. The code outputs 2
+- [ ] A. The code enters an infinite loop
+- [ ] B. The code outputs 1
+
+---
+
+**96.**
+
+What is the expected output of the following code?
+
+```python
+counter = 7 ** 2 - 7
+
+if counter < 0:
+  print("*")
+elif counter > 42:
+  print("**")
+else:
+  print("***")
+```
+
+**1 point**
+
+- [ ] D. *
+- [ ] B. ***
+- [ ] C. **
+- [ ] A. The code produces no output
+
+---
+
+**98.**
+
+What is expected output of the following code?
+
+```python
+equals = 0
+
+for i in range(2):
+  for j in range(2):
+     if i == j:
+        equals += 1
+     else:
+         break
+
+print(equals)
+```
+
+**1 point**
+
+- [ ] C. 4
+- [ ] A. 1
+- [ ] D. 3
+- [ ] B. The code outputs nothing
+
+---
+
+**99.**
+
+What is expected output of the following code?
+
+```python
+equals = 0
+
+for i in range(2):
+  for j in range(2):
+     if i == j:
+        equals += 1
+else:
+    equals += 1
+
+print(equals)
+```
+
+**1 point**
+
+- [ ] C. 4
+- [ ] B. The code outputs nothing
+- [ ] A. 1
+- [ ] D. 3
+
+---
+
+**100.**
+
+What is expected output of the following code?
+
+```python
+total = 0
+
+for i in range(4):
+   if 2 * i > 4:
+        total += 1
+
+else:
+     total += 1
+
+print(total)
+```
+
+**1 point**
+
+- [ ] D. 3
+- [ ] A. Infinite loop
+- [ ] B. 1
+- [ ] C. 2
+
+---
+
+**101.**
+
+What is expected output of the following code?
+
+```python
+speed = 3
+
+while speed < 0:
+    speed **= 2
+    if speed == 7:
+        break
+    print("*", end="")
+
+else:
+    print("*")
+```
+
+**1 point**
+
+- [ ] A. *
+- [ ] B. **
+- [ ] C. Infinite loop
+- [ ] D. ****
+
+
+## Additional Questions
+
+---
+
+**126.**
+
+What is printed by: value = 8; if value > 10: print("high"); else: print("low")?
+
+
+**1 point**
+
+- [ ] A. high
+- [ ] B. low
+- [ ] C. Nothing
+- [ ] D. An infinite loop
+
+---
+
+**127.**
+
+What is printed when score = 75 and the branches test >=80, then >=70, then else?
+
+
+**1 point**
+
+- [ ] A. A
+- [ ] B. B
+- [ ] C. C
+- [ ] D. Nothing
+
+---
+
+**128.**
+
+If x = 4, which nested test prints the result of x % 2 == 0?
+
+
+**1 point**
+
+- [ ] A. even
+- [ ] B. odd
+- [ ] C. negative
+- [ ] D. Nothing
+
+---
+
+**129.**
+
+Which statement does nothing and is syntactically valid?
+
+
+**1 point**
+
+- [ ] A. skip
+- [ ] B. continue
+- [ ] C. pass
+- [ ] D. empty
+
+---
+
+**130.**
+
+What values are produced by range(2, 7)?
+
+
+**1 point**
+
+- [ ] A. 2, 3, 4, 5, 6
+- [ ] B. 2, 3, 4, 5, 6, 7
+- [ ] C. 1, 2, 3, 4, 5, 6
+- [ ] D. 7, 6, 5, 4, 3, 2
+
+---
+
+**131.**
+
+How many iterations does range(1, 10, 3) produce?
+
+
+**1 point**
+
+- [ ] A. 2
+- [ ] B. 3
+- [ ] C. 4
+- [ ] D. 9
+
+---
+
+**132.**
+
+What is the sum produced by: total = 0; for number in range(1, 4): total += number?
+
+
+**1 point**
+
+- [ ] A. 3
+- [ ] B. 5
+- [ ] C. 6
+- [ ] D. 7
+
+---
+
+**133.**
+
+What is printed by a while loop starting at count = 3 and decrementing to zero, with end=""?
+
+
+**1 point**
+
+- [ ] A. 012
+- [ ] B. 123
+- [ ] C. 321
+- [ ] D. 333
+
+---
+
+**134.**
+
+What is printed when a loop over "abc" continues when the letter is "b"?
+
+
+**1 point**
+
+- [ ] A. abc
+- [ ] B. ac
+- [ ] C. bc
+- [ ] D. ab
+
+---
+
+**135.**
+
+What is printed when a loop breaks when number == 3, before printing the number?
+
+
+**1 point**
+
+- [ ] A. 012
+- [ ] B. 0123
+- [ ] C. 1234
+- [ ] D. 01234
+
+---
+
+**136.**
+
+What does a completed for loop followed by else execute?
+
+
+**1 point**
+
+- [ ] A. The loop's else block
+- [ ] B. Only the first iteration
+- [ ] C. Nothing
+- [ ] D. An infinite loop
+
+---
+
+**137.**
+
+What happens to a loop's else block if the loop exits with break?
+
+
+**1 point**
+
+- [ ] A. It always runs
+- [ ] B. It runs twice
+- [ ] C. It does not run
+- [ ] D. It raises TypeError
+
+---
+
+**138.**
+
+What is printed when number starts at 0 and a while loop increments it while number < 3, followed by else printing it?
+
+
+**1 point**
+
+- [ ] A. 0
+- [ ] B. 2
+- [ ] C. 3
+- [ ] D. Nothing
+
+---
+
+**139.**
+
+Which two statements correctly describe break?
+
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] A. It terminates the nearest loop.
+- [ ] B. It skips only the current iteration.
+- [ ] C. It prevents that loop's else clause after breaking.
+- [ ] D. It can be used outside a loop without error.
+
+---
+
+**140.**
+
+Which two statements correctly describe continue?
+
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] A. It skips the rest of the current iteration.
+- [ ] B. It terminates every enclosing loop.
+- [ ] C. It starts the next iteration of the nearest loop.
+- [ ] D. It can replace break in every situation.
+
+---
+
+**141.**
+
+What is the final result when two outer iterations each contain three inner iterations and result starts at zero, increasing once per inner iteration?
+
+
+**1 point**
+
+- [ ] A. 2
+- [ ] B. 3
+- [ ] C. 5
+- [ ] D. 6
+
+---
+
+**142.**
+
+How many even numbers are counted in range(4)?
+
+
+**1 point**
+
+- [ ] A. 1
+- [ ] B. 2
+- [ ] C. 3
+- [ ] D. 4
+
+---
+
+**143.**
+
+What is printed when value starts at 1 and is doubled while value < 10?
+
+
+**1 point**
+
+- [ ] A. 8
+- [ ] B. 10
+- [ ] C. 16
+- [ ] D. 20
+
+---
+
+**144.**
+
+What is printed by range(3, 0, -1) with end=""?
+
+
+**1 point**
+
+- [ ] A. 012
+- [ ] B. 123
+- [ ] C. 321
+- [ ] D. 4321
+
+---
+
+**145.**
+
+What is printed by a for loop containing only pass, followed by print("done")?
+
+
+**1 point**
+
+- [ ] A. Nothing
+- [ ] B. done
+- [ ] C. pass
+- [ ] D. An exception
+
+---
+
+**146.**
+
+Which condition is true when x is even and greater than 10?
+
+
+**1 point**
+
+- [ ] A. x > 10 or x % 2 == 0
+- [ ] B. x > 10 and x % 2 == 0
+- [ ] C. x < 10 and x % 2 == 1
+- [ ] D. x == 10 and x % 2 == 0
+
+---
+
+**147.**
+
+What is printed when value == 10 and the if suite contains pass, followed by print("ready")?
+
+
+**1 point**
+
+- [ ] A. Nothing
+- [ ] B. pass
+- [ ] C. ready
+- [ ] D. A NameError
+
+---
+
+**148.**
+
+What is the sum from 1 through 4 when number == 3 is skipped with continue?
+
+
+**1 point**
+
+- [ ] A. 6
+- [ ] B. 7
+- [ ] C. 9
+- [ ] D. 10
+
+---
+
+**149.**
+
+What is printed when x increases from 0 to 3 and x == 2 is skipped with continue?
+
+
+**1 point**
+
+- [ ] A. 123
+- [ ] B. 13
+- [ ] C. 12
+- [ ] D. 23
+
+---
+
+**150.**
+
+Which two loops can iterate over every character in "cat"?
+
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] A. for character in "cat":
+- [ ] B. for character in range("cat"):
+- [ ] C. for character in ["c", "a", "t"]:
+- [ ] D. while "cat":
+
+---
+
+**151.**
+
+What is the first value produced by range(5, 0, -2)?
+
+
+**1 point**
+
+- [ ] A. 0
+- [ ] B. 1
+- [ ] C. 3
+- [ ] D. 5
+
+---
+
+### Block 3 — Data Collections: Tuples, Dictionaries, Lists, and Strings (53 questions)
+
+**13.**
 
 What is expected output of the following code?
 
@@ -280,7 +1595,7 @@ print(len(collection) + len(duplicate))
 
 ---
 
-### Question 14
+**14.**
 
 What is expected output of the following code?
 
@@ -305,7 +1620,7 @@ print(collection[-1] + duplicate[-1])
 
 ---
 
-### Question 15
+**15.**
 
 What is expected output of the following code?
 
@@ -331,7 +1646,7 @@ print(collection[-1] + duplicate[-1])
 
 ---
 
-### Question 16
+**16.**
 
 What is expected output of the following code?
 
@@ -357,7 +1672,7 @@ print(collection[-1] + duplicate[-1])
 
 ---
 
-### Question 17
+**17.**
 
 Assuming that the following assignment has been successfully executed:
 
@@ -378,7 +1693,7 @@ Select the expressions which will not raise any exception.
 
 ---
 
-### Question 18
+**18.**
 
 Assuming that the following assignment has been successfully executed:
 
@@ -399,7 +1714,7 @@ Select the expressions which will not raise any exception.
 
 ---
 
-### Question 19
+**19.**
 
 What is true about tuples ? ( Select two answers.)
 
@@ -412,7 +1727,7 @@ What is true about tuples ? ( Select two answers.)
 
 ---
 
-### Question 20
+**20.**
 
 What is true about tuples ? ( Select two answers.)
 
@@ -425,7 +1740,7 @@ What is true about tuples ? ( Select two answers.)
 
 ---
 
-### Question 21
+**21.**
 
 What is true about tuples ? ( Select two answers.)
 
@@ -438,7 +1753,7 @@ What is true about tuples ? ( Select two answers.)
 
 ---
 
-### Question 22
+**22.**
 
 What is the expected output of the following code?
 
@@ -458,7 +1773,7 @@ for value in menu.items():
 
 ---
 
-### Question 23
+**23.**
 
 What is the expected output of the following code?
 
@@ -478,7 +1793,7 @@ for value in menu.values():
 
 ---
 
-### Question 24
+**24.**
 
 Assuming that the following assignment has been successfully executed :
 
@@ -497,7 +1812,7 @@ Which of the following expressions evaluate to True ? (Select two expressions.)
 
 ---
 
-### Question 25
+**25.**
 
 What is the expected output of the following code?
 
@@ -517,7 +1832,7 @@ for value in menu:
 
 ---
 
-### Question 26
+**26.**
 
 What is the expected output of the following code?
 
@@ -537,7 +1852,7 @@ for value in menu.keys():
 
 ---
 
-### Question 27
+**27.**
 
 What is the expected result of the following code?
 
@@ -560,7 +1875,7 @@ print(len(new))
 
 ---
 
-### Question 28
+**28.**
 
 What is the expected result of the following code?
 
@@ -583,7 +1898,609 @@ print(len(new))
 
 ---
 
-### Question 29
+**45.**
+
+Assuming that the following assignment has been successfully executed:
+
+```python
+the_list = ['list', False, 3e8]
+```
+
+Which one of the following prints True
+
+**1 point**
+
+- [ ] B. the_list[1] in the_list
+- [ ] A. int(the_list[2]) == len(the_list)
+- [ ] C. 300 in the_list and the_list[1]
+- [ ] D. the_list.index(False) == 1
+
+---
+
+**50.**
+
+Assume the following assignment has been successfully executed:
+
+```python
+the_list = [True, 3.1474, -1]
+```
+
+Which of the following expression evaluate to True
+
+(Select two)
+
+**1 point**
+
+- [ ] D. the_list.index(-1) == 2
+- [ ] B. (len(the_list) == 3 in the_list)
+- [ ] C. len(sorted(the_list)) != len(the_list)
+- [ ] A. True in the_list
+
+---
+
+**51.**
+
+Assume the following assignment has been successfully executed:
+
+```python
+my_list = [1, 2, 4, 8]
+```
+
+Select the expressions which will not raise any exception
+
+(Select two)
+
+**1 point**
+
+- [ ] C. my_list[-3:-2]
+- [ ] B. my_list[my_list{3}]
+- [ ] A. my_list[-2]
+- [ ] D. my_list[4]
+
+---
+
+**60.**
+
+What is the expected output of the following code?
+
+```python
+menu = {"syrniki" : 12.8, "shashlik": 49.9, "borscht": 23.2}
+
+for value in menu.items():
+
+    print(value[1], end = "")
+```
+
+**1 point**
+
+- [ ] B. 293
+- [ ] C. The code is erroneous and cannot be run
+- [ ] A. 12.849.923.2
+- [ ] D. yh
+
+---
+
+**69.**
+
+What is the expected output of the following code?
+
+```python
+list_one = [1, 2]
+list_two = list_one[:]
+list_two.append(3)
+print(list_one[-1] + list_two[-1])
+```
+
+**1 point**
+
+- [ ] D. The code raises an exception and outputs nothing.
+- [ ] B. 4
+- [ ] A. 6
+- [ ] C. 5
+
+---
+
+**70.**
+
+What is the expected output of the following code?
+
+```python
+points = 0
+
+selection = (False, True, True)
+
+for answer in selection[1:]:
+   if answer: points += 1
+
+print(points)
+```
+
+**1 point**
+
+- [ ] C. Raises an unhandled exception
+- [ ] B. 2
+- [ ] A. 0
+- [ ] D. 1
+
+---
+
+**71.**
+
+Assuming that the following assignment has been successfully executed:
+
+```python
+the_data = [ True , 3.1415, -2 ]
+```
+
+Which of the following expressions to evaluate False?
+
+(Select two expressions.)
+
+**1 point**
+
+- [ ] A. the_data.index(the_data [ -1]) == 0
+- [ ] C. -2 in the_data [2:4]
+- [ ] D. the_data.index (-2) not in [the_data]
+- [ ] B. len (the_data[0:2]) == 0
+
+---
+
+**72.**
+
+Assuming that the following assignment has been successfully executed:
+
+```python
+numbers = [ 1, 0.5, 0.25, 0.125]
+```
+
+Select the expressions which will not raise any exception.
+
+(Select two expressions.)
+
+**1 point**
+
+- [ ] B. numbers[ -10 ]
+- [ ] C. numbers [0]
+- [ ] D. numbers[ numbers [1] ]
+- [ ] A. numbers[ 0 : 4 ]
+
+---
+
+**79.**
+
+Assuming the following runs successfully, which TWO options would run without raising an exception?
+
+```python
+my_list = [5,4,3,2]
+```
+
+**1 point**
+
+- [ ] D. my_list[-5]
+- [ ] A. my_list[my_list[-1]]
+- [ ] C. my_list[1:1]
+- [ ] B. my_list[4]
+
+---
+
+**87.**
+
+What is the expected output of the following code?
+
+```python
+train_speed = {"FlyingScotsman":201, "TGV":320, "Shinkansen":320}
+
+for train in train_speed.items():
+  print(train[0], end="")
+```
+
+**1 point**
+
+- [ ] A. FlyingScotsmanTGVShinkansen
+- [ ] B. FTS
+- [ ] D. The code is erroneous and cannot be run
+- [ ] C. 233
+
+---
+
+**88.**
+
+What is the expected output of the following code?
+
+```python
+answers = (False, True, True)
+selection = answers[:]
+points = 0
+
+for answer in selection[1:]:
+    if answer:
+       points += 1
+
+print(points)
+```
+
+**1 point**
+
+- [ ] D. 2
+- [ ] C. 0
+- [ ] B. 3
+- [ ] A. 1
+
+---
+
+**152.**
+
+What is the value of [10, 20, 30][1]?
+
+
+**1 point**
+
+- [ ] A. 10
+- [ ] B. 20
+- [ ] C. 30
+- [ ] D. An IndexError
+
+---
+
+**153.**
+
+What is the value of [10, 20, 30][-1]?
+
+
+**1 point**
+
+- [ ] A. 10
+- [ ] B. 20
+- [ ] C. 30
+- [ ] D. An IndexError
+
+---
+
+**154.**
+
+What is the result of [1, 2, 3][1:]?
+
+
+**1 point**
+
+- [ ] A. [1]
+- [ ] B. [2, 3]
+- [ ] C. [1, 2]
+- [ ] D. [3]
+
+---
+
+**155.**
+
+What is the result of [1, 2, 3][:2]?
+
+
+**1 point**
+
+- [ ] A. [1]
+- [ ] B. [2, 3]
+- [ ] C. [1, 2]
+- [ ] D. [1, 2, 3]
+
+---
+
+**156.**
+
+What is printed after items = [1, 2]; items.append(3)?
+
+
+**1 point**
+
+- [ ] A. [1, 2]
+- [ ] B. [3, 1, 2]
+- [ ] C. [1, 2, 3]
+- [ ] D. [1, 3, 2]
+
+---
+
+**157.**
+
+What is printed after items = [1, 2]; items.insert(1, 9)?
+
+
+**1 point**
+
+- [ ] A. [9, 1, 2]
+- [ ] B. [1, 9, 2]
+- [ ] C. [1, 2, 9]
+- [ ] D. [1, 2]
+
+---
+
+**158.**
+
+What does len([4, 5, 6, 7]) return?
+
+
+**1 point**
+
+- [ ] A. 3
+- [ ] B. 4
+- [ ] C. 5
+- [ ] D. 7
+
+---
+
+**159.**
+
+What does sorted([3, 1, 2]) return?
+
+
+**1 point**
+
+- [ ] A. [3, 2, 1]
+- [ ] B. [1, 2, 3]
+- [ ] C. None
+- [ ] D. A TypeError
+
+---
+
+**160.**
+
+What is [1, 2, 3] after del items[1]?
+
+
+**1 point**
+
+- [ ] A. [1, 2]
+- [ ] B. [2, 3]
+- [ ] C. [1, 3]
+- [ ] D. [1, 2, 3]
+
+---
+
+**161.**
+
+Which two expressions are true for [1, 2, 3]?
+
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] A. 2 in [1, 2, 3]
+- [ ] B. 4 in [1, 2, 3]
+- [ ] C. 4 not in [1, 2, 3]
+- [ ] D. 1 not in [1, 2, 3]
+
+---
+
+**162.**
+
+What is [x * 2 for x in range(3)]?
+
+
+**1 point**
+
+- [ ] A. [0, 1, 2]
+- [ ] B. [0, 2, 4]
+- [ ] C. [2, 4, 6]
+- [ ] D. [1, 2, 3]
+
+---
+
+**163.**
+
+What is matrix[1][0] for matrix = [[1, 2], [3, 4]]?
+
+
+**1 point**
+
+- [ ] A. 1
+- [ ] B. 2
+- [ ] C. 3
+- [ ] D. 4
+
+---
+
+**164.**
+
+A slice copy is made with original[:] . If copy.append(3), what is len(original) for original = [1, 2]?
+
+
+**1 point**
+
+- [ ] A. 1
+- [ ] B. 2
+- [ ] C. 3
+- [ ] D. An exception
+
+---
+
+**165.**
+
+If alias = original and alias.append(3), what is len(original) for original = [1, 2]?
+
+
+**1 point**
+
+- [ ] A. 1
+- [ ] B. 2
+- [ ] C. 3
+- [ ] D. An exception
+
+---
+
+**166.**
+
+What is the result of (1, 2, 3)[-2]?
+
+
+**1 point**
+
+- [ ] A. 1
+- [ ] B. 2
+- [ ] C. 3
+- [ ] D. An IndexError
+
+---
+
+**167.**
+
+Which two statements about tuples are true?
+
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] A. Tuples are immutable.
+- [ ] B. Tuples cannot be indexed.
+- [ ] C. Tuples can be sliced.
+- [ ] D. Tuples must contain unique values.
+
+---
+
+**168.**
+
+What creates a one-element tuple?
+
+
+**1 point**
+
+- [ ] A. (5)
+- [ ] B. [5]
+- [ ] C. (5,)
+- [ ] D. {5}
+
+---
+
+**169.**
+
+What is the result of (1, 2) + (3,)?
+
+
+**1 point**
+
+- [ ] A. (1, 2, 3)
+- [ ] B. [1, 2, 3]
+- [ ] C. (1, 2)(3,)
+- [ ] D. A TypeError
+
+---
+
+**170.**
+
+What is printed by person = {"name": "Ada", "age": 30}; print(person["name"])?
+
+
+**1 point**
+
+- [ ] A. Ada
+- [ ] B. name
+- [ ] C. 30
+- [ ] D. A KeyError
+
+---
+
+**171.**
+
+Which statement adds or replaces the key "city"?
+
+
+**1 point**
+
+- [ ] A. data.add("city", "Paris")
+- [ ] B. data["city"] = "Paris"
+- [ ] C. data.insert("city", "Paris")
+- [ ] D. data.append("city", "Paris")
+
+---
+
+**172.**
+
+What is len({"a": 1, "b": 2})?
+
+
+**1 point**
+
+- [ ] A. 1
+- [ ] B. 2
+- [ ] C. 3
+- [ ] D. 4
+
+---
+
+**173.**
+
+Which two expressions test for the presence of a dictionary key?
+
+
+(Select two answers.)
+
+**1 point**
+
+- [ ] A. "a" in data
+- [ ] B. "a" in data.keys()
+- [ ] C. data.contains("a")
+- [ ] D. data.has_key("a")
+
+---
+
+**174.**
+
+What does data.values() provide?
+
+
+**1 point**
+
+- [ ] A. The dictionary's keys
+- [ ] B. The key-value pairs
+- [ ] C. The dictionary's values
+- [ ] D. A sorted list of keys
+
+---
+
+**175.**
+
+What does a for key in data loop over for data = {"a": 1, "b": 2}?
+
+
+**1 point**
+
+- [ ] A. The values 1 and 2
+- [ ] B. The keys a and b
+- [ ] C. The key-value pairs
+- [ ] D. Nothing
+
+---
+
+**176.**
+
+What is the result of "Python"[1:4]?
+
+
+**1 point**
+
+- [ ] A. Pyt
+- [ ] B. yth
+- [ ] C. ytho
+- [ ] D. tho
+
+---
+
+**177.**
+
+What is the value of "hello"[-1]?
+
+
+**1 point**
+
+- [ ] A. h
+- [ ] B. e
+- [ ] C. o
+- [ ] D. An IndexError
+
+---
+
+### Block 4 — Functions and Exceptions (58 questions)
+
+**29.**
 
 What is the expected result of running the following code?
 
@@ -615,7 +2532,7 @@ print(the_list[0])
 
 ---
 
-### Question 30
+**30.**
 
 What is the expected result of running the following code?
 
@@ -643,7 +2560,7 @@ print(variable)
 
 ---
 
-### Question 31
+**31.**
 
 What is the expected output of the following code?
 
@@ -663,7 +2580,7 @@ print(runner("Fermi")[2][2])
 
 ---
 
-### Question 32
+**32.**
 
 What is the expected output of the following code?
 
@@ -683,7 +2600,7 @@ print(runner(model ="Reluctance", 2019 [1]))
 
 ---
 
-### Question 33
+**33.**
 
 What is the expected output of the following code?
 
@@ -703,7 +2620,7 @@ print(runner("Volta", "Tension", 2019)[-1])
 
 ---
 
-### Question 34
+**34.**
 
 What is the expected output of the following code?
 
@@ -723,7 +2640,7 @@ print(runner(model="Furious", brand="Ampere") [1][1])
 
 ---
 
-### Question 35
+**35.**
 
 What is true about exceptions and debugging? (Select two answers.)
 
@@ -736,7 +2653,7 @@ What is true about exceptions and debugging? (Select two answers.)
 
 ---
 
-### Question 36
+**36.**
 
 Which of the following are the names of Python passing argument styles?
 
@@ -751,7 +2668,7 @@ Which of the following are the names of Python passing argument styles?
 
 ---
 
-### Question 37
+**37.**
 
 What is the expected result of the following code?
 
@@ -776,7 +2693,7 @@ print(new_speed)
 
 ---
 
-### Question 38
+**38.**
 
 What is the expected result of the following code?
 
@@ -801,7 +2718,7 @@ print(new_speed)
 
 ---
 
-### Question 39
+**39.**
 
 What is the expected result of the following code?
 
@@ -826,7 +2743,7 @@ print(new_speed)
 
 ---
 
-### Question 40
+**40.**
 
 What is the expected output of the following code?
 
@@ -849,9 +2766,9 @@ print(traverse(2))
 
 ---
 
-### Question 41
+**41.**
 
-Which of the following functions can be invoked with two arguments? *(Adapted replacement: the original form renders its options as images, which are not present in this text copy.)*
+Which TWO of the following functions can be invoked with two arguments? *(Adapted replacement: the original form renders its options as images, which are not present in this text copy.)*
 
 **1 point**
 
@@ -862,86 +2779,7 @@ Which of the following functions can be invoked with two arguments? *(Adapted re
 
 ---
 
-### Question 42
-
-A program written in a high-level programming language is called:
-
-**1 point**
-
-- [ ] machine code
-- [ ] a source code
-
----
-
-### Question 43
-
-Which condition should replace `???` so that this code outputs `***`?
-
-```python
-depth = 0
-
-if ???:
-    print("***")
-else:
-    print("---")
-```
-
-*(Adapted replacement: the original form renders the answer choices as images, which are not present in this text copy.)*
-
-**1 point**
-
-- [ ] A. `depth = 0`
-- [ ] B. `depth == 0`
-- [ ] C. `depth != 0`
-
----
-
-### Question 44
-
-What happens when the users runs the following code?
-
-```python
-speed = 3
-
-while speed < 8:
-    speed += 2
-    if speed == 7:
-        continue
-    print("*", end="")
-
-else:
-    print("*")
-```
-
-**1 point**
-
-- [ ] C. The program outputs five asterisks (*****) to the screen
-- [ ] A. The program outputs one asterisk (*) to the screen
-- [ ] B. The program outputs three asterisks(***) to the screen
-- [ ] D. The program enters an infinite loop
-
----
-
-### Question 45
-
-Assuming that the following assignment has been successfully executed:
-
-```python
-the_list = ['list', False, 3e8]
-```
-
-Which one of the following prints True
-
-**1 point**
-
-- [ ] B. the_list[1] in the_list
-- [ ] A. int(the_list[2]) == len(the_list)
-- [ ] C. 300 in the_list and the_list[1]
-- [ ] D. the_list.index(False) == 1
-
----
-
-### Question 46
+**46.**
 
 Which of the following sentences are true?
 
@@ -956,9 +2794,9 @@ Which of the following sentences are true?
 
 ---
 
-### Question 47
+**47.**
 
-Python:
+try:
 
 ```python
     speed = float('48;4')
@@ -982,7 +2820,7 @@ Given the above lines of code, which word should be used to replace  Python in o
 
 ---
 
-### Question 48
+**48.**
 
 What is true about exceptions in Python?
 
@@ -997,7 +2835,7 @@ What is true about exceptions in Python?
 
 ---
 
-### Question 49
+**49.**
 
 What is the expected output of the following code?
 
@@ -1022,49 +2860,7 @@ count(3)
 
 ---
 
-### Question 50
-
-Assume the following assignment has been successfully executed:
-
-```python
-the_list = [True, 3.1474, -1]
-```
-
-Which of the following expression evaluate to True
-
-(Select two)
-
-**1 point**
-
-- [ ] D. the_list.index(-1) == 2
-- [ ] B. (len(the_list) == 3 in the_list)
-- [ ] C. len(sorted(the_list)) != len(the_list)
-- [ ] A. True in the_list
-
----
-
-### Question 51
-
-Assume the following assignment has been successfully executed:
-
-```python
-my_list = [1, 2, 4, 8]
-```
-
-Select the expressions which will not raise any exception
-
-(Select two)
-
-**1 point**
-
-- [ ] C. my_list[-3:-2]
-- [ ] B. my_list[my_list{3}]
-- [ ] A. my_list[-2]
-- [ ] D. my_list[4]
-
----
-
-### Question 52
+**52.**
 
 Which of the following functions can be invoked with one argument ?
 
@@ -1077,7 +2873,7 @@ Which of the following functions can be invoked with one argument ?
 
 ---
 
-### Question 53
+**53.**
 
 Which of the following are the names of Python passing argument styles? (Select two)
 
@@ -1090,7 +2886,7 @@ Which of the following are the names of Python passing argument styles? (Select 
 
 ---
 
-### Question 54
+**54.**
 
 What is the expected result of the following code?
 
@@ -1127,7 +2923,7 @@ print(variable)
 
 ---
 
-### Question 55
+**55.**
 
 What is true about exceptions and debugging? (Select two answers)
 
@@ -1140,52 +2936,7 @@ What is true about exceptions and debugging? (Select two answers)
 
 ---
 
-### Question 56
-
-Operations that can be performed by CPU is called:
-
-**1 point**
-
-- [ ] B. an assembly order
-- [ ] D. an instruction set
-- [ ] C. the ASCII code
-- [ ] A. a binary code
-
----
-
-### Question 57
-
-A set of elementary operations that can be performed by a CPU is called:
-
-**1 point**
-
-- [ ] A. an assembly order
-- [ ] C. the ASCII code
-- [ ] B. a binary code
-- [ ] D. an instruction set
-
----
-
-### Question 58
-
-What is the output of the following piece of code if the user enters two lines containing 2 and 4 respectively?
-
-```python
-x = float(input())
-y = float(input())
-print(y ** (1 / x ))
-```
-
-**1 point**
-
-- [ ] C. 2.0
-- [ ] A. 4.0
-- [ ] B. 1.0
-- [ ] D. 0.0
-
----
-
-### Question 59
+**59.**
 
 What is the expected results of running the following code?
 
@@ -1195,7 +2946,7 @@ def do_the_mass(parameter):
 
 global variable
 
-variable += parameters[0]
+variable += parameter[0]
 
 ```python
     return variable
@@ -1220,307 +2971,7 @@ print(variable)
 
 ---
 
-### Question 60
-
-What is the expected output of the following code?
-
-```python
-menu = {"syrniki" : 12.8, "shashlik": 49.9, "borscht": 23.2}
-
-for value in menu.items():
-
-    print(value[1], end = "")
-```
-
-**1 point**
-
-- [ ] B. 293
-- [ ] C. The code is erroneous and cannot be run
-- [ ] A. 12.849.923.2
-- [ ] D. yh
-
----
-
-### Question 61
-
-What happens when the users  runs the following code?
-
-```python
-speed = 3
-
-while speed < 8:
-
-    speed += 2
-
-    if speed == 7:
-
-        continue
-
-    print("*", end = "")
-
-else:
-
-    print("*")
-```
-
-**1 point**
-
-- [ ] D. The program outputs one asterisks ( * ) to the screen
-- [ ] A. The program enters an infinite loop
-- [ ] C. The program outputs five asterisks ( ***** ) to the screen
-- [ ] B. The program outputs three asterisks ( *** ) to the screen
-
----
-
-### Question 62
-
-How many hashes(#) does the code output to the screen?
-
-```python
-floor = 0
-
-while floor != 0:
-
-    floor -= 1
-
-    print("#", end = "")
-
-else:
-
-    print("#")
-```
-
-**1 point**
-
-- [ ] B. five
-- [ ] C. zero(the code outputs nothing)
-- [ ] D. Three
-- [ ] A. One
-
----
-
-### Question 63
-
-To run the code given as a source file whose name has the .py extension, you need to have:
-
-**1 point**
-
-- [ ] C. a Python interpreter.
-- [ ] D. a Python editor.
-- [ ] B. a Python compiler .
-- [ ] A. an MS windows computer.
-
----
-
-### Question 64
-
-A binary code consists of:
-
-**1 point**
-
-- [ ] B. a set of a certain alphabet symbols.
-- [ ] A. a sequence of ASCII characters.
-- [ ] D. a sequence of bits which encodes machine instructions.
-- [ ] C. a list of keywords.
-
----
-
-### Question 65
-
-What is the expected output of the following code ?
-
-```python
-planets = 1 + 2 * 3 // 4
-
-if planets < 0 :
-```
-
-print ( " # " )
-
-```python
-elif planets > 2:
-       print( " # # ")
-```
-
-else :
-
-```python
-      print( " # # #")
-```
-
-**1 point**
-
-- [ ] D. The code prodcues no output
-- [ ] B. # # #
-- [ ] C. # #
-- [ ] A. #
-
----
-
-### Question 66
-
-What happens when the user runs the following code ?
-
-```python
-angle =  -1
-for i in range ( -1 , 1) :
-       if 2 * i < 4 :
-             angle += 1
-else:
-    angle += 2
-```
-
-print (angle)
-
-**1 point**
-
-- [ ] B. The code outputs 3.
-- [ ] A. The code enters an infinte loop.
-- [ ] D. The code outputs 1.
-- [ ] C. The code outputs 2.
-
----
-
-### Question 67
-
-What happens when the user runs the following code ?
-
-```python
-power = 2
-while power < 5 :
-         power += 1
-         if power == 3 :
-              continue
-```
-
-print ( "0" , end=" ")
-
-```python
-else:
-```
-
-print ("0")
-
-**1 point**
-
-- [ ] D. The program outputs one at sign ( 0 ) to the screen.
-- [ ] B. The program outputs three at signs ( 0 0 0) to the screen.
-- [ ] A. The program outputs two at signs ( 0 0 ) to the screen.
-- [ ] C. The program enters an infinite loop.
-
----
-
-### Question 68
-
-What is the expected output of the following code?
-
-```python
-others = 1
-for i in range (2, 4) :
-      for j in range (-1, 2) :
-            if  i == j:
-                  others += 1
-            else:
-```
-
-break
-
-print (others)
-
-**1 point**
-
-- [ ] B. 4
-- [ ] A. 3
-- [ ] C. 1
-- [ ] D. The code outputs nothing.
-
----
-
-### Question 69
-
-What is the expected output of the following code?
-
-```python
-list_one = [1, 2]
-list_two = list_one[:]
-list_two.append(3)
-print(list_one[-1] + list_two[-1])
-```
-
-**1 point**
-
-- [ ] D. The code raises an exception and outputs nothing.
-- [ ] B. 4
-- [ ] A. 6
-- [ ] C. 5
-
----
-
-### Question 70
-
-What is the expected output of the following code?
-
-```python
-points = 0
-
-for answer in selection[1:]:
-   if answer: points += 1
-
-print(points)
-```
-
-**1 point**
-
-- [ ] C. Raises an unhandled exception
-- [ ] B. 3
-- [ ] A. 0
-- [ ] D. 1
-
----
-
-### Question 71
-
-Assuming that the following assignment has been successfully executed:
-
-```python
-the_data = [ True , 3.1415, -2 ]
-```
-
-Which of the following expressions to evaluate False?
-
-(Select two expressions.)
-
-**1 point**
-
-- [ ] A. the_data.index(the_data [ -1]) == 0
-- [ ] C. -2 in the_data [2:4]
-- [ ] D. the_data.index (-2) not in [the_data]
-- [ ] B. len (the_data[0:2]) == 0
-
----
-
-### Question 72
-
-Assuming that the following assignment has been successfully executed:
-
-```python
-numbers = [ 1, 0.5, 0.25, 0.125]
-```
-
-Select the expressions which will not raise any exception.
-
-(Select two expressions.)
-
-**1 point**
-
-- [ ] B. numbers[ -10 ]
-- [ ] C. numbers [0]
-- [ ] D. numbers[ numbers [1] ]
-- [ ] A. numbers[ 0 : 4 ]
-
----
-
-### Question 73
+**73.**
 
 What is the expected result of the following code?
 
@@ -1545,7 +2996,7 @@ print (total)
 
 ---
 
-### Question 74
+**74.**
 
 What is the expected result of the following code?
 
@@ -1569,7 +3020,7 @@ print (result[-2])
 
 ---
 
-### Question 75
+**75.**
 
 What is the expected output of the following code?
 
@@ -1592,9 +3043,9 @@ print(walk(2))
 
 ---
 
-### Question 76
+**76.**
 
-Which of the following functions can be invoked with three arguments?
+Which TWO of the following functions can be invoked with three arguments?
 
 **1 point**
 
@@ -1605,7 +3056,7 @@ Which of the following functions can be invoked with three arguments?
 
 ---
 
-### Question 77
+**77.**
 
 Which of the following functions can be invoked with two arguments?
 
@@ -1618,7 +3069,7 @@ Which of the following functions can be invoked with two arguments?
 
 ---
 
-### Question 78
+**78.**
 
 What is the expected output of the following code?
 
@@ -1639,56 +3090,7 @@ print(combine (2) [0] )
 
 ---
 
-### Question 79
-
-Assuming the following runs successfully, which of the options would run without raising an exception ?
-
-```python
-my_list = [5,4,3,2]
-```
-
-**1 point**
-
-- [ ] D. my_list[-5]
-- [ ] A. my_list[my_list[-1]]
-- [ ] C. my_list[1:1]
-- [ ] B. my_list[4]
-
----
-
-### Question 80
-
-What is the expected output of the following code?
-
-```python
-counter = 11 * 4 - 2
-if counter > 0 :
-```
-
-print ("*")
-
-```python
-elif counter >  42 :
-```
-
-print ("**")
-
-```python
-else:
-```
-
-print ("***")
-
-**1 point**
-
-- [ ] C. ***
-- [ ] D. *
-- [ ] B. The code produces no output
-- [ ] A. **
-
----
-
-### Question 81
+**81.**
 
 What is the expected result of running the following code?
 
@@ -1717,138 +3119,7 @@ print(the_list[0])
 
 ---
 
-### Question 82
-
-Which of the following expressions evaluate to a zero result?
-
-(Select two answers.)
-
-**1 point**
-
-- [ ] C. 4 -3 // 2 + 1
-- [ ] B. 1 ** 2 -4 // 3
-- [ ] A. 1 // 3 * 3  **  0
-- [ ] D. 4  / 2 + 2 ** 1
-
----
-
-### Question 83
-
-Which of the following expressions evaluate to a zero result?
-
-(Select two answers.)
-
-**1 point**
-
-- [ ] C. 4 / 1 * 2 - 1
-- [ ] D. 1 + 2 / 4 * 3
-- [ ] B. -1 / 3 * 3 + 1
-- [ ] A. 2 // 4
-
----
-
-### Question 84
-
-Which of the following expressions evaluate to a zero result?
-
-(Select two answers.)
-
-**1 point**
-
-- [ ] B. 2 / -3 * 6 + 4
-- [ ] A. -3 / 2 * 4 + 1
-- [ ] C. 3 ** 2 // 3 / 3 -1
-- [ ] D. 2 // 2 * 2 + 3
-
----
-
-### Question 85
-
-Which of the following expressions evaluate to a zero result?
-
-(Select two answers.)
-
-**1 point**
-
-- [ ] A. -1 / 3 * 3 + 1
-- [ ] D. 1 + 2 / 4 * 3
-- [ ] C. 4 / 1 * 2  - 1
-- [ ] B. 2 // 4 * 1 / 3
-
----
-
-### Question 86
-
-How many asterisks (*) does the code output to the screen?
-
-```python
-torque = 0
-while torque != 0:
-         torque //= 2
-```
-
-print ("*", end=" ")
-
-```python
-else:
-     print("*")
-```
-
-**1 point**
-
-- [ ] C. zero(the code outputs nothing)
-- [ ] B. two
-- [ ] D. three
-- [ ] A. one
-
----
-
-### Question 87
-
-What is the expected output of the following code?
-
-```python
-train_speed = {"FlyingScotsman":201, "TGV":320, "Shinkansen":320}
-
-for train in train_speed.items():
-  print(train[0], end="")
-```
-
-**1 point**
-
-- [ ] A. FlyingScotsmanTGVShinkansen
-- [ ] B. FTS
-- [ ] D. The code is erroneous and cannot be run
-- [ ] C. 233
-
----
-
-### Question 88
-
-What is the expected output of the following code?
-
-```python
-answers = (False, True, True)
-selection = answers[:]
-points = 0
-
-for answer in selection[1:]:
-    if answer:
-       points += 1
-
-print(points)
-```
-
-**1 point**
-
-- [ ] D. 2
-- [ ] C. 0
-- [ ] B. 3
-- [ ] A. 1
-
----
-
-### Question 89
+**89.**
 
 What is true about exceptions in Python? Select 2
 
@@ -1861,7 +3132,7 @@ What is true about exceptions in Python? Select 2
 
 ---
 
-### Question 90
+**90.**
 
 What of the following sentences are true? Select two answers
 
@@ -1874,7 +3145,7 @@ What of the following sentences are true? Select two answers
 
 ---
 
-### Question 91
+**91.**
 
 What of the following functions can be invoked with three arguments?
 
@@ -1887,33 +3158,7 @@ What of the following functions can be invoked with three arguments?
 
 ---
 
-### Question 92
-
-What would the following evaluate to ?
-
-```python
-shift = 5 - 4 * 2
-
-if shift > 0:
-   print("#")
-
-elif shift == 0:
-   print("##")
-
-elif shift < 0:
-   print("###")
-```
-
-**1 point**
-
-- [ ] A. #
-- [ ] D. ###
-- [ ] B. The code is errenous and will not run
-- [ ] C. ##
-
----
-
-### Question 93
+**93.**
 
 Which of the following code snippets correctly define a function which returns its only argument doubled ?
 
@@ -1926,7 +3171,7 @@ Which of the following code snippets correctly define a function which returns i
 
 ---
 
-### Question 94
+**94.**
 
 What is the output of this code?
 
@@ -1948,56 +3193,7 @@ print(iterate(2))
 
 ---
 
-### Question 95
-
-What happens when the user runs the following code ?
-
-```python
-total = 0
-
-for i in range(4):
-    if 2 * i < 4:
-        total += 1
-else:
-      total += 1
-
-print(total)
-```
-
-**1 point**
-
-- [ ] D. The code outputs 3
-- [ ] C. The code outputs 2
-- [ ] A. The code enters an infinite loop
-- [ ] B. The code outputs 1
-
----
-
-### Question 96
-
-What is the expected output of the following code?
-
-```python
-counter = 7 ** 2 - 7
-
-if counter < 0:
-  print("*")
-elif counter > 42:
-  print("**")
-else:
-  print("***")
-```
-
-**1 point**
-
-- [ ] D. *
-- [ ] B. ***
-- [ ] C. **
-- [ ] A. The code produces no output
-
----
-
-### Question 97
+**97.**
 
 Which of the following functions can be invoked without arguments?
 
@@ -2010,1115 +3206,7 @@ Which of the following functions can be invoked without arguments?
 
 ---
 
-### Question 98
-
-What is expected output of the following code?
-
-```python
-equals = 0
-
-for i in range(2):
-  for j in range(2):
-     if i == j:
-        equals += 1
-     else:
-         break
-
-print(equals)
-```
-
-**1 point**
-
-- [ ] C. 4
-- [ ] A. 1
-- [ ] D. 3
-- [ ] B. The code outputs nothing
-
----
-
-### Question 99
-
-What is expected output of the following code?
-
-```python
-equals = 0
-
-for i in range(2):
-  for j in range(2):
-     if i == j:
-        equals += 1
-else:
-    equals += 1
-
-print(equals)
-```
-
-**1 point**
-
-- [ ] C. 4
-- [ ] B. The code outputs nothing
-- [ ] A. 1
-- [ ] D. 3
-
----
-
-### Question 100
-
-What is expected output of the following code?
-
-```python
-total = 0
-
-for i in range(4):
-   if 2 * i > 4:
-        total += 1
-
-else:
-     total += 1
-
-print(total)
-```
-
-**1 point**
-
-- [ ] D. 3
-- [ ] A. Infinite loop
-- [ ] B. 1
-- [ ] C. 2
-
----
-
-### Question 101
-
-What is expected output of the following code?
-
-```python
-speed = 3
-
-while speed < 0:
-    speed **= 2
-    if speed == 7:
-        break
-    print("*", end="")
-
-else:
-    print("*")
-```
-
-**1 point**
-
-- [ ] A. *
-- [ ] B. **
-- [ ] C. Infinite loop
-- [ ] D. ****
-
----
-
-## Additional Questions
-
-### Question 102
-
-What term describes the meaning of a Python statement?
-
-
-**1 point**
-
-- [ ] A. lexis
-- [ ] B. syntax
-- [ ] C. semantics
-- [ ] D. compilation
-
----
-### Question 103
-
-Which is a valid Python identifier?
-
-
-**1 point**
-
-- [ ] A. 2nd_value
-- [ ] B. total-value
-- [ ] C. class
-- [ ] D. total_value
-
----
-### Question 104
-
-Which line is a Python comment?
-
-
-**1 point**
-
-- [ ] A. // comment
-- [ ] B. # comment
-- [ ] C. <!-- comment -->
-- [ ] D. /* comment */
-
----
-### Question 105
-
-What is the type of True?
-
-
-**1 point**
-
-- [ ] A. int
-- [ ] B. bool
-- [ ] C. str
-- [ ] D. float
-
----
-### Question 106
-
-What is the decimal value of 0b1011?
-
-
-**1 point**
-
-- [ ] A. 9
-- [ ] B. 10
-- [ ] C. 11
-- [ ] D. 12
-
----
-### Question 107
-
-What is the decimal value of 0x10?
-
-
-**1 point**
-
-- [ ] A. 10
-- [ ] B. 16
-- [ ] C. 20
-- [ ] D. 32
-
----
-### Question 108
-
-What is the value of 3e2?
-
-
-**1 point**
-
-- [ ] A. 3.2
-- [ ] B. 30
-- [ ] C. 300
-- [ ] D. 3000
-
----
-### Question 109
-
-What is the result of 17 // 5?
-
-
-**1 point**
-
-- [ ] A. 2
-- [ ] B. 3
-- [ ] C. 3.4
-- [ ] D. 4
-
----
-### Question 110
-
-What is the result of 17 % 5?
-
-
-**1 point**
-
-- [ ] A. 0
-- [ ] B. 2
-- [ ] C. 3
-- [ ] D. 5
-
----
-### Question 111
-
-What is the result of 2 ** 3 ** 2?
-
-
-**1 point**
-
-- [ ] A. 64
-- [ ] B. 128
-- [ ] C. 256
-- [ ] D. 512
-
----
-### Question 112
-
-What is the result of -2 ** 2?
-
-
-**1 point**
-
-- [ ] A. -4
-- [ ] B. 4
-- [ ] C. -8
-- [ ] D. 8
-
----
-### Question 113
-
-What is the value of 7 / 2 in Python 3?
-
-
-**1 point**
-
-- [ ] A. 2
-- [ ] B. 2.0
-- [ ] C. 3
-- [ ] D. 3.5
-
----
-### Question 114
-
-What is the result of "Py" + "thon"?
-
-
-**1 point**
-
-- [ ] A. "Python"
-- [ ] B. "Py thon"
-- [ ] C. "Py+thon"
-- [ ] D. A TypeError
-
----
-### Question 115
-
-What is the result of "ha" * 3?
-
-
-**1 point**
-
-- [ ] A. "hahaha"
-- [ ] B. "ha3"
-- [ ] C. "ha ha ha"
-- [ ] D. A TypeError
-
----
-### Question 116
-
-What is the value of not (3 > 1)?
-
-
-**1 point**
-
-- [ ] A. True
-- [ ] B. False
-- [ ] C. 3
-- [ ] D. 1
-
----
-### Question 117
-
-What is the value of True or False and False?
-
-
-**1 point**
-
-- [ ] A. True
-- [ ] B. False
-- [ ] C. None
-- [ ] D. A SyntaxError
-
----
-### Question 118
-
-What is the value of (5 == 5) and (2 > 8)?
-
-
-**1 point**
-
-- [ ] A. True
-- [ ] B. False
-- [ ] C. 5
-- [ ] D. 2
-
----
-### Question 119
-
-Which operator tests whether two values are different?
-
-
-**1 point**
-
-- [ ] A. =<
-- [ ] B. !=
-- [ ] C. <>
-- [ ] D. !==
-
----
-### Question 120
-
-What is the result of 5 & 3?
-
-
-**1 point**
-
-- [ ] A. 0
-- [ ] B. 1
-- [ ] C. 2
-- [ ] D. 7
-
----
-### Question 121
-
-What is the result of 4 << 1?
-
-
-**1 point**
-
-- [ ] A. 2
-- [ ] B. 4
-- [ ] C. 8
-- [ ] D. 16
-
----
-### Question 122
-
-What is the result of ~0?
-
-
-**1 point**
-
-- [ ] A. 0
-- [ ] B. 1
-- [ ] C. -1
-- [ ] D. -2
-
----
-### Question 123
-
-What does input() return before explicit conversion?
-
-
-**1 point**
-
-- [ ] A. An integer
-- [ ] B. A float
-- [ ] C. A string
-- [ ] D. A Boolean
-
----
-### Question 124
-
-What is printed by print("A", "B", sep="-", end="!")?
-
-
-**1 point**
-
-- [ ] A. A B!
-- [ ] B. A-B!
-- [ ] C. A-B
-- [ ] D. AB!
-
----
-### Question 125
-
-Which two expressions convert the string "12" to a numeric value?
-
-
-(Select two answers.)
-
-**1 point**
-
-- [ ] A. int("12")
-- [ ] B. float("12")
-- [ ] C. number("12")
-- [ ] D. str(12)
-
----
-### Question 126
-
-What is printed by: value = 8; if value > 10: print("high"); else: print("low")?
-
-
-**1 point**
-
-- [ ] A. high
-- [ ] B. low
-- [ ] C. Nothing
-- [ ] D. An infinite loop
-
----
-### Question 127
-
-What is printed when score = 75 and the branches test >=80, then >=70, then else?
-
-
-**1 point**
-
-- [ ] A. A
-- [ ] B. B
-- [ ] C. C
-- [ ] D. Nothing
-
----
-### Question 128
-
-If x = 4, which nested test prints the result of x % 2 == 0?
-
-
-**1 point**
-
-- [ ] A. even
-- [ ] B. odd
-- [ ] C. negative
-- [ ] D. Nothing
-
----
-### Question 129
-
-Which statement does nothing and is syntactically valid?
-
-
-**1 point**
-
-- [ ] A. skip
-- [ ] B. continue
-- [ ] C. pass
-- [ ] D. empty
-
----
-### Question 130
-
-What values are produced by range(2, 7)?
-
-
-**1 point**
-
-- [ ] A. 2, 3, 4, 5, 6
-- [ ] B. 2, 3, 4, 5, 6, 7
-- [ ] C. 1, 2, 3, 4, 5, 6
-- [ ] D. 7, 6, 5, 4, 3, 2
-
----
-### Question 131
-
-How many iterations does range(1, 10, 3) produce?
-
-
-**1 point**
-
-- [ ] A. 2
-- [ ] B. 3
-- [ ] C. 4
-- [ ] D. 9
-
----
-### Question 132
-
-What is the sum produced by: total = 0; for number in range(1, 4): total += number?
-
-
-**1 point**
-
-- [ ] A. 3
-- [ ] B. 5
-- [ ] C. 6
-- [ ] D. 7
-
----
-### Question 133
-
-What is printed by a while loop starting at count = 3 and decrementing to zero, with end=""?
-
-
-**1 point**
-
-- [ ] A. 012
-- [ ] B. 123
-- [ ] C. 321
-- [ ] D. 333
-
----
-### Question 134
-
-What is printed when a loop over "abc" continues when the letter is "b"?
-
-
-**1 point**
-
-- [ ] A. abc
-- [ ] B. ac
-- [ ] C. bc
-- [ ] D. ab
-
----
-### Question 135
-
-What is printed when a loop breaks when number == 3, before printing the number?
-
-
-**1 point**
-
-- [ ] A. 012
-- [ ] B. 0123
-- [ ] C. 1234
-- [ ] D. 01234
-
----
-### Question 136
-
-What does a completed for loop followed by else execute?
-
-
-**1 point**
-
-- [ ] A. The loop's else block
-- [ ] B. Only the first iteration
-- [ ] C. Nothing
-- [ ] D. An infinite loop
-
----
-### Question 137
-
-What happens to a loop's else block if the loop exits with break?
-
-
-**1 point**
-
-- [ ] A. It always runs
-- [ ] B. It runs twice
-- [ ] C. It does not run
-- [ ] D. It raises TypeError
-
----
-### Question 138
-
-What is printed when number starts at 0 and a while loop increments it while number < 3, followed by else printing it?
-
-
-**1 point**
-
-- [ ] A. 0
-- [ ] B. 2
-- [ ] C. 3
-- [ ] D. Nothing
-
----
-### Question 139
-
-Which two statements correctly describe break?
-
-
-(Select two answers.)
-
-**1 point**
-
-- [ ] A. It terminates the nearest loop.
-- [ ] B. It skips only the current iteration.
-- [ ] C. It prevents that loop's else clause after breaking.
-- [ ] D. It can be used outside a loop without error.
-
----
-### Question 140
-
-Which two statements correctly describe continue?
-
-
-(Select two answers.)
-
-**1 point**
-
-- [ ] A. It skips the rest of the current iteration.
-- [ ] B. It terminates every enclosing loop.
-- [ ] C. It starts the next iteration of the nearest loop.
-- [ ] D. It can replace break in every situation.
-
----
-### Question 141
-
-What is the final result when two outer iterations each contain three inner iterations and result starts at zero, increasing once per inner iteration?
-
-
-**1 point**
-
-- [ ] A. 2
-- [ ] B. 3
-- [ ] C. 5
-- [ ] D. 6
-
----
-### Question 142
-
-How many even numbers are counted in range(4)?
-
-
-**1 point**
-
-- [ ] A. 1
-- [ ] B. 2
-- [ ] C. 3
-- [ ] D. 4
-
----
-### Question 143
-
-What is printed when value starts at 1 and is doubled while value < 10?
-
-
-**1 point**
-
-- [ ] A. 8
-- [ ] B. 10
-- [ ] C. 16
-- [ ] D. 20
-
----
-### Question 144
-
-What is printed by range(3, 0, -1) with end=""?
-
-
-**1 point**
-
-- [ ] A. 012
-- [ ] B. 123
-- [ ] C. 321
-- [ ] D. 4321
-
----
-### Question 145
-
-What is printed by a for loop containing only pass, followed by print("done")?
-
-
-**1 point**
-
-- [ ] A. Nothing
-- [ ] B. done
-- [ ] C. pass
-- [ ] D. An exception
-
----
-### Question 146
-
-Which condition is true when x is even and greater than 10?
-
-
-**1 point**
-
-- [ ] A. x > 10 or x % 2 == 0
-- [ ] B. x > 10 and x % 2 == 0
-- [ ] C. x < 10 and x % 2 == 1
-- [ ] D. x == 10 and x % 2 == 0
-
----
-### Question 147
-
-What is printed when value == 10 and the if suite contains pass, followed by print("ready")?
-
-
-**1 point**
-
-- [ ] A. Nothing
-- [ ] B. pass
-- [ ] C. ready
-- [ ] D. A NameError
-
----
-### Question 148
-
-What is the sum from 1 through 4 when number == 3 is skipped with continue?
-
-
-**1 point**
-
-- [ ] A. 6
-- [ ] B. 7
-- [ ] C. 9
-- [ ] D. 10
-
----
-### Question 149
-
-What is printed when x increases from 0 to 3 and x == 2 is skipped with continue?
-
-
-**1 point**
-
-- [ ] A. 123
-- [ ] B. 13
-- [ ] C. 12
-- [ ] D. 23
-
----
-### Question 150
-
-Which two loops can iterate over every character in "cat"?
-
-
-(Select two answers.)
-
-**1 point**
-
-- [ ] A. for character in "cat":
-- [ ] B. for character in range("cat"):
-- [ ] C. for character in ["c", "a", "t"]:
-- [ ] D. while "cat":
-
----
-### Question 151
-
-What is the first value produced by range(5, 0, -2)?
-
-
-**1 point**
-
-- [ ] A. 0
-- [ ] B. 1
-- [ ] C. 3
-- [ ] D. 5
-
----
-### Question 152
-
-What is the value of [10, 20, 30][1]?
-
-
-**1 point**
-
-- [ ] A. 10
-- [ ] B. 20
-- [ ] C. 30
-- [ ] D. An IndexError
-
----
-### Question 153
-
-What is the value of [10, 20, 30][-1]?
-
-
-**1 point**
-
-- [ ] A. 10
-- [ ] B. 20
-- [ ] C. 30
-- [ ] D. An IndexError
-
----
-### Question 154
-
-What is the result of [1, 2, 3][1:]?
-
-
-**1 point**
-
-- [ ] A. [1]
-- [ ] B. [2, 3]
-- [ ] C. [1, 2]
-- [ ] D. [3]
-
----
-### Question 155
-
-What is the result of [1, 2, 3][:2]?
-
-
-**1 point**
-
-- [ ] A. [1]
-- [ ] B. [2, 3]
-- [ ] C. [1, 2]
-- [ ] D. [1, 2, 3]
-
----
-### Question 156
-
-What is printed after items = [1, 2]; items.append(3)?
-
-
-**1 point**
-
-- [ ] A. [1, 2]
-- [ ] B. [3, 1, 2]
-- [ ] C. [1, 2, 3]
-- [ ] D. [1, 3, 2]
-
----
-### Question 157
-
-What is printed after items = [1, 2]; items.insert(1, 9)?
-
-
-**1 point**
-
-- [ ] A. [9, 1, 2]
-- [ ] B. [1, 9, 2]
-- [ ] C. [1, 2, 9]
-- [ ] D. [1, 2]
-
----
-### Question 158
-
-What does len([4, 5, 6, 7]) return?
-
-
-**1 point**
-
-- [ ] A. 3
-- [ ] B. 4
-- [ ] C. 5
-- [ ] D. 7
-
----
-### Question 159
-
-What does sorted([3, 1, 2]) return?
-
-
-**1 point**
-
-- [ ] A. [3, 2, 1]
-- [ ] B. [1, 2, 3]
-- [ ] C. None
-- [ ] D. A TypeError
-
----
-### Question 160
-
-What is [1, 2, 3] after del items[1]?
-
-
-**1 point**
-
-- [ ] A. [1, 2]
-- [ ] B. [2, 3]
-- [ ] C. [1, 3]
-- [ ] D. [1, 2, 3]
-
----
-### Question 161
-
-Which two expressions are true for [1, 2, 3]?
-
-
-(Select two answers.)
-
-**1 point**
-
-- [ ] A. 2 in [1, 2, 3]
-- [ ] B. 4 in [1, 2, 3]
-- [ ] C. 4 not in [1, 2, 3]
-- [ ] D. 1 not in [1, 2, 3]
-
----
-### Question 162
-
-What is [x * 2 for x in range(3)]?
-
-
-**1 point**
-
-- [ ] A. [0, 1, 2]
-- [ ] B. [0, 2, 4]
-- [ ] C. [2, 4, 6]
-- [ ] D. [1, 2, 3]
-
----
-### Question 163
-
-What is matrix[1][0] for matrix = [[1, 2], [3, 4]]?
-
-
-**1 point**
-
-- [ ] A. 1
-- [ ] B. 2
-- [ ] C. 3
-- [ ] D. 4
-
----
-### Question 164
-
-A slice copy is made with original[:] . If copy.append(3), what is len(original) for original = [1, 2]?
-
-
-**1 point**
-
-- [ ] A. 1
-- [ ] B. 2
-- [ ] C. 3
-- [ ] D. An exception
-
----
-### Question 165
-
-If alias = original and alias.append(3), what is len(original) for original = [1, 2]?
-
-
-**1 point**
-
-- [ ] A. 1
-- [ ] B. 2
-- [ ] C. 3
-- [ ] D. An exception
-
----
-### Question 166
-
-What is the result of (1, 2, 3)[-2]?
-
-
-**1 point**
-
-- [ ] A. 1
-- [ ] B. 2
-- [ ] C. 3
-- [ ] D. An IndexError
-
----
-### Question 167
-
-Which two statements about tuples are true?
-
-
-(Select two answers.)
-
-**1 point**
-
-- [ ] A. Tuples are immutable.
-- [ ] B. Tuples cannot be indexed.
-- [ ] C. Tuples can be sliced.
-- [ ] D. Tuples must contain unique values.
-
----
-### Question 168
-
-What creates a one-element tuple?
-
-
-**1 point**
-
-- [ ] A. (5)
-- [ ] B. [5]
-- [ ] C. (5,)
-- [ ] D. {5}
-
----
-### Question 169
-
-What is the result of (1, 2) + (3,)?
-
-
-**1 point**
-
-- [ ] A. (1, 2, 3)
-- [ ] B. [1, 2, 3]
-- [ ] C. (1, 2)(3,)
-- [ ] D. A TypeError
-
----
-### Question 170
-
-What is printed by person = {"name": "Ada", "age": 30}; print(person["name"])?
-
-
-**1 point**
-
-- [ ] A. Ada
-- [ ] B. name
-- [ ] C. 30
-- [ ] D. A KeyError
-
----
-### Question 171
-
-Which statement adds or replaces the key "city"?
-
-
-**1 point**
-
-- [ ] A. data.add("city", "Paris")
-- [ ] B. data["city"] = "Paris"
-- [ ] C. data.insert("city", "Paris")
-- [ ] D. data.append("city", "Paris")
-
----
-### Question 172
-
-What is len({"a": 1, "b": 2})?
-
-
-**1 point**
-
-- [ ] A. 1
-- [ ] B. 2
-- [ ] C. 3
-- [ ] D. 4
-
----
-### Question 173
-
-Which two expressions test for the presence of a dictionary key?
-
-
-(Select two answers.)
-
-**1 point**
-
-- [ ] A. "a" in data
-- [ ] B. "a" in data.keys()
-- [ ] C. data.contains("a")
-- [ ] D. data.has_key("a")
-
----
-### Question 174
-
-What does data.values() provide?
-
-
-**1 point**
-
-- [ ] A. The dictionary's keys
-- [ ] B. The key-value pairs
-- [ ] C. The dictionary's values
-- [ ] D. A sorted list of keys
-
----
-### Question 175
-
-What does a for key in data loop over for data = {"a": 1, "b": 2}?
-
-
-**1 point**
-
-- [ ] A. The values 1 and 2
-- [ ] B. The keys a and b
-- [ ] C. The key-value pairs
-- [ ] D. Nothing
-
----
-### Question 176
-
-What is the result of "Python"[1:4]?
-
-
-**1 point**
-
-- [ ] A. Pyt
-- [ ] B. yth
-- [ ] C. ytho
-- [ ] D. tho
-
----
-### Question 177
-
-What is the value of "hello"[-1]?
-
-
-**1 point**
-
-- [ ] A. h
-- [ ] B. e
-- [ ] C. o
-- [ ] D. An IndexError
-
----
-### Question 178
+**178.**
 
 What is printed by add(a, b) returning a + b when called as add(2, 3)?
 
@@ -3131,7 +3219,8 @@ What is printed by add(a, b) returning a + b when called as add(2, 3)?
 - [ ] D. None
 
 ---
-### Question 179
+
+**179.**
 
 What does a function return when it reaches the end without return?
 
@@ -3144,7 +3233,8 @@ What does a function return when it reaches the end without return?
 - [ ] D. An exception
 
 ---
-### Question 180
+
+**180.**
 
 What is printed when show(value) prints value but has no return, then result = show(4); print(result)?
 
@@ -3157,7 +3247,8 @@ What is printed when show(value) prints value but has no return, then result = s
 - [ ] D. An exception
 
 ---
-### Question 181
+
+**181.**
 
 Which two are valid function definitions?
 
@@ -3172,7 +3263,8 @@ Which two are valid function definitions?
 - [ ] D. define calculate(x): pass
 
 ---
-### Question 182
+
+**182.**
 
 What is returned by greet(name="friend") when greet() is called?
 
@@ -3185,7 +3277,8 @@ What is returned by greet(name="friend") when greet() is called?
 - [ ] D. A TypeError
 
 ---
-### Question 183
+
+**183.**
 
 What is returned by combine(first, second="!") when combine("Hi") is called?
 
@@ -3198,7 +3291,8 @@ What is returned by combine(first, second="!") when combine("Hi") is called?
 - [ ] D. A TypeError
 
 ---
-### Question 184
+
+**184.**
 
 What is returned by describe(name, age) when called as describe(age=20, name="Sam")?
 
@@ -3211,7 +3305,8 @@ What is returned by describe(name, age) when called as describe(age=20, name="Sa
 - [ ] D. A TypeError
 
 ---
-### Question 185
+
+**185.**
 
 Which two calls correctly invoke power(base, exponent)?
 
@@ -3226,7 +3321,8 @@ Which two calls correctly invoke power(base, exponent)?
 - [ ] D. power(base: 2, exponent: 3)
 
 ---
-### Question 186
+
+**186.**
 
 If change(value) assigns value = 99, what is printed after number = 5; change(number); print(number)?
 
@@ -3239,7 +3335,8 @@ If change(value) assigns value = 99, what is printed after number = 5; change(nu
 - [ ] D. A NameError
 
 ---
-### Question 187
+
+**187.**
 
 If add_item(items) calls items.append("new"), what is len(values) after values = [] and add_item(values)?
 
@@ -3252,7 +3349,8 @@ If add_item(items) calls items.append("new"), what is len(values) after values =
 - [ ] D. A TypeError
 
 ---
-### Question 188
+
+**188.**
 
 What is printed when global value = 10, show() has local value = 20 and returns it, and print(show(), value) runs?
 
@@ -3265,7 +3363,8 @@ What is printed when global value = 10, show() has local value = 20 and returns 
 - [ ] D. 10 20
 
 ---
-### Question 189
+
+**189.**
 
 Which keyword allows a function to assign to a module-level variable?
 
@@ -3278,7 +3377,8 @@ Which keyword allows a function to assign to a module-level variable?
 - [ ] D. nonlocal
 
 ---
-### Question 190
+
+**190.**
 
 What is printed when counter = 1, increase() declares global counter and increments it, then counter is printed?
 
@@ -3291,7 +3391,8 @@ What is printed when counter = 1, increase() declares global counter and increme
 - [ ] D. A SyntaxError
 
 ---
-### Question 191
+
+**191.**
 
 What is factorial(3) for a recursive factorial with base case n == 0 returning 1?
 
@@ -3304,7 +3405,8 @@ What is factorial(3) for a recursive factorial with base case n == 0 returning 1
 - [ ] D. indefinite
 
 ---
-### Question 192
+
+**192.**
 
 What is the purpose of a recursion base case?
 
@@ -3317,7 +3419,8 @@ What is the purpose of a recursion base case?
 - [ ] D. To handle input
 
 ---
-### Question 193
+
+**193.**
 
 Which two are built-in exception classes?
 
@@ -3332,7 +3435,8 @@ Which two are built-in exception classes?
 - [ ] D. LoopError
 
 ---
-### Question 194
+
+**194.**
 
 Which exception is raised by int("abc")?
 
@@ -3345,7 +3449,8 @@ Which exception is raised by int("abc")?
 - [ ] D. ValueError
 
 ---
-### Question 195
+
+**195.**
 
 Which exception is raised by [1, 2][5]?
 
@@ -3358,7 +3463,8 @@ Which exception is raised by [1, 2][5]?
 - [ ] D. NameError
 
 ---
-### Question 196
+
+**196.**
 
 Which exception is raised by {"a": 1}["b"]?
 
@@ -3371,7 +3477,8 @@ Which exception is raised by {"a": 1}["b"]?
 - [ ] D. NameError
 
 ---
-### Question 197
+
+**197.**
 
 Which exception is raised by 1 + "1"?
 
@@ -3384,7 +3491,8 @@ Which exception is raised by 1 + "1"?
 - [ ] D. ValueError
 
 ---
-### Question 198
+
+**198.**
 
 Which exception is raised by float("abc")?
 
@@ -3397,7 +3505,8 @@ Which exception is raised by float("abc")?
 - [ ] D. ValueError
 
 ---
-### Question 199
+
+**199.**
 
 What is printed when 10 / 0 is inside try and except ZeroDivisionError prints "zero"?
 
@@ -3410,7 +3519,8 @@ What is printed when 10 / 0 is inside try and except ZeroDivisionError prints "z
 - [ ] D. Nothing
 
 ---
-### Question 200
+
+**200.**
 
 What is printed when a missing dictionary key is caught by except KeyError?
 
@@ -3421,3 +3531,208 @@ What is printed when a missing dictionary key is caught by except KeyError?
 - [ ] B. other
 - [ ] C. Nothing
 - [ ] D. A SyntaxError
+
+---
+
+## Answer Key
+
+1. **B**
+2. **C**
+3. **B**
+4. **B,C**
+5. **A**
+6. **D**
+7. **C**
+8. **B**
+9. **D**
+10. **C**
+11. **D**
+12. **B**
+13. **A**
+14. **B**
+15. **D**
+16. **C**
+17. **B,D**
+18. **B,D**
+19. **A,D**
+20. **A,B**
+21. **A,B**
+22. **C**
+23. **A**
+24. **C,D**
+25. **B**
+26. **B**
+27. **C**
+28. **B**
+29. **B**
+30. **B**
+31. **A**
+32. **B**
+33. **B**
+34. **D**
+35. **A,C**
+36. **A,D**
+37. **D**
+38. **A**
+39. **D**
+40. **B**
+41. **A,B**
+42. **B**
+43. **B**
+44. **B**
+45. **B,D**
+46. **A,C,D**
+47. **A**
+48. **B,C**
+49. **B**
+50. **A,D**
+51. **A,C**
+52. **D**
+53. **B,C**
+54. **A**
+55. **B,D**
+56. **D**
+57. **D**
+58. **C**
+59. **C**
+60. **A**
+61. **B**
+62. **A**
+63. **C**
+64. **D**
+65. **B**
+66. **B**
+67. **B**
+68. **C**
+69. **C**
+70. **B**
+71. **A,B**
+72. **A,C**
+73. **D**
+74. **D**
+75. **B**
+76. **A,C**
+77. **D**
+78. **B**
+79. **A,C**
+80. **D**
+81. **B**
+82. **A,B**
+83. **A,B**
+84. **B,C**
+85. **A,B**
+86. **A**
+87. **A**
+88. **D**
+89. **A,C**
+90. **C,D**
+91. **B**
+92. **D**
+93. **D**
+94. **C**
+95. **D**
+96. **B**
+97. **B**
+98. **A**
+99. **D**
+100. **C**
+101. **A**
+102. **C**
+103. **D**
+104. **B**
+105. **B**
+106. **C**
+107. **B**
+108. **C**
+109. **B**
+110. **C**
+111. **D**
+112. **A**
+113. **D**
+114. **A**
+115. **A**
+116. **B**
+117. **A**
+118. **B**
+119. **B**
+120. **B**
+121. **C**
+122. **C**
+123. **C**
+124. **B**
+125. **A,B**
+126. **B**
+127. **B**
+128. **A**
+129. **C**
+130. **A**
+131. **B**
+132. **C**
+133. **C**
+134. **B**
+135. **A**
+136. **A**
+137. **C**
+138. **C**
+139. **A,C**
+140. **A,C**
+141. **D**
+142. **B**
+143. **C**
+144. **C**
+145. **B**
+146. **B**
+147. **C**
+148. **B**
+149. **B**
+150. **A,C**
+151. **D**
+152. **B**
+153. **C**
+154. **B**
+155. **C**
+156. **C**
+157. **B**
+158. **B**
+159. **B**
+160. **C**
+161. **A,C**
+162. **B**
+163. **C**
+164. **B**
+165. **C**
+166. **A,C**
+167. **C**
+168. **A**
+169. **A**
+170. **A**
+171. **B**
+172. **B**
+173. **A,B**
+174. **C**
+175. **B**
+176. **B**
+177. **C**
+178. **C**
+179. **C**
+180. **C**
+181. **A,C**
+182. **B**
+183. **B**
+184. **A**
+185. **A,B**
+186. **A**
+187. **B**
+188. **C**
+189. **B**
+190. **B**
+191. **B**
+192. **B**
+193. **A,B**
+194. **D**
+195. **A**
+196. **B**
+197. **C**
+198. **D**
+199. **C**
+200. **A**
