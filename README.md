@@ -17,7 +17,7 @@ Primary goals:
 
 Start here for the PCEP course. The mock exam follows the PCEP syllabus and has its own questions and answer key.
 
-- 📘 [PCEP Training Material](PCEP_Training_Material.md) — study notes and a guided topic sequence.
+- 📘 [PCEP Training Material](PCEP_Training_Material.md) — guided lessons aligned to the four official PCEP blocks.
 - 📝 [PCEP Mock Exam](PCEP_30-02_Mock_exam.md) — 200 practice questions, with the answer key at the end.
 - 🤖 [PCEP ChatGPT Instructions](PCEP_ChatGPT_instructions.md) — tells ChatGPT how to tutor you through the material.
 
